@@ -13,7 +13,7 @@ jobs:
       - name: Sync fork
         uses: tgymnich/fork-sync@v2.0
         with:
-          owner: 原作者用户名
+          owner: fexli
           base: main  # 或 master,根据实际分支名
           head: main  # 你的分支名
           token: ${{ secrets.MY_TOKEN }}
