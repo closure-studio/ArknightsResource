@@ -38,6 +38,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: arknights-resource  # 改成你的项目名
+          projectName: arkresource  # 改成你的项目名
           directory: .  # 部署根目录
-          gitHubToken: ${{ secrets.MY_TOKEN }}
