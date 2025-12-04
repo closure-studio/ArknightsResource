@@ -4,15 +4,30 @@ on:
   push:
     branches:
       - main  # 或你的默认分支
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
     
     steps:
+      - name: Free Disk Space (Ubuntu)
+        uses: jlumbroso/free-disk-space@main
+        with:
+          # 这些工具通常不需要，可以删除
+          tool-cache: true
+          android: true
+          dotnet: true
+          haskell: true
+          large-packages: true
+          docker-images: true
+          swap-storage: true
+      
+      - name: Check available space
+        run: |
+          echo "清理后的磁盘空间："
+          df -h
+      
       - name: Checkout (shallow)
         uses: actions/checkout@v4
         with:
@@ -24,5 +39,5 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: arknights-resource  # 改成你的项目名
-          directory: .  # 部署根目录所有文件
+          directory: .  # 部署根目录
           gitHubToken: ${{ secrets.MY_TOKEN }}
