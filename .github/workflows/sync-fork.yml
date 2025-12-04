@@ -1,0 +1,19 @@
+name: Sync Fork
+
+on:
+  schedule:
+    # 每天 UTC 时间 0:00 执行 (北京时间 8:00)
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync fork
+        uses: tgymnich/fork-sync@v2.0
+        with:
+          owner: 原作者用户名
+          base: main  # 或 master,根据实际分支名
+          head: main  # 你的分支名
+          token: ${{ secrets.MY_TOKEN }}
