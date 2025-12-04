@@ -2,18 +2,75 @@ name: Sync Fork
 
 on:
   schedule:
-    # 每天 UTC 时间 0:00 执行 (北京时间 8:00)
     - cron: '0 0 * * *'
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:
 
 jobs:
   sync:
     runs-on: ubuntu-latest
+
     steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get previous commit
+        id: before
+        run: echo "before=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+
       - name: Sync fork
+        id: sync
         uses: tgymnich/fork-sync@v2.0
         with:
           owner: fexli
-          base: main  # 或 master,根据实际分支名
-          head: main  # 你的分支名
+          base: main
+          head: main
           token: ${{ secrets.MY_TOKEN }}
+
+      - name: Get after commit
+        id: after
+        run: echo "after=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+
+      - name: Prepare message if updated
+        id: msg
+        run: |
+          BEFORE=${{ steps.before.outputs.before }}
+          AFTER=${{ steps.after.outputs.after }}
+
+          if [ "$BEFORE" = "$AFTER" ]; then
+            echo "updated=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          echo "updated=true" >> $GITHUB_OUTPUT
+
+          # 生成消息内容
+          git log --pretty=format:"%h - %an: %s" $BEFORE..$AFTER > commits.txt
+
+          # 写入输出
+          echo "msg<<EOF" >> $GITHUB_OUTPUT
+          echo "New commits synced:" >> $GITHUB_OUTPUT
+          cat commits.txt >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Skip notification if no updates
+        if: steps.msg.outputs.updated == 'false'
+        run: echo "No updates. Skipping notification."
+
+      # 发送 JSON body（100% 保证 JSON 正确）
+      - name: Send notification
+        if: steps.msg.outputs.updated == 'true'
+        run: |
+          JSON_BODY=$(jq -n \
+            --arg token "${{ secrets.SYNC_NOTIFY_TOKEN }}" \
+            --arg uid "${{ secrets.SYNC_NOTIFY_UID }}" \
+            --arg msg "${{ steps.msg.outputs.msg }}" \
+            '{token: $token, uid: ($uid|tonumber), msg: $msg }')
+
+          echo "Sending JSON:"
+          echo "$JSON_BODY"
+
+          curl --request POST \
+            --url ${{ secrets.SYNC_NOTIFY_URL }} \
+            --header 'Content-Type: application/json' \
+            --data "$JSON_BODY"
