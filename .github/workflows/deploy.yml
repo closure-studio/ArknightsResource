@@ -3,18 +3,17 @@ name: Deploy to Cloudflare Pages
 on:
   push:
     branches:
-      - main  # 或你的默认分支
+      - main
   workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Free Disk Space (Ubuntu)
         uses: jlumbroso/free-disk-space@main
         with:
-          # 这些工具通常不需要，可以删除
           tool-cache: true
           android: true
           dotnet: true
@@ -22,21 +21,33 @@ jobs:
           large-packages: true
           docker-images: true
           swap-storage: true
-      
+
       - name: Check available space
-        run: |
-          echo "清理后的磁盘空间："
-          df -h
-      
+        run: df -h
+
       - name: Checkout (shallow)
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1  # 只拉取最新 commit
-      
+          fetch-depth: 1
+
+      - name: Prepare deploy directory
+        run: |
+          mkdir deploy
+          cp -r charpack deploy/
+          cp -r charpor deploy/
+          cp -r equip deploy/
+          cp -r gacha deploy/
+          cp -r items deploy/
+          cp -r avatar deploy/
+          cp -r skills deploy/
+          cp -r rogueitem deploy/
+          echo "Deploy directory content:"
+          ls -al deploy
+
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: arkresource  # 改成你的项目名
-          directory: .  # 部署根目录
+          projectName: arkresource
+          directory: deploy   # 只上传 deploy 目录
