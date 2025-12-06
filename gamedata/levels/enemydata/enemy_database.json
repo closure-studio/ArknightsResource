@@ -62407,7 +62407,7 @@
             },
             "description": {
               "m_defined": true,
-              "m_value": "<@eb.key>【飞行单位】</>周期性寻找周围的热气球或我方单位，并持续攻击一段时间"
+              "m_value": "<@eb.key>【飞行单位】</>周期性寻找周围的热气球或我方单位，一段时间内持续攻击并吸取一定技力"
             },
             "prefabKey": {
               "m_defined": true,
@@ -62619,7 +62619,7 @@
             },
             "description": {
               "m_defined": true,
-              "m_value": "<@eb.key>【飞行单位】</>周期性寻找周围的热气球或我方单位，并持续攻击一段时间"
+              "m_value": "<@eb.key>【飞行单位】</>周期性寻找周围的热气球或我方单位，一段时间内持续攻击并吸取一定技力"
             },
             "prefabKey": {
               "m_defined": true,
