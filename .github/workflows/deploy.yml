@@ -32,13 +32,9 @@ jobs:
         run: |
           COMMIT_MSG=$(echo '${{ github.event.head_commit.message }}' | head -n 1 | sed 's/"/\\"/g' | sed "s/'/\\'/g")
           curl --request POST \
-            --url ${{ secrets.DEPLOY_NOTIFY_URL }} \
+            --url "${{ secrets.DEPLOY_NOTIFY_URL }}" \
             --header 'Content-Type: application/json' \
-            --data "{
-              \"token\": \"${{ secrets.DEPLOY_NOTIFY_TOKEN }}\",
-              \"uid\": ${{ secrets.DEPLOY_NOTIFY_UID }},
-              \"msg\": \"🚀 开始部署\\n分支: ${{ github.ref_name }}\\nCommit: ${GITHUB_SHA:0:7}\\n作者: ${{ github.actor }}\\n消息: ${COMMIT_MSG}\"
-            }"
+            --data "{\"token\":\"${{ secrets.DEPLOY_NOTIFY_TOKEN }}\",\"uid\":${{ secrets.DEPLOY_NOTIFY_UID }},\"msg\":\"🚀 开始部署\\n分支: ${{ github.ref_name }}\\nCommit: ${GITHUB_SHA:0:7}\\n作者: ${{ github.actor }}\\n消息: ${COMMIT_MSG}\"}"
       
       - name: Prepare deploy directory
         run: |
@@ -71,13 +67,9 @@ jobs:
           DEPLOY_URL="https://arkresource.pages.dev"
           COMMIT_MSG=$(echo '${{ github.event.head_commit.message }}' | head -n 1 | sed 's/"/\\"/g' | sed "s/'/\\'/g")
           curl --request POST \
-            --url ${{ secrets.DEPLOY_NOTIFY_URL }} \
+            --url "${{ secrets.DEPLOY_NOTIFY_URL }}" \
             --header 'Content-Type: application/json' \
-            --data "{
-              \"token\": \"${{ secrets.DEPLOY_NOTIFY_TOKEN }}\",
-              \"uid\": ${{ secrets.DEPLOY_NOTIFY_UID }},
-              \"msg\": \"✅ 部署成功\\n分支: ${{ github.ref_name }}\\nCommit: ${GITHUB_SHA:0:7}\\n作者: ${{ github.actor }}\\n消息: ${COMMIT_MSG}\\n🔗 URL: ${DEPLOY_URL}\"
-            }"
+            --data "{\"token\":\"${{ secrets.DEPLOY_NOTIFY_TOKEN }}\",\"uid\":${{ secrets.DEPLOY_NOTIFY_UID }},\"msg\":\"✅ 部署成功\\n分支: ${{ github.ref_name }}\\nCommit: ${GITHUB_SHA:0:7}\\n作者: ${{ github.actor }}\\n消息: ${COMMIT_MSG}\\n🔗 URL: ${DEPLOY_URL}\"}"
       
       # 发送部署失败通知
       - name: Send deploy failure notification
@@ -85,10 +77,6 @@ jobs:
         run: |
           COMMIT_MSG=$(echo '${{ github.event.head_commit.message }}' | head -n 1 | sed 's/"/\\"/g' | sed "s/'/\\'/g")
           curl --request POST \
-            --url ${{ secrets.DEPLOY_NOTIFY_URL }} \
+            --url "${{ secrets.DEPLOY_NOTIFY_URL }}" \
             --header 'Content-Type: application/json' \
-            --data "{
-              \"token\": \"${{ secrets.DEPLOY_NOTIFY_TOKEN }}\",
-              \"uid\": ${{ secrets.DEPLOY_NOTIFY_UID }},
-              \"msg\": \"❌ 部署失败\\n分支: ${{ github.ref_name }}\\nCommit: ${GITHUB_SHA:0:7}\\n作者: ${{ github.actor }}\\n消息: ${COMMIT_MSG}\"
-            }"
+            --data "{\"token\":\"${{ secrets.DEPLOY_NOTIFY_TOKEN }}\",\"uid\":${{ secrets.DEPLOY_NOTIFY_UID }},\"msg\":\"❌ 部署失败\\n分支: ${{ github.ref_name }}\\nCommit: ${GITHUB_SHA:0:7}\\n作者: ${{ github.actor }}\\n消息: ${COMMIT_MSG}\"}"
