@@ -30,22 +30,15 @@ jobs:
       # 发送开始部署通知
       - name: Send deploy start notification
         run: |
-          COMMIT_MSG=$(git log -1 --pretty=%B)
-          JSON_BODY=$(jq -n \
-            --arg token "${{ secrets.DEPLOY_NOTIFY_TOKEN }}" \
-            --arg uid "${{ secrets.DEPLOY_NOTIFY_UID }}" \
-            --arg msg "🚀 开始部署
-          分支: ${{ github.ref_name }}
-          Commit: ${GITHUB_SHA:0:7}
-          作者: ${{ github.actor }}
-          消息: ${COMMIT_MSG}" \
-            '{token: $token, uid: ($uid|tonumber), msg: $msg}')
-          echo "Sending start notification:"
-          echo "$JSON_BODY"
+          COMMIT_MSG=$(echo '${{ github.event.head_commit.message }}' | head -n 1 | sed 's/"/\\"/g' | sed "s/'/\\'/g")
           curl --request POST \
-            --url "${{ secrets.DEPLOY_NOTIFY_URL }}" \
-            --header "Content-Type: application/json" \
-            --data "$JSON_BODY"
+            --url ${{ secrets.DEPLOY_NOTIFY_URL }} \
+            --header 'Content-Type: application/json' \
+            --data "{
+              \"token\": \"${{ secrets.DEPLOY_NOTIFY_TOKEN }}\",
+              \"uid\": ${{ secrets.DEPLOY_NOTIFY_UID }},
+              \"msg\": \"🚀 开始部署\\n分支: ${{ github.ref_name }}\\nCommit: ${GITHUB_SHA:0:7}\\n作者: ${{ github.actor }}\\n消息: ${COMMIT_MSG}\"
+            }"
       
       - name: Prepare deploy directory
         run: |
@@ -76,41 +69,26 @@ jobs:
         if: success()
         run: |
           DEPLOY_URL="https://arkresource.pages.dev"
-          COMMIT_MSG=$(git log -1 --pretty=%B)
-          JSON_BODY=$(jq -n \
-            --arg token "${{ secrets.DEPLOY_NOTIFY_TOKEN }}" \
-            --arg uid "${{ secrets.DEPLOY_NOTIFY_UID }}" \
-            --arg msg "✅ 部署成功
-          分支: ${{ github.ref_name }}
-          Commit: ${GITHUB_SHA:0:7}
-          作者: ${{ github.actor }}
-          消息: ${COMMIT_MSG}
-          🔗 URL: ${DEPLOY_URL}" \
-            '{token: $token, uid: ($uid|tonumber), msg: $msg}')
-          echo "Sending success notification:"
-          echo "$JSON_BODY"
+          COMMIT_MSG=$(echo '${{ github.event.head_commit.message }}' | head -n 1 | sed 's/"/\\"/g' | sed "s/'/\\'/g")
           curl --request POST \
-            --url "${{ secrets.DEPLOY_NOTIFY_URL }}" \
-            --header "Content-Type: application/json" \
-            --data "$JSON_BODY"
+            --url ${{ secrets.DEPLOY_NOTIFY_URL }} \
+            --header 'Content-Type: application/json' \
+            --data "{
+              \"token\": \"${{ secrets.DEPLOY_NOTIFY_TOKEN }}\",
+              \"uid\": ${{ secrets.DEPLOY_NOTIFY_UID }},
+              \"msg\": \"✅ 部署成功\\n分支: ${{ github.ref_name }}\\nCommit: ${GITHUB_SHA:0:7}\\n作者: ${{ github.actor }}\\n消息: ${COMMIT_MSG}\\n🔗 URL: ${DEPLOY_URL}\"
+            }"
       
       # 发送部署失败通知
       - name: Send deploy failure notification
         if: failure()
         run: |
-          COMMIT_MSG=$(git log -1 --pretty=%B)
-          JSON_BODY=$(jq -n \
-            --arg token "${{ secrets.DEPLOY_NOTIFY_TOKEN }}" \
-            --arg uid "${{ secrets.DEPLOY_NOTIFY_UID }}" \
-            --arg msg "❌ 部署失败
-          分支: ${{ github.ref_name }}
-          Commit: ${GITHUB_SHA:0:7}
-          作者: ${{ github.actor }}
-          消息: ${COMMIT_MSG}" \
-            '{token: $token, uid: ($uid|tonumber), msg: $msg}')
-          echo "Sending failure notification:"
-          echo "$JSON_BODY"
+          COMMIT_MSG=$(echo '${{ github.event.head_commit.message }}' | head -n 1 | sed 's/"/\\"/g' | sed "s/'/\\'/g")
           curl --request POST \
-            --url "${{ secrets.DEPLOY_NOTIFY_URL }}" \
-            --header "Content-Type: application/json" \
-            --data "$JSON_BODY"
+            --url ${{ secrets.DEPLOY_NOTIFY_URL }} \
+            --header 'Content-Type: application/json' \
+            --data "{
+              \"token\": \"${{ secrets.DEPLOY_NOTIFY_TOKEN }}\",
+              \"uid\": ${{ secrets.DEPLOY_NOTIFY_UID }},
+              \"msg\": \"❌ 部署失败\\n分支: ${{ github.ref_name }}\\nCommit: ${GITHUB_SHA:0:7}\\n作者: ${{ github.actor }}\\n消息: ${COMMIT_MSG}\"
+            }"
