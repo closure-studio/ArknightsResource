@@ -1,15 +1,12 @@
 name: Deploy to Cloudflare Pages
-
 on:
   push:
     branches:
       - main
   workflow_dispatch:
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Free Disk Space (Ubuntu)
         uses: jlumbroso/free-disk-space@main
@@ -21,15 +18,31 @@ jobs:
           large-packages: true
           docker-images: true
           swap-storage: true
-
+      
       - name: Check available space
         run: df -h
-
+      
       - name: Checkout (shallow)
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
-
+      
+      # 发送开始部署通知
+      - name: Send deploy start notification
+        run: |
+          COMMIT_MSG=$(git log -1 --pretty=%B)
+          JSON_BODY=$(jq -n \
+            --arg token "${{ secrets.DEPLOY_NOTIFY_TOKEN }}" \
+            --arg uid "${{ secrets.DEPLOY_NOTIFY_UID }}" \
+            --arg msg "🚀 开始部署\n分支: ${{ github.ref_name }}\nCommit: ${GITHUB_SHA:0:7}\n作者: ${{ github.actor }}\n消息: ${COMMIT_MSG}" \
+            '{token: $token, uid: ($uid|tonumber), msg: $msg}')
+          echo "Sending start notification:"
+          echo "$JSON_BODY"
+          curl --request POST \
+            --url "${{ secrets.DEPLOY_NOTIFY_URL }}" \
+            --header "Content-Type: application/json" \
+            --data "$JSON_BODY"
+      
       - name: Prepare deploy directory
         run: |
           mkdir deploy
@@ -43,7 +56,7 @@ jobs:
           cp -r rogueitem deploy/
           echo "Deploy directory content:"
           ls -al deploy
-
+      
       # Cloudflare Pages deploy
       - name: Deploy to Cloudflare Pages
         id: deploy
@@ -52,27 +65,38 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: arkresource
-          directory: deploy   # 只上传 deploy 目录
-
-      # 只有 success 才发送通知
+          directory: deploy
+      
+      # 发送部署成功通知
       - name: Send deploy success notification
         if: success()
         run: |
           DEPLOY_URL="https://arkresource.pages.dev"
-          COMMIT_SHA="${GITHUB_SHA}"
-          COMMIT_MESSAGE="${{ github.event.head_commit.message }}"
-          COMMIT_AUTHOR="${{ github.event.head_commit.author.username }}"
-
-          # 生成 JSON (保证格式正确)
+          COMMIT_MSG=$(git log -1 --pretty=%B)
           JSON_BODY=$(jq -n \
             --arg token "${{ secrets.DEPLOY_NOTIFY_TOKEN }}" \
             --arg uid "${{ secrets.DEPLOY_NOTIFY_UID }}" \
-            --arg msg "Deploy Success\nURL: ${DEPLOY_URL}\nCommit: ${COMMIT_SHA}\nAuthor: ${COMMIT_AUTHOR}\nMessage: ${COMMIT_MESSAGE}" \
-            '{token: $token, uid: ($uid|tonumber), msg: $msg }')
-
-          echo "Sending JSON:"
+            --arg msg "✅ 部署成功\n分支: ${{ github.ref_name }}\nCommit: ${GITHUB_SHA:0:7}\n作者: ${{ github.actor }}\n消息: ${COMMIT_MSG}\n🔗 URL: ${DEPLOY_URL}" \
+            '{token: $token, uid: ($uid|tonumber), msg: $msg}')
+          echo "Sending success notification:"
           echo "$JSON_BODY"
-
+          curl --request POST \
+            --url "${{ secrets.DEPLOY_NOTIFY_URL }}" \
+            --header "Content-Type: application/json" \
+            --data "$JSON_BODY"
+      
+      # 发送部署失败通知
+      - name: Send deploy failure notification
+        if: failure()
+        run: |
+          COMMIT_MSG=$(git log -1 --pretty=%B)
+          JSON_BODY=$(jq -n \
+            --arg token "${{ secrets.DEPLOY_NOTIFY_TOKEN }}" \
+            --arg uid "${{ secrets.DEPLOY_NOTIFY_UID }}" \
+            --arg msg "❌ 部署失败\n分支: ${{ github.ref_name }}\nCommit: ${GITHUB_SHA:0:7}\n作者: ${{ github.actor }}\n消息: ${COMMIT_MSG}" \
+            '{token: $token, uid: ($uid|tonumber), msg: $msg}')
+          echo "Sending failure notification:"
+          echo "$JSON_BODY"
           curl --request POST \
             --url "${{ secrets.DEPLOY_NOTIFY_URL }}" \
             --header "Content-Type: application/json" \
