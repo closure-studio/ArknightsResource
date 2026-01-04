@@ -34,7 +34,11 @@ jobs:
           JSON_BODY=$(jq -n \
             --arg token "${{ secrets.DEPLOY_NOTIFY_TOKEN }}" \
             --arg uid "${{ secrets.DEPLOY_NOTIFY_UID }}" \
-            --arg msg "🚀 开始部署\n分支: ${{ github.ref_name }}\nCommit: ${GITHUB_SHA:0:7}\n作者: ${{ github.actor }}\n消息: ${COMMIT_MSG}" \
+            --arg msg "🚀 开始部署
+          分支: ${{ github.ref_name }}
+          Commit: ${GITHUB_SHA:0:7}
+          作者: ${{ github.actor }}
+          消息: ${COMMIT_MSG}" \
             '{token: $token, uid: ($uid|tonumber), msg: $msg}')
           echo "Sending start notification:"
           echo "$JSON_BODY"
@@ -76,7 +80,12 @@ jobs:
           JSON_BODY=$(jq -n \
             --arg token "${{ secrets.DEPLOY_NOTIFY_TOKEN }}" \
             --arg uid "${{ secrets.DEPLOY_NOTIFY_UID }}" \
-            --arg msg "✅ 部署成功\n分支: ${{ github.ref_name }}\nCommit: ${GITHUB_SHA:0:7}\n作者: ${{ github.actor }}\n消息: ${COMMIT_MSG}\n🔗 URL: ${DEPLOY_URL}" \
+            --arg msg "✅ 部署成功
+          分支: ${{ github.ref_name }}
+          Commit: ${GITHUB_SHA:0:7}
+          作者: ${{ github.actor }}
+          消息: ${COMMIT_MSG}
+          🔗 URL: ${DEPLOY_URL}" \
             '{token: $token, uid: ($uid|tonumber), msg: $msg}')
           echo "Sending success notification:"
           echo "$JSON_BODY"
@@ -93,7 +102,11 @@ jobs:
           JSON_BODY=$(jq -n \
             --arg token "${{ secrets.DEPLOY_NOTIFY_TOKEN }}" \
             --arg uid "${{ secrets.DEPLOY_NOTIFY_UID }}" \
-            --arg msg "❌ 部署失败\n分支: ${{ github.ref_name }}\nCommit: ${GITHUB_SHA:0:7}\n作者: ${{ github.actor }}\n消息: ${COMMIT_MSG}" \
+            --arg msg "❌ 部署失败
+          分支: ${{ github.ref_name }}
+          Commit: ${GITHUB_SHA:0:7}
+          作者: ${{ github.actor }}
+          消息: ${COMMIT_MSG}" \
             '{token: $token, uid: ($uid|tonumber), msg: $msg}')
           echo "Sending failure notification:"
           echo "$JSON_BODY"
