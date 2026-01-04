@@ -32,11 +32,11 @@ jobs:
         run: |
           COMMIT_MSG=$(echo '${{ github.event.head_commit.message }}' | head -n 1 | sed 's/"/\\"/g' | sed "s/'/\\'/g")
           curl --request POST \
-            --url ${{ secrets.QQBOT_URL }} \
+            --url ${{ secrets.DEPLOY_NOTIFY_URL }} \
             --header 'Content-Type: application/json' \
             --data "{
-              \"token\": \"${{ secrets.QQBOT_TOKEN }}\",
-              \"uid\": ${{ secrets.QQBOT_UID }},
+              \"token\": \"${{ secrets.DEPLOY_NOTIFY_TOKEN }}\",
+              \"uid\": ${{ secrets.DEPLOY_NOTIFY_UID }},
               \"msg\": \"【ArknightsResource】\\n 🚀 开始部署\\n分支: ${{ github.ref_name }}\\nCommit: ${GITHUB_SHA:0:7}\\n作者: ${{ github.actor }}\\n消息: ${COMMIT_MSG}\"
             }"
           
@@ -70,11 +70,11 @@ jobs:
         run: |
           COMMIT_MSG=$(echo '${{ github.event.head_commit.message }}' | head -n 1 | sed 's/"/\\"/g' | sed "s/'/\\'/g")
           curl --request POST \
-            --url ${{ secrets.QQBOT_URL }} \
+            --url ${{ secrets.DEPLOY_NOTIFY_URL }} \
             --header 'Content-Type: application/json' \
             --data "{
-              \"token\": \"${{ secrets.QQBOT_TOKEN }}\",
-              \"uid\": ${{ secrets.QQBOT_UID }},
+              \"token\": \"${{ secrets.DEPLOY_NOTIFY_TOKEN }}\",
+              \"uid\": ${{ secrets.DEPLOY_NOTIFY_UID }},
               \"msg\": \"【ArknightsResource】\\n✅ 部署成功\\n分支: ${{ github.ref_name }}\\nCommit: ${GITHUB_SHA:0:7}\\n作者: ${{ github.actor }}\\n消息: ${COMMIT_MSG}\"
             }"
           
@@ -84,10 +84,10 @@ jobs:
         run: |
           COMMIT_MSG=$(echo '${{ github.event.head_commit.message }}' | head -n 1 | sed 's/"/\\"/g' | sed "s/'/\\'/g")
           curl --request POST \
-            --url ${{ secrets.QQBOT_URL }} \
+            --url ${{ secrets.DEPLOY_NOTIFY_URL }} \
             --header 'Content-Type: application/json' \
             --data "{
-              \"token\": \"${{ secrets.QQBOT_TOKEN }}\",
-              \"uid\": ${{ secrets.QQBOT_UID }},
+              \"token\": \"${{ secrets.DEPLOY_NOTIFY_TOKEN }}\",
+              \"uid\": ${{ secrets.DEPLOY_NOTIFY_UID }},
               \"msg\": \"【ArknightsResource】\\n❌ 部署失败\\n分支: ${{ github.ref_name }}\\nCommit: ${GITHUB_SHA:0:7}\\n作者: ${{ github.actor }}\\n消息: ${COMMIT_MSG}\\n日志: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}\"
             }"
