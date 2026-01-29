@@ -11,7 +11,7 @@ jobs:
       - name: Sync fork
         uses: repo-sync/github-sync@v2
         with:
-          source_repo: fexli/ArknightsResource
+          source_repo: https://github.com/fexli/ArknightsResource.git
           source_branch: main
           destination_branch: main
           github_token: ${{ secrets.MY_TOKEN }}
