@@ -92,7 +92,10 @@
     "permanent_sidestory_28_zone2": "permanent_sidestory_28_i_portatori_dei_velluti",
     "permanent_sidestory_28_zone3": "permanent_sidestory_28_i_portatori_dei_velluti",
     "permanent_sidestory_29_zone1": "permanent_sidestory_29_Exodus_From_The_Pale_Sea",
-    "permanent_sidestory_29_zone2": "permanent_sidestory_29_Exodus_From_The_Pale_Sea"
+    "permanent_sidestory_29_zone2": "permanent_sidestory_29_Exodus_From_The_Pale_Sea",
+    "permanent_sidestory_30_zone1": "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion",
+    "permanent_sidestory_30_zone2": "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion",
+    "permanent_sidestory_30_zone3": "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion"
   },
   "stageValidInfo": {
     "act9d0_01": {
@@ -5094,6 +5097,158 @@
     "act39side_ex08#f#": {
       "startTs": 1767297600,
       "endTs": -1
+    },
+    "act40side_st01": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_tr01": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_01": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_02": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_03": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_04": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_05": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_st02": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_06": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_07": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_08": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_09": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_st03": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_ex01": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_ex01#f#": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_ex02": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_ex02#f#": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_ex03": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_ex03#f#": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_ex04": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_ex04#f#": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_ex05": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_ex05#f#": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_ex06": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_ex06#f#": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_ex07": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_ex07#f#": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_ex08": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_ex08#f#": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_s01": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_s01#f#": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_s02": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_s02#f#": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_s03": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_s03#f#": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_s04": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_s04#f#": {
+      "startTs": 1770667200,
+      "endTs": -1
+    },
+    "act40side_mo01": {
+      "startTs": 1770667200,
+      "endTs": -1
     }
   },
   "stages": null,
@@ -5699,6 +5854,22 @@
       "trailStartTime": -1,
       "index": 29,
       "name": "出苍白海",
+      "haveTrail": false,
+      "customActId": null,
+      "customActType": "DEFAULT",
+      "trapDomainId": null
+    },
+    "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion": {
+      "retroId": "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion",
+      "type": 0,
+      "linkedActId": [
+        "act40side",
+        "act40sre"
+      ],
+      "startTime": 1770667200,
+      "trailStartTime": -1,
+      "index": 30,
+      "name": "相见欢",
       "haveTrail": false,
       "customActId": null,
       "customActType": "DEFAULT",
@@ -8217,6 +8388,97 @@
       "relatedFullPotentialItemId": null,
       "themeColor": "3f8cd1",
       "fullPotentialItemId": "voucher_full_harold"
+    },
+    "permanent_sidestory_25_Here_A_People_Sows": {
+      "retroId": "permanent_sidestory_25_Here_A_People_Sows",
+      "trailStartTime": 1769025600,
+      "trailRewardList": [
+        {
+          "trailRewardId": "trailReward_sidestory_25_1",
+          "starCount": 15,
+          "rewardItem": {
+            "id": "char_4119_wanqin",
+            "count": 1,
+            "type": "CHAR"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_25_2",
+          "starCount": 27,
+          "rewardItem": {
+            "id": "voucher_full_wanqin",
+            "count": 1,
+            "type": "VOUCHER_FULL_POTENTIAL"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_25_3",
+          "starCount": 43,
+          "rewardItem": {
+            "id": "uni_set_TianshiMansion",
+            "count": 1,
+            "type": "UNI_COLLECTION"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_25_4",
+          "starCount": 59,
+          "rewardItem": {
+            "id": "furni_terratimes_Yan_01",
+            "count": 1,
+            "type": "FURN"
+          }
+        },
+        {
+          "trailRewardId": "trailReward_sidestory_25_5",
+          "starCount": 78,
+          "rewardItem": {
+            "id": "avatar_activity_HS",
+            "count": 1,
+            "type": "PLAYER_AVATAR"
+          }
+        }
+      ],
+      "stageList": [
+        "act31side_01",
+        "act31side_02",
+        "act31side_03",
+        "act31side_04",
+        "act31side_05",
+        "act31side_06",
+        "act31side_07",
+        "act31side_08",
+        "act31side_09",
+        "act31side_ex01",
+        "act31side_ex01#f#",
+        "act31side_ex02",
+        "act31side_ex02#f#",
+        "act31side_ex03",
+        "act31side_ex03#f#",
+        "act31side_ex04",
+        "act31side_ex04#f#",
+        "act31side_ex05",
+        "act31side_ex05#f#",
+        "act31side_ex06",
+        "act31side_ex06#f#",
+        "act31side_ex07",
+        "act31side_ex07#f#",
+        "act31side_ex08",
+        "act31side_ex08#f#",
+        "act31side_s01",
+        "act31side_s01#f#",
+        "act31side_s02",
+        "act31side_s02#f#",
+        "act31side_s03",
+        "act31side_s03#f#",
+        "act31side_s04",
+        "act31side_s04#f#",
+        "act31side_mo01"
+      ],
+      "relatedChar": "char_4119_wanqin",
+      "relatedFullPotentialItemId": null,
+      "themeColor": "afc04c",
+      "fullPotentialItemId": "voucher_full_wanqin"
     }
   },
   "stageList": {
