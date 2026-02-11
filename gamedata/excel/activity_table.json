@@ -224429,7 +224429,9 @@
           "defenceBattleFinishEquipText": "{0}已启用",
           "defenceBattleFinishActivateText": "{0}已激活",
           "defenceBattleFinishSquadText": "驻防阵容已更新",
-          "milestoneTrackId": "milestone_expand"
+          "milestoneTrackId": "milestone_expand",
+          "themeColor": "#2727EF",
+          "subTitleName": "无机物"
         },
         "squadBuffAvailStageList": [
           "act1break_01",
@@ -224470,7 +224472,7 @@
         "defenseZoneId": "act1break_zone3",
         "offenseZoneId": "act1break_zone1",
         "hardZoneId": "act1break_zone2",
-        "firstDefenseGroupId": "act1break_sp01"
+        "firstDefenseStageId": "act1break_sp01"
       }
     },
     "TYPE_ACT36SIDE": {
@@ -355402,5 +355404,17 @@
     "act38side": [
       "act38side_cross_day_track_1"
     ]
+  },
+  "activityStoryReadTipsDatas": {
+    "act49side": {
+      "key": "act49side",
+      "picId": "act49side",
+      "mainText": "可能会影响阅读体验，推荐按顺序体验“曲谱-岁岁今朝”剧情内容。",
+      "confirmText": "我已了解",
+      "isAll": false,
+      "stageIdList": [
+        "act40side_st03"
+      ]
+    }
   }
 }
