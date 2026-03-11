@@ -1,5 +1,30 @@
 {
   "basicInfo": {
+    "act20mini": {
+      "id": "act20mini",
+      "type": "MINISTORY",
+      "displayType": "MINISTORY",
+      "name": "十字路口",
+      "startTime": 1773097200,
+      "endTime": 1773691199,
+      "rewardEndTime": 1773950399,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act20mini",
+      "medalGroupId": null,
+      "ungroupedMedalIds": [
+        "medal_activity_20mini_01",
+        "medal_activity_20mini_02"
+      ],
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": 0,
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act3blessing": {
       "id": "act3blessing",
       "type": "BLESS_ONLY",
@@ -16,6 +41,26 @@
       "trapDomainId": null,
       "recType": 1,
       "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
+    "act2break": {
+      "id": "act2break",
+      "type": "VEC_BREAK_V2",
+      "name": "矢量突破#2 巫术之夜",
+      "startTime": 1771920000,
+      "endTime": 1773691199,
+      "rewardEndTime": 1773950399,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": null,
+      "medalGroupId": "medalGroupActivityAct2break",
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": 0,
+      "isPageEntry": true,
       "isMagnify": false,
       "picGroup": [],
       "usePicGroup": false
@@ -7072,6 +7117,10 @@
     }
   },
   "zoneToActivity": {
+    "act20mini_zone1": "act20mini",
+    "act2break_zone1": "act2break",
+    "act2break_zone2": "act2break",
+    "act2break_zone3": "act2break",
     "act49side_zone1": "act49side",
     "act49side_zone2": "act49side",
     "act49side_zone3": "act49side",
@@ -179210,6 +179259,46 @@
       }
     },
     "MINISTORY": {
+      "act20mini": {
+        "tokenItemId": "act20mini_token_cork",
+        "zoneDescList": {
+          "act20mini_zone1": {
+            "zoneId": "act20mini_zone1",
+            "unlockText": "完成主线关卡1-10解锁"
+          }
+        },
+        "favorUpList": {},
+        "extraDropZoneList": [
+          "main_0",
+          "main_1",
+          "main_2",
+          "main_3",
+          "main_4",
+          "main_5",
+          "main_6",
+          "main_7",
+          "main_8",
+          "main_9",
+          "main_10",
+          "main_11",
+          "main_12",
+          "main_13",
+          "main_14",
+          "act2mainss_zone1",
+          "act3mainss_zone1",
+          "weekly_1",
+          "weekly_2",
+          "weekly_3",
+          "weekly_4",
+          "weekly_5",
+          "weekly_6",
+          "weekly_7",
+          "weekly_8",
+          "weekly_9",
+          "weekly_10",
+          "act20mini_zone1"
+        ]
+      },
       "act19mini": {
         "tokenItemId": "act19mini_token_sweetie",
         "zoneDescList": {
@@ -199520,36 +199609,42 @@
         "meldingDict": {
           "act24side_melding_1": {
             "meldingId": "act24side_melding_1",
+            "bgId": "act24side_melding_1_bg",
             "sortId": 1,
             "meldingPrice": 2,
             "rarity": 1
           },
           "act24side_melding_2": {
             "meldingId": "act24side_melding_2",
+            "bgId": "act24side_melding_2_bg",
             "sortId": 2,
             "meldingPrice": 3,
             "rarity": 2
           },
           "act24side_melding_3": {
             "meldingId": "act24side_melding_3",
+            "bgId": "act24side_melding_3_bg",
             "sortId": 3,
             "meldingPrice": 5,
             "rarity": 3
           },
           "act24side_melding_4": {
             "meldingId": "act24side_melding_4",
+            "bgId": "act24side_melding_4_bg",
             "sortId": 4,
             "meldingPrice": 10,
             "rarity": 4
           },
           "act24side_melding_5": {
             "meldingId": "act24side_melding_5",
+            "bgId": "act24side_melding_5_bg",
             "sortId": 5,
             "meldingPrice": 20,
             "rarity": 5
           },
           "act24side_melding_6": {
             "meldingId": "act24side_melding_6",
+            "bgId": "act24side_melding_6_bg",
             "sortId": 6,
             "meldingPrice": 200,
             "rarity": 6
@@ -201152,6 +201247,8 @@
             "act24side_s01_2"
           ]
         },
+        "huntDatabaseDict": null,
+        "stageIdToUnlockItemIdDict": {},
         "constData": {
           "stageUnlockToolDesc": "解锁道具",
           "mealLackMoney": "龙门币需求数量不足",
@@ -201160,6 +201257,13 @@
           "stageCanNotUseToTool": [
             "act24side_tr01"
           ],
+          "hunterGuideRewardItemId": "",
+          "hunterGuideRewardItemType": "NONE",
+          "hunterGuideRewardItemCount": 0,
+          "hunterGuideDetailTabPosition": 0,
+          "taskRewardItemNoIconDisplayId": "",
+          "specialLevelUnlockTaskId": "",
+          "missionProgressFormat": "(<color=#cb4d27>{0}</color>/{1})",
           "gachaExtraProb": -1.0
         }
       }
@@ -221927,6 +222031,2532 @@
       }
     },
     "VEC_BREAK_V2": {
+      "act2break": {
+        "offenseStageDict": {
+          "act2break_01": {
+            "stageId": "act2break_01",
+            "level": 1,
+            "levelLayout": "vecbv2_normal_1",
+            "storyDesc": "比起宝物被盗，盗匪们不顾藏品的价值与特质，粗暴损坏它们的行为，才是收藏家们真正害怕的事情。",
+            "particleType": "NONE",
+            "bossData": null
+          },
+          "act2break_02": {
+            "stageId": "act2break_02",
+            "level": 2,
+            "levelLayout": "vecbv2_normal_2",
+            "storyDesc": "无论参战者在这场战斗中处于哪个阵营，伸手不见五指的黑夜会迫使神经作出反应，将紧张的感觉传递到身体各处。",
+            "particleType": "NONE",
+            "bossData": null
+          },
+          "act2break_03": {
+            "stageId": "act2break_03",
+            "level": 3,
+            "levelLayout": "vecbv2_normal_3",
+            "storyDesc": "在这条道路上，人们永远无法预测，转过下一个弯角之后，先前的盲区里会有什么样的东西现身。",
+            "particleType": "NONE",
+            "bossData": null
+          },
+          "act2break_04": {
+            "stageId": "act2break_04",
+            "level": 4,
+            "levelLayout": "vecbv2_boss_1",
+            "storyDesc": "“太过集中注意力有时候并不明智，特别是在视野受限的时候，越是专注于视线所及之处，反而越容易暴露弱点。”",
+            "particleType": "NONE",
+            "bossData": {
+              "enemyId": "enemy_8016_misery_1",
+              "name": "“Misery”，静默之刃",
+              "desc": "处于黑夜笼罩的地块时，拥有100%物理和法术闪避\\n【瞬时性伤痕】对全场生命上限最低的干员造成高额物理伤害，被击倒的目标再部署时间大幅延长；连续三次命中同一目标后使其失去视野\\n【消解性空间】受到晕眩、寒冷、冻结、恐惧、诱导状态或失衡时，立即解除，回复一定生命值并免疫上述状态数秒",
+              "level": 1,
+              "iconId": "vecbv2_offense_boss_misery",
+              "levelDecoFigureId": "enemy_8016_misery_deco_1",
+              "levelDecoSignId": "enemy_8016_misery_deco_2",
+              "decoId": null
+            }
+          },
+          "act2break_05": {
+            "stageId": "act2break_05",
+            "level": 5,
+            "levelLayout": "vecbv2_normal_4",
+            "storyDesc": "无路可退，无处前行，敌亦然，我毅然。",
+            "particleType": "NONE",
+            "bossData": null
+          },
+          "act2break_06": {
+            "stageId": "act2break_06",
+            "level": 6,
+            "levelLayout": "vecbv2_normal_5",
+            "storyDesc": "夜幕映衬下，火光显得格外明亮，但火焰并不能撕开黑暗，更无法照见那些仍躲藏在暗处的危险。",
+            "particleType": "NONE",
+            "bossData": null
+          },
+          "act2break_07": {
+            "stageId": "act2break_07",
+            "level": 7,
+            "levelLayout": "vecbv2_normal_6",
+            "storyDesc": "本能是滋长，使命是传播，光线所及之处，渴求会吞噬一切理性。",
+            "particleType": "NONE",
+            "bossData": null
+          },
+          "act2break_08": {
+            "stageId": "act2break_08",
+            "level": 8,
+            "levelLayout": "vecbv2_boss_2",
+            "storyDesc": "“记住，在部分感官失灵时，不能因为战场一时平静就放松警惕。巫术造成的错觉，对很多人来说足以致命。”",
+            "particleType": "HARD",
+            "bossData": {
+              "enemyId": "enemy_8016_misery_2",
+              "name": "“Misery”，静默之刃",
+              "desc": "首次被击倒后，返回战场并改变行动方式：处于我方视野时立即移动到黑夜笼罩的地块并停止移动（移动路线中无友方单位）；施放【瞬时性伤痕】后或找不到目标时继续移动",
+              "level": 2,
+              "iconId": "vecbv2_offense_boss_misery",
+              "levelDecoFigureId": "enemy_8016_misery_deco_1",
+              "levelDecoSignId": "enemy_8016_misery_deco_2",
+              "decoId": null
+            }
+          },
+          "act2break_09": {
+            "stageId": "act2break_09",
+            "level": 9,
+            "levelLayout": "vecbv2_normal_7",
+            "storyDesc": "只了解通向出口的路线应对不了这场演习，看看身边成群涌向狭小通道的敌人，重新想想对策吧。",
+            "particleType": "HARD",
+            "bossData": null
+          },
+          "act2break_10": {
+            "stageId": "act2break_10",
+            "level": 10,
+            "levelLayout": "vecbv2_normal_8",
+            "storyDesc": "最为阴险的暗箭也会发出声波，只是绝大多数时候环境不允许目标注意到这种警示。",
+            "particleType": "HARD",
+            "bossData": null
+          },
+          "act2break_11": {
+            "stageId": "act2break_11",
+            "level": 11,
+            "levelLayout": "vecbv2_normal_9",
+            "storyDesc": "谁都会有想要独处的时候。",
+            "particleType": "HARD",
+            "bossData": null
+          },
+          "act2break_12": {
+            "stageId": "act2break_12",
+            "level": 12,
+            "levelLayout": "vecbv2_boss_3",
+            "storyDesc": "“就算是最狭小的空隙也可以被延展、撕裂，最后转变成让人绝望的空间。在走进黑暗之后，留意自己的每一个行动。”",
+            "particleType": "HARD",
+            "bossData": {
+              "enemyId": "enemy_8016_misery_3",
+              "name": "“Misery”，静默之刃",
+              "desc": "【弥散性裂变】攻击和【瞬时性伤痕】施加持续法术伤害，持续期间内退场的目标再部署时间大幅延长",
+              "level": 3,
+              "iconId": "vecbv2_offense_boss_misery",
+              "levelDecoFigureId": "enemy_8016_misery_deco_1",
+              "levelDecoSignId": "enemy_8016_misery_deco_2",
+              "decoId": null
+            }
+          }
+        },
+        "hardStageDict": {
+          "act2break_h01": {
+            "stageId": "act2break_h01",
+            "orderType": "A",
+            "storyDesc": "事先声明，先前提出的数学问题的解不止一个，切勿顾此失彼。",
+            "bossData": null
+          },
+          "act2break_h02": {
+            "stageId": "act2break_h02",
+            "orderType": "B",
+            "storyDesc": "这段路以高事故率而闻名——如果非要问的话，糟糕的道路照明、超出预期的通行流量，以及某些司机的驾驶技术都算是重要原因。",
+            "bossData": null
+          },
+          "act2break_h03": {
+            "stageId": "act2break_h03",
+            "orderType": "C",
+            "storyDesc": "再完美的架构也会存在一个牵一发而动全身的节点，找出这个弱点可谓极其困难，但他欢迎你前来挑战。",
+            "bossData": {
+              "enemyId": "enemy_8010_mcnist_3",
+              "name": "“Mechanist”，机械之心",
+              "desc": null,
+              "level": 3,
+              "iconId": "vecbv2_offense_boss_mcnist",
+              "decoId": "deco_mcnist"
+            }
+          },
+          "act2break_h04": {
+            "stageId": "act2break_h04",
+            "orderType": "D",
+            "storyDesc": "“目标达成值得庆祝，不过接下来的黑夜会更浓，你应想好该如何应对......”",
+            "bossData": {
+              "enemyId": "enemy_8016_misery_3",
+              "name": "“Misery”，静默之刃",
+              "desc": null,
+              "level": 3,
+              "iconId": "vecbv2_offense_boss_misery",
+              "decoId": "deco_misery"
+            }
+          }
+        },
+        "defenseBasicDict": {
+          "act2break_sp01": {
+            "stageId": "act2break_sp01",
+            "groupId": null,
+            "sortId": 1,
+            "startTs": 1771920000
+          },
+          "act2break_sp02": {
+            "stageId": "act2break_sp02",
+            "groupId": null,
+            "sortId": 2,
+            "startTs": 1771920000
+          },
+          "act2break_sp03": {
+            "stageId": "act2break_sp03",
+            "groupId": null,
+            "sortId": 3,
+            "startTs": 1771920000
+          },
+          "act2break_sp04": {
+            "stageId": "act2break_sp04",
+            "groupId": null,
+            "sortId": 4,
+            "startTs": 1771920000
+          },
+          "act2break_sp05": {
+            "stageId": "act2break_sp05",
+            "groupId": null,
+            "sortId": 5,
+            "startTs": 1771920000
+          },
+          "act2break_sp06": {
+            "stageId": "act2break_sp06",
+            "groupId": null,
+            "sortId": 6,
+            "startTs": 1771920000
+          },
+          "act2break_sp07": {
+            "stageId": "act2break_sp07",
+            "groupId": null,
+            "sortId": 7,
+            "startTs": 1772222400
+          },
+          "act2break_sp08": {
+            "stageId": "act2break_sp08",
+            "groupId": "spGroup01",
+            "sortId": 13,
+            "startTs": 1772222400
+          },
+          "act2break_sp09": {
+            "stageId": "act2break_sp09",
+            "groupId": "spGroup01",
+            "sortId": 14,
+            "startTs": 1772222400
+          },
+          "act2break_sp10": {
+            "stageId": "act2break_sp10",
+            "groupId": null,
+            "sortId": 8,
+            "startTs": 1772524800
+          },
+          "act2break_sp11": {
+            "stageId": "act2break_sp11",
+            "groupId": null,
+            "sortId": 9,
+            "startTs": 1772524800
+          },
+          "act2break_sp12": {
+            "stageId": "act2break_sp12",
+            "groupId": null,
+            "sortId": 10,
+            "startTs": 1772524800
+          },
+          "act2break_sp13": {
+            "stageId": "act2break_sp13",
+            "groupId": null,
+            "sortId": 11,
+            "startTs": 1772524800
+          },
+          "act2break_sp14": {
+            "stageId": "act2break_sp14",
+            "groupId": null,
+            "sortId": 12,
+            "startTs": 1772740800
+          },
+          "act2break_sp15": {
+            "stageId": "act2break_sp15",
+            "groupId": "spGroup02",
+            "sortId": 15,
+            "startTs": 1772740800
+          },
+          "act2break_sp16": {
+            "stageId": "act2break_sp16",
+            "groupId": "spGroup02",
+            "sortId": 16,
+            "startTs": 1772740800
+          }
+        },
+        "defenseDetailDict": {
+          "act2break_sp01": {
+            "stageId": "act2break_sp01",
+            "buffId": "act2break_rune01",
+            "defenseCharLimit": 1,
+            "bossIconId": "vec_act2break_defense_enemy_1"
+          },
+          "act2break_sp02": {
+            "stageId": "act2break_sp02",
+            "buffId": "act2break_rune02",
+            "defenseCharLimit": 1,
+            "bossIconId": "vec_act2break_defense_enemy_2"
+          },
+          "act2break_sp03": {
+            "stageId": "act2break_sp03",
+            "buffId": "act2break_rune03",
+            "defenseCharLimit": 2,
+            "bossIconId": "vec_act2break_defense_enemy_3"
+          },
+          "act2break_sp04": {
+            "stageId": "act2break_sp04",
+            "buffId": "act2break_rune04",
+            "defenseCharLimit": 2,
+            "bossIconId": "vec_act2break_defense_enemy_4"
+          },
+          "act2break_sp05": {
+            "stageId": "act2break_sp05",
+            "buffId": "act2break_rune05",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_act2break_defense_enemy_5"
+          },
+          "act2break_sp06": {
+            "stageId": "act2break_sp06",
+            "buffId": "act2break_rune06",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_act2break_defense_enemy_6"
+          },
+          "act2break_sp07": {
+            "stageId": "act2break_sp07",
+            "buffId": "act2break_rune07",
+            "defenseCharLimit": 2,
+            "bossIconId": "vec_act2break_defense_enemy_7"
+          },
+          "act2break_sp08": {
+            "stageId": "act2break_sp08",
+            "buffId": "act2break_rune08",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_act2break_defense_enemy_8"
+          },
+          "act2break_sp09": {
+            "stageId": "act2break_sp09",
+            "buffId": "act2break_rune09",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_act2break_defense_enemy_9"
+          },
+          "act2break_sp10": {
+            "stageId": "act2break_sp10",
+            "buffId": "act2break_rune10",
+            "defenseCharLimit": 2,
+            "bossIconId": "vec_act2break_defense_enemy_10"
+          },
+          "act2break_sp11": {
+            "stageId": "act2break_sp11",
+            "buffId": "act2break_rune11",
+            "defenseCharLimit": 2,
+            "bossIconId": "vec_act2break_defense_enemy_11"
+          },
+          "act2break_sp12": {
+            "stageId": "act2break_sp12",
+            "buffId": "act2break_rune12",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_act2break_defense_enemy_12"
+          },
+          "act2break_sp13": {
+            "stageId": "act2break_sp13",
+            "buffId": "act2break_rune13",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_act2break_defense_enemy_13"
+          },
+          "act2break_sp14": {
+            "stageId": "act2break_sp14",
+            "buffId": "act2break_rune14",
+            "defenseCharLimit": 2,
+            "bossIconId": "vec_act2break_defense_enemy_14"
+          },
+          "act2break_sp15": {
+            "stageId": "act2break_sp15",
+            "buffId": "act2break_rune15",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_act2break_defense_enemy_15"
+          },
+          "act2break_sp16": {
+            "stageId": "act2break_sp16",
+            "buffId": "act2break_rune16",
+            "defenseCharLimit": 3,
+            "bossIconId": "vec_act2break_defense_enemy_16"
+          }
+        },
+        "zoneDict": {
+          "act2break_zone1": {
+            "zoneId": "act2break_zone1",
+            "stageLockHint": null
+          },
+          "act2break_zone2": {
+            "zoneId": "act2break_zone2",
+            "stageLockHint": "完成核心突破后解锁"
+          },
+          "act2break_zone3": {
+            "zoneId": "act2break_zone3",
+            "stageLockHint": "突破第一层后解锁"
+          }
+        },
+        "defenseGroupDict": {
+          "spGroup01": {
+            "groupId": "spGroup01",
+            "sortId": 1,
+            "orderedStageList": [
+              "act2break_sp08",
+              "act2break_sp09"
+            ]
+          },
+          "spGroup02": {
+            "groupId": "spGroup02",
+            "sortId": 2,
+            "orderedStageList": [
+              "act2break_sp15",
+              "act2break_sp16"
+            ]
+          }
+        },
+        "battleBuffDict": {
+          "act2break_rune01": {
+            "buffId": "act2break_rune01",
+            "name": "速光程序",
+            "desc": "<城市霓虹>的技力消耗和开启费用-50%",
+            "iconId": "act2break_relic_01",
+            "runeData": {
+              "id": "act2break_relic_01",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "<城市霓虹>的技力消耗和开启费用-50%",
+              "runes": [
+                {
+                  "key": "char_skill_blackb_mul",
+                  "selector": {
+                    "professionMask": 256,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "cost",
+                      "value": 0.5
+                    }
+                  ]
+                },
+                {
+                  "key": "char_skill_cd_mul",
+                  "selector": {
+                    "professionMask": 256,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "scale",
+                      "value": 0.5
+                    },
+                    {
+                      "key": "char",
+                      "valueStr": "trap_048_neonlamp|trap_328_newlamp"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune02": {
+            "buffId": "act2break_rune02",
+            "name": "疗愈装备",
+            "desc": "所有我方单位每秒回复50点生命值",
+            "iconId": "act2break_relic_02",
+            "runeData": {
+              "id": "act2break_relic_02",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "所有我方单位每秒回复50点生命值",
+              "runes": [
+                {
+                  "key": "char_attribute_add",
+                  "selector": {
+                    "professionMask": 767,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "hp_recovery_per_sec",
+                      "value": 50.0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune03": {
+            "buffId": "act2break_rune03",
+            "name": "浮游装备",
+            "desc": "所有敌人的重量-1",
+            "iconId": "act2break_relic_03",
+            "runeData": {
+              "id": "act2break_relic_03",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "所有敌人的重量-1",
+              "runes": [
+                {
+                  "key": "enemy_attribute_add",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "mass_level",
+                      "value": -1.0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune04": {
+            "buffId": "act2break_rune04",
+            "name": "探照装备",
+            "desc": "所有干员从初始视野达到最终视野的时间缩短",
+            "iconId": "act2break_relic_04",
+            "runeData": {
+              "id": "act2break_relic_04",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "所有干员从初始视野达到最终视野的时间缩短",
+              "runes": [
+                {
+                  "key": "env_gbuff_mul",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "valueStr": "night_map_default_new"
+                    },
+                    {
+                      "key": "night_map_character_ctrl.interval",
+                      "value": 0.5
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune05": {
+            "buffId": "act2break_rune05",
+            "name": "决斗装备",
+            "desc": "骑士敌人的生命值-30%",
+            "iconId": "act2break_relic_05",
+            "runeData": {
+              "id": "act2break_relic_05",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "骑士敌人的生命值-30%",
+              "runes": [
+                {
+                  "key": "enemy_attribute_mul",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 0
+                  },
+                  "blackboard": [
+                    {
+                      "key": "max_hp",
+                      "value": 0.7
+                    },
+                    {
+                      "key": "enemy",
+                      "valueStr": "enemy_1099_nbkght|enemy_1099_nbkght_2|enemy_1101_plkght|enemy_1101_plkght_2|enemy_1101_plkght_3|enemy_1102_sdkght|enemy_1102_sdkght_2|enemy_1103_wdkght|enemy_1103_wdkght_2|enemy_1103_wdkght_3|enemy_1104_lfkght|enemy_1104_lfkght_2|enemy_1104_lfkght_3|enemy_1181_napkgt|enemy_1181_napkgt_2|enemy_1184_cadkgt|enemy_1184_cadkgt_2|enemy_1184_cadkgt_3|enemy_1513_dekght|enemy_1513_dekght_2|enemy_1524_bldkgt|enemy_2038_sydonq"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune06": {
+            "buffId": "act2break_rune06",
+            "name": "扰动装备",
+            "desc": "所有敌人移动速度-12%，攻击速度-12",
+            "iconId": "act2break_relic_06",
+            "runeData": {
+              "id": "act2break_relic_06",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "所有敌人移动速度-12%，攻击速度-12",
+              "runes": [
+                {
+                  "key": "enemy_attribute_mul",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "move_speed",
+                      "value": 0.88
+                    }
+                  ]
+                },
+                {
+                  "key": "enemy_attribute_add",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "attack_speed",
+                      "value": -12.0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune07": {
+            "buffId": "act2break_rune07",
+            "name": "轻捷装备",
+            "desc": "所有干员的部署费用-2",
+            "iconId": "act2break_relic_07",
+            "runeData": {
+              "id": "act2break_relic_07",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "所有干员的部署费用-2",
+              "runes": [
+                {
+                  "key": "char_cost_add",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": -2.0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune08": {
+            "buffId": "act2break_rune08",
+            "name": "硬化装备",
+            "desc": "所有地面干员的防御力+30%，阻挡数+1",
+            "iconId": "act2break_relic_08",
+            "runeData": {
+              "id": "act2break_relic_08",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "所有地面干员的防御力+30%，阻挡数+1",
+              "runes": [
+                {
+                  "key": "char_attribute_mul",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": 1,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "def",
+                      "value": 1.3
+                    }
+                  ]
+                },
+                {
+                  "key": "char_blockcnt_add",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": 1,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": 1.0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune09": {
+            "buffId": "act2break_rune09",
+            "name": "岩化装备",
+            "desc": "所有地面干员的防御力+60%，阻挡数+2，法术抗性-20（无法和普通补给同时携带）",
+            "iconId": "act2break_relic_09",
+            "runeData": {
+              "id": "act2break_relic_09",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "所有地面干员的防御力+60%，阻挡数+2，法术抗性-20（无法和普通补给同时携带）",
+              "runes": [
+                {
+                  "key": "char_attribute_mul",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": 1,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "def",
+                      "value": 1.6
+                    }
+                  ]
+                },
+                {
+                  "key": "char_attribute_add",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": 1,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "magic_resistance",
+                      "value": -20.0
+                    }
+                  ]
+                },
+                {
+                  "key": "char_blockcnt_add",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": 1,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": 2.0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune10": {
+            "buffId": "act2break_rune10",
+            "name": "曳光程序",
+            "desc": "<城市霓虹>开启后的视野范围变化",
+            "iconId": "act2break_relic_10",
+            "runeData": {
+              "id": "act2break_relic_10",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "<城市霓虹>开启后的视野范围变化",
+              "runes": [
+                {
+                  "key": "level_predefines_enable",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "trap_048_neonlamp",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "trap_048_neonlamp#1",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "trap_048_neonlamp#2",
+                      "value": 0.0
+                    },
+                    {
+                      "key": "trap_328_newlamp",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "trap_328_newlamp#1",
+                      "value": 1.0
+                    },
+                    {
+                      "key": "trap_328_newlamp#2",
+                      "value": 1.0
+                    }
+                  ]
+                },
+                {
+                  "key": "level_hidden_group_enable",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "valueStr": "lamp2"
+                    }
+                  ]
+                },
+                {
+                  "key": "level_hidden_group_disable",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "valueStr": "lamp1"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune11": {
+            "buffId": "act2break_rune11",
+            "name": "活化装备",
+            "desc": "所有我方单位受到的治疗和生命回复效果+30%",
+            "iconId": "act2break_relic_11",
+            "runeData": {
+              "id": "act2break_relic_11",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "所有我方单位受到的治疗和生命回复效果+30%",
+              "runes": [
+                {
+                  "key": "env_gbuff_new_with_verify",
+                  "selector": {
+                    "professionMask": 767,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "valueStr": "heal_scale"
+                    },
+                    {
+                      "key": "heal_scale",
+                      "value": 1.3
+                    }
+                  ]
+                },
+                {
+                  "key": "env_gbuff_new_with_verify",
+                  "selector": {
+                    "professionMask": 767,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "valueStr": "hp_recovery_per_sec[mul]"
+                    },
+                    {
+                      "key": "hp_recovery_per_sec",
+                      "value": 0.3
+                    }
+                  ]
+                },
+                {
+                  "key": "env_gbuff_new_with_verify",
+                  "selector": {
+                    "professionMask": 767,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "valueStr": "hp_recovery_per_sec_by_max_hp_ratio[mul]"
+                    },
+                    {
+                      "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                      "value": 0.3
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune12": {
+            "buffId": "act2break_rune12",
+            "name": "致盲装备",
+            "desc": "敌人首次从黑夜笼罩的地块进入视野后的6秒内，命中率-100%",
+            "iconId": "act2break_relic_12",
+            "runeData": {
+              "id": "act2break_relic_12",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "敌人首次从黑夜笼罩的地块进入视野后的6秒内，命中率-100%",
+              "runes": [
+                {
+                  "key": "env_gbuff_new",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "valueStr": "act2break_night_hitrate"
+                    },
+                    {
+                      "key": "attr_time",
+                      "value": 6.0
+                    },
+                    {
+                      "key": "damage_hitrate_physical",
+                      "value": -1.0
+                    },
+                    {
+                      "key": "damage_hitrate_magical",
+                      "value": -1.0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune13": {
+            "buffId": "act2break_rune13",
+            "name": "突变装备",
+            "desc": "所有干员生命上限+25%，攻击力+25%，部署时流失25%生命值",
+            "iconId": "act2break_relic_13",
+            "runeData": {
+              "id": "act2break_relic_13",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "所有干员生命上限+25%，攻击力+25%，部署时流失25%生命值",
+              "runes": [
+                {
+                  "key": "char_attribute_mul",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "max_hp",
+                      "value": 1.25
+                    },
+                    {
+                      "key": "atk",
+                      "value": 1.25
+                    }
+                  ]
+                },
+                {
+                  "key": "env_gbuff_new_with_verify",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "valueStr": "deploy_damage"
+                    },
+                    {
+                      "key": "hp_ratio",
+                      "value": 0.25
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune14": {
+            "buffId": "act2break_rune14",
+            "name": "接战装备",
+            "desc": "所有地面干员每4秒获得1点技力",
+            "iconId": "act2break_relic_14",
+            "runeData": {
+              "id": "act2break_relic_14",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "所有地面干员每4秒获得1点技力",
+              "runes": [
+                {
+                  "key": "env_gbuff_new_with_verify",
+                  "selector": {
+                    "professionMask": 639,
+                    "buildableMask": 1,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "key",
+                      "valueStr": "modify_sp[trigger]"
+                    },
+                    {
+                      "key": "interval",
+                      "value": 4.0
+                    },
+                    {
+                      "key": "sp",
+                      "value": 1.0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune15": {
+            "buffId": "act2break_rune15",
+            "name": "嵌合装备",
+            "desc": "可同时部署人数+1",
+            "iconId": "act2break_relic_15",
+            "runeData": {
+              "id": "act2break_relic_15",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "可同时部署人数+1",
+              "runes": [
+                {
+                  "key": "global_placable_char_num_add",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": 1.0
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "act2break_rune16": {
+            "buffId": "act2break_rune16",
+            "name": "聚合装备",
+            "desc": "可同时部署人数+3，所有我方单位的生命上限+35%，攻击力-20%（无法和普通补给同时携带）",
+            "iconId": "act2break_relic_16",
+            "runeData": {
+              "id": "act2break_relic_16",
+              "points": 0.0,
+              "mutexGroupKey": null,
+              "description": "可同时部署人数+3，所有我方单位的生命上限+35%，攻击力-20%（无法和普通补给同时携带）",
+              "runes": [
+                {
+                  "key": "global_placable_char_num_add",
+                  "selector": {
+                    "professionMask": 0,
+                    "buildableMask": 0,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "value",
+                      "value": 3.0
+                    }
+                  ]
+                },
+                {
+                  "key": "char_attribute_mul",
+                  "selector": {
+                    "professionMask": 767,
+                    "buildableMask": 3,
+                    "playerSideMask": 0,
+                    "sideType": 7,
+                    "charIdFilter": null,
+                    "charIdExcludeFilter": null,
+                    "enemyIdFilter": null,
+                    "enemyIdExcludeFilter": null,
+                    "enemyLevelTypeFilter": null,
+                    "enemyActionHiddenGroupFilter": null,
+                    "skillIdFilter": null,
+                    "tileKeyFilter": null,
+                    "groupTagFilter": null,
+                    "filterTagFilter": null,
+                    "filterTagExcludeFilter": null,
+                    "subProfessionExcludeFilter": null,
+                    "mapTagFilter": null,
+                    "heightTypeMask": 3
+                  },
+                  "blackboard": [
+                    {
+                      "key": "atk",
+                      "value": 0.8
+                    },
+                    {
+                      "key": "max_hp",
+                      "value": 1.35
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "milestoneList": [
+          {
+            "milestoneId": "mileStone_1",
+            "orderId": 1,
+            "tokenNum": 40,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_2",
+            "orderId": 2,
+            "tokenNum": 80,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_3",
+            "orderId": 3,
+            "tokenNum": 120,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_4",
+            "orderId": 4,
+            "tokenNum": 160,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_5",
+            "orderId": 5,
+            "tokenNum": 200,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_6",
+            "orderId": 6,
+            "tokenNum": 245,
+            "reward": {
+              "id": "30014",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_7",
+            "orderId": 7,
+            "tokenNum": 290,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_8",
+            "orderId": 8,
+            "tokenNum": 335,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_9",
+            "orderId": 9,
+            "tokenNum": 380,
+            "reward": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_10",
+            "orderId": 10,
+            "tokenNum": 425,
+            "reward": {
+              "id": "30115",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_11",
+            "orderId": 11,
+            "tokenNum": 475,
+            "reward": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_12",
+            "orderId": 12,
+            "tokenNum": 525,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_13",
+            "orderId": 13,
+            "tokenNum": 575,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_14",
+            "orderId": 14,
+            "tokenNum": 625,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_15",
+            "orderId": 15,
+            "tokenNum": 675,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_16",
+            "orderId": 16,
+            "tokenNum": 730,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_17",
+            "orderId": 17,
+            "tokenNum": 785,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_18",
+            "orderId": 18,
+            "tokenNum": 840,
+            "reward": {
+              "id": "31074",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_19",
+            "orderId": 19,
+            "tokenNum": 895,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_20",
+            "orderId": 20,
+            "tokenNum": 950,
+            "reward": {
+              "id": "mod_unlock_token",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_21",
+            "orderId": 21,
+            "tokenNum": 1005,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_22",
+            "orderId": 22,
+            "tokenNum": 1060,
+            "reward": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_23",
+            "orderId": 23,
+            "tokenNum": 1115,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_24",
+            "orderId": 24,
+            "tokenNum": 1170,
+            "reward": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_25",
+            "orderId": 25,
+            "tokenNum": 1225,
+            "reward": {
+              "id": "31094",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_26",
+            "orderId": 26,
+            "tokenNum": 1280,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_27",
+            "orderId": 27,
+            "tokenNum": 1335,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_28",
+            "orderId": 28,
+            "tokenNum": 1390,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_29",
+            "orderId": 29,
+            "tokenNum": 1445,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_30",
+            "orderId": 30,
+            "tokenNum": 1500,
+            "reward": {
+              "id": "char_253_greyy@epoque#515",
+              "count": 1,
+              "type": "CHAR_SKIN"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_31",
+            "orderId": 31,
+            "tokenNum": 1560,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_32",
+            "orderId": 32,
+            "tokenNum": 1620,
+            "reward": {
+              "id": "30014",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_33",
+            "orderId": 33,
+            "tokenNum": 1680,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_34",
+            "orderId": 34,
+            "tokenNum": 1740,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_35",
+            "orderId": 35,
+            "tokenNum": 1800,
+            "reward": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_36",
+            "orderId": 36,
+            "tokenNum": 1860,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_37",
+            "orderId": 37,
+            "tokenNum": 1920,
+            "reward": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_38",
+            "orderId": 38,
+            "tokenNum": 1980,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_39",
+            "orderId": 39,
+            "tokenNum": 2040,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_40",
+            "orderId": 40,
+            "tokenNum": 2100,
+            "reward": {
+              "id": "30115",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1771920000
+          },
+          {
+            "milestoneId": "mileStone_41",
+            "orderId": 41,
+            "tokenNum": 2150,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_42",
+            "orderId": 42,
+            "tokenNum": 2200,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_43",
+            "orderId": 43,
+            "tokenNum": 2250,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_44",
+            "orderId": 44,
+            "tokenNum": 2300,
+            "reward": {
+              "id": "31074",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_45",
+            "orderId": 45,
+            "tokenNum": 2350,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_46",
+            "orderId": 46,
+            "tokenNum": 2405,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_47",
+            "orderId": 47,
+            "tokenNum": 2460,
+            "reward": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_48",
+            "orderId": 48,
+            "tokenNum": 2515,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_49",
+            "orderId": 49,
+            "tokenNum": 2570,
+            "reward": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_50",
+            "orderId": 50,
+            "tokenNum": 2625,
+            "reward": {
+              "id": "furni_vector_S2_misery_01",
+              "count": 1,
+              "type": "FURN"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_51",
+            "orderId": 51,
+            "tokenNum": 2685,
+            "reward": {
+              "id": "furni_vector_S2_mechanist_01",
+              "count": 1,
+              "type": "FURN"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_52",
+            "orderId": 52,
+            "tokenNum": 2745,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_53",
+            "orderId": 53,
+            "tokenNum": 2805,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_54",
+            "orderId": 54,
+            "tokenNum": 2865,
+            "reward": {
+              "id": "31094",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_55",
+            "orderId": 55,
+            "tokenNum": 2925,
+            "reward": {
+              "id": "3302",
+              "count": 10,
+              "type": "MATERIAL"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_56",
+            "orderId": 56,
+            "tokenNum": 2990,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_57",
+            "orderId": 57,
+            "tokenNum": 3055,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_58",
+            "orderId": 58,
+            "tokenNum": 3120,
+            "reward": {
+              "id": "30103",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_59",
+            "orderId": 59,
+            "tokenNum": 3185,
+            "reward": {
+              "id": "2004",
+              "count": 5,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_60",
+            "orderId": 60,
+            "tokenNum": 3250,
+            "reward": {
+              "id": "30014",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_61",
+            "orderId": 61,
+            "tokenNum": 3320,
+            "reward": {
+              "id": "3303",
+              "count": 5,
+              "type": "MATERIAL"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_62",
+            "orderId": 62,
+            "tokenNum": 3390,
+            "reward": {
+              "id": "31083",
+              "count": 2,
+              "type": "MATERIAL"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_63",
+            "orderId": 63,
+            "tokenNum": 3460,
+            "reward": {
+              "id": "4001",
+              "count": 10000,
+              "type": "GOLD"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_64",
+            "orderId": 64,
+            "tokenNum": 3530,
+            "reward": {
+              "id": "31074",
+              "count": 1,
+              "type": "MATERIAL"
+            },
+            "availTime": 1772524800
+          },
+          {
+            "milestoneId": "mileStone_65",
+            "orderId": 65,
+            "tokenNum": 3600,
+            "reward": {
+              "id": "2003",
+              "count": 10,
+              "type": "CARD_EXP"
+            },
+            "availTime": 1772524800
+          }
+        ],
+        "stageRewardDict": {
+          "act2break_01": {
+            "stageId": "act2break_01",
+            "completeRewardCnt": 75,
+            "normalRewardCnt": 25,
+            "limitReward": null
+          },
+          "act2break_02": {
+            "stageId": "act2break_02",
+            "completeRewardCnt": 75,
+            "normalRewardCnt": 25,
+            "limitReward": null
+          },
+          "act2break_03": {
+            "stageId": "act2break_03",
+            "completeRewardCnt": 75,
+            "normalRewardCnt": 25,
+            "limitReward": null
+          },
+          "act2break_04": {
+            "stageId": "act2break_04",
+            "completeRewardCnt": 90,
+            "normalRewardCnt": 30,
+            "limitReward": null
+          },
+          "act2break_05": {
+            "stageId": "act2break_05",
+            "completeRewardCnt": 90,
+            "normalRewardCnt": 30,
+            "limitReward": null
+          },
+          "act2break_06": {
+            "stageId": "act2break_06",
+            "completeRewardCnt": 90,
+            "normalRewardCnt": 30,
+            "limitReward": null
+          },
+          "act2break_07": {
+            "stageId": "act2break_07",
+            "completeRewardCnt": 90,
+            "normalRewardCnt": 30,
+            "limitReward": null
+          },
+          "act2break_08": {
+            "stageId": "act2break_08",
+            "completeRewardCnt": 120,
+            "normalRewardCnt": 40,
+            "limitReward": null
+          },
+          "act2break_09": {
+            "stageId": "act2break_09",
+            "completeRewardCnt": 120,
+            "normalRewardCnt": 40,
+            "limitReward": null
+          },
+          "act2break_10": {
+            "stageId": "act2break_10",
+            "completeRewardCnt": 120,
+            "normalRewardCnt": 40,
+            "limitReward": null
+          },
+          "act2break_11": {
+            "stageId": "act2break_11",
+            "completeRewardCnt": 120,
+            "normalRewardCnt": 40,
+            "limitReward": null
+          },
+          "act2break_12": {
+            "stageId": "act2break_12",
+            "completeRewardCnt": 180,
+            "normalRewardCnt": 60,
+            "limitReward": null
+          },
+          "act2break_h01": {
+            "stageId": "act2break_h01",
+            "completeRewardCnt": 180,
+            "normalRewardCnt": 60,
+            "limitReward": null
+          },
+          "act2break_h02": {
+            "stageId": "act2break_h02",
+            "completeRewardCnt": 180,
+            "normalRewardCnt": 60,
+            "limitReward": null
+          },
+          "act2break_h03": {
+            "stageId": "act2break_h03",
+            "completeRewardCnt": 180,
+            "normalRewardCnt": 60,
+            "limitReward": null
+          },
+          "act2break_h04": {
+            "stageId": "act2break_h04",
+            "completeRewardCnt": 180,
+            "normalRewardCnt": 60,
+            "limitReward": null
+          },
+          "act2break_sp01": {
+            "stageId": "act2break_sp01",
+            "completeRewardCnt": 20,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1771920000,
+              "endTs": 1772222399,
+              "rewardCnt": 20
+            }
+          },
+          "act2break_sp02": {
+            "stageId": "act2break_sp02",
+            "completeRewardCnt": 20,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1771920000,
+              "endTs": 1772222399,
+              "rewardCnt": 20
+            }
+          },
+          "act2break_sp03": {
+            "stageId": "act2break_sp03",
+            "completeRewardCnt": 20,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1771920000,
+              "endTs": 1772222399,
+              "rewardCnt": 20
+            }
+          },
+          "act2break_sp04": {
+            "stageId": "act2break_sp04",
+            "completeRewardCnt": 20,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1771920000,
+              "endTs": 1772222399,
+              "rewardCnt": 20
+            }
+          },
+          "act2break_sp05": {
+            "stageId": "act2break_sp05",
+            "completeRewardCnt": 20,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1771920000,
+              "endTs": 1772222399,
+              "rewardCnt": 20
+            }
+          },
+          "act2break_sp06": {
+            "stageId": "act2break_sp06",
+            "completeRewardCnt": 20,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1771920000,
+              "endTs": 1772222399,
+              "rewardCnt": 20
+            }
+          },
+          "act2break_sp07": {
+            "stageId": "act2break_sp07",
+            "completeRewardCnt": 30,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1772222400,
+              "endTs": 1772524799,
+              "rewardCnt": 30
+            }
+          },
+          "act2break_sp08": {
+            "stageId": "act2break_sp08",
+            "completeRewardCnt": 30,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1772222400,
+              "endTs": 1772524799,
+              "rewardCnt": 30
+            }
+          },
+          "act2break_sp09": {
+            "stageId": "act2break_sp09",
+            "completeRewardCnt": 40,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1772222400,
+              "endTs": 1772524799,
+              "rewardCnt": 40
+            }
+          },
+          "act2break_sp10": {
+            "stageId": "act2break_sp10",
+            "completeRewardCnt": 35,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1772524800,
+              "endTs": 1772740799,
+              "rewardCnt": 35
+            }
+          },
+          "act2break_sp11": {
+            "stageId": "act2break_sp11",
+            "completeRewardCnt": 35,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1772524800,
+              "endTs": 1772740799,
+              "rewardCnt": 35
+            }
+          },
+          "act2break_sp12": {
+            "stageId": "act2break_sp12",
+            "completeRewardCnt": 35,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1772524800,
+              "endTs": 1772740799,
+              "rewardCnt": 35
+            }
+          },
+          "act2break_sp13": {
+            "stageId": "act2break_sp13",
+            "completeRewardCnt": 35,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1772524800,
+              "endTs": 1772740799,
+              "rewardCnt": 35
+            }
+          },
+          "act2break_sp14": {
+            "stageId": "act2break_sp14",
+            "completeRewardCnt": 40,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1772740800,
+              "endTs": 1773086399,
+              "rewardCnt": 40
+            }
+          },
+          "act2break_sp15": {
+            "stageId": "act2break_sp15",
+            "completeRewardCnt": 40,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1772740800,
+              "endTs": 1773086399,
+              "rewardCnt": 40
+            }
+          },
+          "act2break_sp16": {
+            "stageId": "act2break_sp16",
+            "completeRewardCnt": 50,
+            "normalRewardCnt": 0,
+            "limitReward": {
+              "startTs": 1772740800,
+              "endTs": 1773086399,
+              "rewardCnt": 50
+            }
+          }
+        },
+        "constData": {
+          "defenseDesc": "同时可以激活六个补给",
+          "defenseOverviewName": null,
+          "milestoneName": "突破里程碑",
+          "milestoneItemId": "act2break_milestone_point",
+          "bossDescTitle": "考官强化",
+          "defenseUnlockRequireStageId": "act2break_sp01",
+          "offenseNavLockToastStageId": "act2break_01",
+          "offenseNavLockToastStr": "通关当前关卡后解锁",
+          "offenseHardUnlockToast": "全力以赴区域已解锁",
+          "hardUnlockStageId": "act2break_h01",
+          "defenseRetreatSingleText": "撤离驻防后，对应补给将无法激活。确认撤离吗？",
+          "defenseRetreatMultipleText": "撤离驻防后，对应高级补给“{0}”也将失效。确认撤离吗？",
+          "defenseReplaceText": "是否使用新阵容替换原驻防阵容？",
+          "defenseEquipBuffLimit": 6,
+          "displayMedalId": "medal_activity_act2break_01",
+          "defenseAddBuffToast": "补给已启用",
+          "defenseRemoveBuffToast": "补给已关闭",
+          "defenseReplaceBuffToast": "补给已替换",
+          "defenseBuffExceedToast": "补给启用数量已达上限，请调整",
+          "defendSameGroupHint": "同组关卡驻防中",
+          "defendOtherHint": "特别战线驻防中",
+          "defenseBuffLockToast": "请前往特别战线激活增益",
+          "offenseBuffSelectUnsaveHint": "当前页面有未保存的设置，确认返回吗？",
+          "defenceBattleFinishEquipText": "{0}已启用",
+          "defenceBattleFinishActivateText": "{0}已激活",
+          "defenceBattleFinishSquadText": "驻防阵容已更新",
+          "milestoneTrackId": "milestone_expand",
+          "themeColor": "#7E34F0",
+          "subTitleName": "巫术之夜"
+        },
+        "squadBuffAvailStageList": [
+          "act2break_01",
+          "act2break_02",
+          "act2break_03",
+          "act2break_04",
+          "act2break_05",
+          "act2break_06",
+          "act2break_07",
+          "act2break_08",
+          "act2break_09",
+          "act2break_10",
+          "act2break_11",
+          "act2break_12",
+          "act2break_h01",
+          "act2break_h02",
+          "act2break_h03",
+          "act2break_h04"
+        ],
+        "scheduleBlockList": [
+          {
+            "startTs": 1771920000,
+            "endTs": 1772222399
+          },
+          {
+            "startTs": 1772222400,
+            "endTs": 1772524799
+          },
+          {
+            "startTs": 1772524800,
+            "endTs": 1772740799
+          },
+          {
+            "startTs": 1772740800,
+            "endTs": 1773086399
+          }
+        ],
+        "defenseZoneId": "act2break_zone3",
+        "offenseZoneId": "act2break_zone1",
+        "hardZoneId": "act2break_zone2",
+        "firstDefenseStageId": "act2break_sp01"
+      },
       "act1break": {
         "offenseStageDict": {
           "act1break_01": {
@@ -248779,7 +251409,7 @@
         "constData": {
           "informantUnlockStageId": "act44side_tr01",
           "informantItemId": "act44side_token_information",
-          "informantItemType": 27,
+          "informantItemType": "ACTIVITY_ITEM",
           "informantItemCount": 100,
           "milestoneItemId": "act44side_token_treasure",
           "attentionMax": 180,
@@ -286062,7 +288692,8 @@
               "emptyShip"
             ],
             "inactiveBondIdList": [],
-            "inactiveEnemyKey": []
+            "inactiveEnemyKey": [],
+            "startTime": 1763107200
           },
           "mode_single_funny": {
             "modeId": "mode_single_funny",
@@ -286126,7 +288757,8 @@
               "enemy_1254_lypa_2",
               "enemy_1425_lrcmra_2",
               "enemy_1329_cbshld_2"
-            ]
+            ],
+            "startTime": 1763107200
           },
           "mode_single_normal": {
             "modeId": "mode_single_normal",
@@ -286187,7 +288819,8 @@
               "enemy_1254_lypa_2",
               "enemy_1425_lrcmra_2",
               "enemy_1329_cbshld_2"
-            ]
+            ],
+            "startTime": 1763107200
           },
           "mode_single_hard": {
             "modeId": "mode_single_hard",
@@ -286229,7 +288862,8 @@
               "emptyShip"
             ],
             "inactiveBondIdList": [],
-            "inactiveEnemyKey": []
+            "inactiveEnemyKey": [],
+            "startTime": 1763107200
           },
           "mode_multi_funny": {
             "modeId": "mode_multi_funny",
@@ -286293,7 +288927,8 @@
               "enemy_1254_lypa_2",
               "enemy_1425_lrcmra_2",
               "enemy_1329_cbshld_2"
-            ]
+            ],
+            "startTime": 1763107200
           },
           "mode_multi_normal": {
             "modeId": "mode_multi_normal",
@@ -286354,7 +288989,8 @@
               "enemy_1254_lypa_2",
               "enemy_1425_lrcmra_2",
               "enemy_1329_cbshld_2"
-            ]
+            ],
+            "startTime": 1763107200
           },
           "mode_multi_hard": {
             "modeId": "mode_multi_hard",
@@ -286396,7 +289032,8 @@
               "emptyShip"
             ],
             "inactiveBondIdList": [],
-            "inactiveEnemyKey": []
+            "inactiveEnemyKey": [],
+            "startTime": 1763107200
           }
         },
         "baseRewardDataList": [
@@ -286540,7 +289177,8 @@
             "totalHp": 27,
             "effectId": "aceffect_band_21",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_amiya": {
             "bandId": "band_amiya",
@@ -286554,7 +289192,8 @@
             "totalHp": 30,
             "effectId": "aceffect_band_22",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_duyaoy": {
             "bandId": "band_duyaoy",
@@ -286568,7 +289207,8 @@
             "totalHp": 26,
             "effectId": "aceffect_band_28",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_sarkazb": {
             "bandId": "band_sarkazb",
@@ -286582,7 +289222,8 @@
             "totalHp": 45,
             "effectId": "aceffect_band_44",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_orchid": {
             "bandId": "band_orchid",
@@ -286595,7 +289236,8 @@
             "totalHp": 27,
             "effectId": "aceffect_band_23",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_justin": {
             "bandId": "band_justin",
@@ -286608,7 +289250,8 @@
             "totalHp": 23,
             "effectId": "aceffect_band_47",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_ermengard": {
             "bandId": "band_ermengard",
@@ -286621,7 +289264,8 @@
             "totalHp": 27,
             "effectId": "aceffect_band_48",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_lmlee": {
             "bandId": "band_lmlee",
@@ -286634,7 +289278,8 @@
             "totalHp": 27,
             "effectId": "aceffect_band_46",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_kirara": {
             "bandId": "band_kirara",
@@ -286647,7 +289292,8 @@
             "totalHp": 26,
             "effectId": "aceffect_band_24",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_pepe": {
             "bandId": "band_pepe",
@@ -286660,7 +289306,8 @@
             "totalHp": 23,
             "effectId": "aceffect_band_29",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_harold": {
             "bandId": "band_harold",
@@ -286673,7 +289320,8 @@
             "totalHp": 23,
             "effectId": "aceffect_band_30",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_sciurus": {
             "bandId": "band_sciurus",
@@ -286686,7 +289334,8 @@
             "totalHp": 24,
             "effectId": "aceffect_band_31",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_paganini": {
             "bandId": "band_paganini",
@@ -286699,7 +289348,8 @@
             "totalHp": 24,
             "effectId": "aceffect_band_32",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_clementia": {
             "bandId": "band_clementia",
@@ -286712,7 +289362,8 @@
             "totalHp": 26,
             "effectId": "aceffect_band_33",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_emperor": {
             "bandId": "band_emperor",
@@ -286725,7 +289376,8 @@
             "totalHp": 26,
             "effectId": "aceffect_band_36",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_mberry": {
             "bandId": "band_mberry",
@@ -286738,7 +289390,8 @@
             "totalHp": 22,
             "effectId": "aceffect_band_37",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_humus": {
             "bandId": "band_humus",
@@ -286752,7 +289405,8 @@
             "totalHp": 24,
             "effectId": "aceffect_band_38",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_quintus": {
             "bandId": "band_quintus",
@@ -286765,7 +289419,8 @@
             "totalHp": 31,
             "effectId": "aceffect_band_41",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_zumama": {
             "bandId": "band_zumama",
@@ -286778,7 +289433,8 @@
             "totalHp": 38,
             "effectId": "aceffect_band_43",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_yu": {
             "bandId": "band_yu",
@@ -286791,7 +289447,8 @@
             "totalHp": 32,
             "effectId": "aceffect_band_50",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_doberm": {
             "bandId": "band_doberm",
@@ -286804,7 +289461,8 @@
             "totalHp": 30,
             "effectId": "aceffect_band_25",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_cathy": {
             "bandId": "band_cathy",
@@ -286817,7 +289475,8 @@
             "totalHp": 26,
             "effectId": "aceffect_band_26",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_malkie": {
             "bandId": "band_malkie",
@@ -286830,7 +289489,8 @@
             "totalHp": 30,
             "effectId": "aceffect_band_27",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_qalaisa": {
             "bandId": "band_qalaisa",
@@ -286843,7 +289503,8 @@
             "totalHp": 26,
             "effectId": "aceffect_band_35",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_chen": {
             "bandId": "band_chen",
@@ -286856,7 +289517,8 @@
             "totalHp": 22,
             "effectId": "aceffect_band_39",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_damaztic": {
             "bandId": "band_damaztic",
@@ -286869,7 +289531,8 @@
             "totalHp": 29,
             "effectId": "aceffect_band_40",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_pith": {
             "bandId": "band_pith",
@@ -286882,7 +289545,8 @@
             "totalHp": 24,
             "effectId": "aceffect_band_42",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_dusk": {
             "bandId": "band_dusk",
@@ -286895,7 +289559,8 @@
             "totalHp": 28,
             "effectId": "aceffect_band_45",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_cannot": {
             "bandId": "band_cannot",
@@ -286908,7 +289573,8 @@
             "totalHp": 27,
             "effectId": "aceffect_band_34",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           },
           "band_ducklord": {
             "bandId": "band_ducklord",
@@ -286921,7 +289587,8 @@
             "totalHp": 29,
             "effectId": "aceffect_band_49",
             "victorCount": 3,
-            "bandRewardModulus": 1.0
+            "bandRewardModulus": 1.0,
+            "updateTime": 1763107200
           }
         },
         "charChessDataDict": {
@@ -295539,41 +298206,6 @@
             ],
             "9": [
               {
-                "bossId": null,
-                "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_h02",
-                "isSpPrepare": true
-              }
-            ],
-            "10": [
-              {
-                "bossId": null,
-                "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_h03",
-                "isSpPrepare": false
-              }
-            ],
-            "11": [
-              {
-                "bossId": null,
-                "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_h04",
-                "isSpPrepare": false
-              }
-            ],
-            "12": [
-              {
-                "bossId": null,
-                "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_h05",
-                "isSpPrepare": false
-              }
-            ],
-            "13": [
-              {
-                "bossId": null,
-                "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_h06",
-                "isSpPrepare": false
-              }
-            ],
-            "14": [
-              {
                 "bossId": "boss_1",
                 "levelId": "Activities/ACT1AUTOCHESS/level_act1autochess_h07_01_S",
                 "isSpPrepare": false
@@ -296306,11 +298938,15 @@
             "desc": "【炎】干员<@ba.vup>攻击力</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>名不同【炎】干员>战斗开始时召唤可自主行动的<@ba.vup>“炎佑”</>，其攻击力生命值分别为开战时【炎】干员攻击力生命值总和的30%，“炎佑”可使用<@ba.vup>“祛恶之焰”</>，攻击时附带伤害一定比例的灼燃损伤且周围敌人受到一定比例的元素脆弱",
             "iconId": "icon_yanShip",
             "activeCount": 3,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_yan",
             "activeType": "BATTLE",
             "identifier": 1,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_atk"
             ],
@@ -296347,11 +298983,15 @@
             "desc": "【萨尔贡】干员开启技能时，所有【萨尔贡】干员<@ba.vup>攻击速度</>提升（有上限），持续一定时间<@autochess.gray>（受层数影响，每层持续时间独立计算）</>\n<在场<@autochess.dgreen>6</>名不同【萨尔贡】干员>开启技能还会为所有【萨尔贡】干员提供等持续时间的<@ba.vup>攻击力</>（有上限）",
             "iconId": "icon_sargonShip",
             "activeCount": 3,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_sargon",
             "activeType": "BATTLE",
             "identifier": 2,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_time"
             ],
@@ -296386,11 +299026,15 @@
             "desc": "携带装备的【维多利亚】干员造成的<@ba.vup>伤害提升</><@autochess.gray>（受层数影响）</>\n<每叠加<@autochess.dgreen>25</>层>获得1件随机效果的<@ba.vup>维式重锤</>\n<在场<@autochess.dgreen>6</>名不同【维多利亚】干员>携带装备的【维多利亚】干员<@ba.vup>攻击力</>提升",
             "iconId": "icon_victoriaShip",
             "activeCount": 3,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_victoria",
             "activeType": "BATTLE",
             "identifier": 3,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_damage_scale"
             ],
@@ -296427,11 +299071,15 @@
             "desc": "【谢拉格】干员造成的<@ba.vup>伤害提升</>，对<@ba.vup>寒冷、冻结</>敌人获得额外提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>名不同【谢拉格】干员>战场上每25秒过一阵寒风使场上的敌人寒冷一定时间（受层数影响）",
             "iconId": "icon_kjeragShip",
             "activeCount": 3,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_kjerag",
             "activeType": "BATTLE",
             "identifier": 4,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_ex_damage_scale",
               "bond_eff_kjerag[storm].base_time"
@@ -296470,11 +299118,15 @@
             "desc": "【拉特兰】干员开启技能获得的<@ba.vup>弹药量</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>6</>名不同【拉特兰】干员>【拉特兰】干员每消耗1发弹药，所有【拉特兰】干员<@ba.vup>攻击力</>提升",
             "iconId": "icon_lateranoShip",
             "activeCount": 3,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_laterano",
             "activeType": "BATTLE",
             "identifier": 5,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_ammo_percent"
             ],
@@ -296511,11 +299163,15 @@
             "desc": "干员的“获得时”类特质每次<@ba.vup>触发2次</>\n<达到<@autochess.dgreen>70</>层>“获得时”类特质每次<@ba.vup>触发3次</>（整备区的【投资人】干员也可用于激活盟约）",
             "iconId": "icon_investShip",
             "activeCount": 3,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_invest",
             "activeType": "ALL",
             "identifier": 6,
             "weight": 10,
             "isActiveInDeck": true,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [],
             "descParamPerStackList": [],
             "noStack": false,
@@ -296536,11 +299192,15 @@
             "desc": "【阿戈尔】干员<@ba.vup>生命值</>提升<@autochess.gray>（受层数影响）</>\n战斗开始时，【阿戈尔】干员会<@ba.vup>吞噬</>身前一格干员对其造成<@ba.vdown>6000</>点物理伤害并获得其<@ba.vup>基础攻击力</>和<@ba.vup>阻挡数</>，使【阿戈尔】叠加等于被吞噬者等阶的<@ba.vup>盟约层数</>\n<在场<@autochess.dgreen>5</>名不同【阿戈尔】干员>前2名【阿戈尔】干员首次被击倒时立刻复活",
             "iconId": "icon_egirShip",
             "activeCount": 3,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_egir",
             "activeType": "BATTLE",
             "identifier": 7,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_max_hp"
             ],
@@ -296575,11 +299235,15 @@
             "desc": "【调和】可以使场上核心盟约（【炎】【萨尔贡】【维多利亚】【谢拉格】【拉特兰】【阿戈尔】）的<@ba.vup>激活人数+1</>，【调和】干员享受以上激活盟约的效果",
             "iconId": "icon_maniShip",
             "activeCount": 1,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_mani",
             "activeType": "MANI",
             "identifier": 8,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [],
             "descParamPerStackList": [],
             "noStack": true,
@@ -296596,11 +299260,15 @@
             "desc": "<每叠加<@autochess.dgreen>10</>层>获得<@ba.vup>2</>资金\n<首次达到<@autochess.dgreen>100</>层>调度中心内所有干员的购买价格<@ba.vup>永久减少1</>资金（整备区的【远见】干员也可用于激活盟约）",
             "iconId": "icon_visiShip",
             "activeCount": 2,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_visi",
             "activeType": "ALL",
             "identifier": 9,
             "weight": 0,
             "isActiveInDeck": true,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [],
             "descParamPerStackList": [],
             "noStack": false,
@@ -296625,11 +299293,15 @@
             "desc": "高台干员<@ba.vup>攻击力</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>3</>名不同【精准】干员>高台干员攻击无视一定的<@ba.vup>防御力</>和<@ba.vup>法术抗性</>，且攻击使目标失去特殊能力2秒",
             "iconId": "icon_preciShip",
             "activeCount": 2,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_preci",
             "activeType": "BATTLE",
             "identifier": 10,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_atk"
             ],
@@ -296668,11 +299340,15 @@
             "desc": "所有干员<@ba.vup>生命值</>提升<@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>3</>名不同【坚守】干员>场上非【坚守】干员受到伤害时，所受伤害的<@ba.vup>40%</>由所有【坚守】干员<@ba.vup>平均承担</>",
             "iconId": "icon_steadShip",
             "activeCount": 2,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_stead",
             "activeType": "BATTLE",
             "identifier": 11,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_max_hp"
             ],
@@ -296705,11 +299381,15 @@
             "desc": "【突袭】干员技能就绪时，若范围内没有敌人，则立即<@ba.vup>再部署至一名地面敌人周围</>并释放技能，技能期间<@ba.vup>攻击力</>和<@ba.vup>生命值</>提升<@autochess.gray>（受层数影响）</>\n<达到<@autochess.dgreen>30</>层>所有干员的部署费用<@ba.vup>-50%</>",
             "iconId": "icon_raidShip",
             "activeCount": 2,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_raid",
             "activeType": "BATTLE",
             "identifier": 12,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_atk"
             ],
@@ -296742,11 +299422,15 @@
             "desc": "刷新调度中心时，有概率使下次刷新<@ba.vup>不消耗资金</><@autochess.gray>（受层数影响）</>\n<每叠加<@autochess.dgreen>50</>层>获得<@ba.vup>10</>资金（整备区的【奇迹】干员也可用于激活盟约）",
             "iconId": "icon_miraShip",
             "activeCount": 2,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_mira",
             "activeType": "ALL",
             "identifier": 13,
             "weight": 10,
             "isActiveInDeck": true,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "baseprob"
             ],
@@ -296781,11 +299465,15 @@
             "desc": "地面干员被击倒时，有概率立即<@ba.vup>重新部署</><@autochess.gray>（受层数影响）</>\n<在场<@autochess.dgreen>3</>名不同【不屈】干员>地面干员被击倒时使场上所有干员<@ba.vup>技力+5</>",
             "iconId": "icon_indomShip",
             "activeCount": 2,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_indom",
             "activeType": "BATTLE",
             "identifier": 14,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_prob"
             ],
@@ -296820,11 +299508,15 @@
             "desc": "【迅捷】干员技能结束时有概率<@autochess.gray>（受层数影响）</>立刻回复<@ba.vup>10点</>技力\n<达到<@autochess.dgreen>40</>层>所有干员技能结束时有等概率额外回复<@ba.vup>15点</>技力",
             "iconId": "icon_swiftShip",
             "activeCount": 2,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_swift",
             "activeType": "BATTLE",
             "identifier": 15,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_prob"
             ],
@@ -296859,11 +299551,15 @@
             "desc": "所有干员<@ba.vup>防御力</>提升<@autochess.gray>（受层数影响）</>，<@ba.vup>再部署时间</>减少\n休整期结束时，使当前所有已激活盟约层数<@ba.vup>+2</>\n<在场<@autochess.dgreen>3</>名不同【助力】干员>改为层数<@ba.vup>+4</>",
             "iconId": "icon_deputShip",
             "activeCount": 2,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_deput",
             "activeType": "BATTLE",
             "identifier": 16,
             "weight": 0,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_def"
             ],
@@ -296898,11 +299594,15 @@
             "desc": "【灵巧】干员及周围8格干员<@ba.vup>攻击速度</>提升<@autochess.gray>（受层数影响）</>\n<达到<@autochess.dgreen>20</>层>每个休整期首次主动刷新的装备购买价格<@ba.vup>降低为1</>",
             "iconId": "icon_skillfulShip",
             "activeCount": 2,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_skillful",
             "activeType": "BATTLE",
             "identifier": 17,
             "weight": 10,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [
               "base_attack_speed"
             ],
@@ -296939,11 +299639,15 @@
             "desc": "所有干员受到的物理和法术伤害<@ba.vup>-20%</>，造成伤害提升至<@ba.vup>120%</>，若为精锐状态则改为造成伤害提升至<@ba.vup>140%</>",
             "iconId": "icon_emptyShip",
             "activeCount": 3,
+            "activeCondition": "BOARD",
+            "activeConditionTemplate": null,
+            "activeParamList": [],
             "effectId": "bondeffect_empty",
             "activeType": "BATTLE",
             "identifier": 18,
             "weight": 0,
             "isActiveInDeck": false,
+            "maxInactiveBondCount": -1,
             "descParamBaseList": [],
             "descParamPerStackList": [],
             "noStack": true,
@@ -311705,6 +314409,7 @@
             "bloodPoint": 247500,
             "bloodPointNormal": 675000,
             "bloodPointHard": 1800000,
+            "bloodPointAbyss": 0,
             "isHidingBoss": false
           },
           "boss_2": {
@@ -311714,6 +314419,7 @@
             "bloodPoint": 225000,
             "bloodPointNormal": 450000,
             "bloodPointHard": 870000,
+            "bloodPointAbyss": 0,
             "isHidingBoss": false
           },
           "boss_3": {
@@ -311723,6 +314429,7 @@
             "bloodPoint": 285000,
             "bloodPointNormal": 708750,
             "bloodPointHard": 2000000,
+            "bloodPointAbyss": 0,
             "isHidingBoss": false
           },
           "boss_4": {
@@ -311732,6 +314439,7 @@
             "bloodPoint": 307500,
             "bloodPointNormal": 708750,
             "bloodPointHard": 2100000,
+            "bloodPointAbyss": 0,
             "isHidingBoss": false
           },
           "boss_6": {
@@ -311741,6 +314449,7 @@
             "bloodPoint": 285000,
             "bloodPointNormal": 705000,
             "bloodPointHard": 1990000,
+            "bloodPointAbyss": 0,
             "isHidingBoss": false
           },
           "boss_7": {
@@ -311750,6 +314459,7 @@
             "bloodPoint": 277500,
             "bloodPointNormal": 787500,
             "bloodPointHard": 1800000,
+            "bloodPointAbyss": 0,
             "isHidingBoss": false
           },
           "boss_8": {
@@ -311759,6 +314469,7 @@
             "bloodPoint": 750000,
             "bloodPointNormal": 937500,
             "bloodPointHard": 3600000,
+            "bloodPointAbyss": 0,
             "isHidingBoss": true
           },
           "boss_9": {
@@ -311768,6 +314479,7 @@
             "bloodPoint": 675000,
             "bloodPointNormal": 900000,
             "bloodPointHard": 2800000,
+            "bloodPointAbyss": 0,
             "isHidingBoss": true
           },
           "boss_10": {
@@ -311777,6 +314489,7 @@
             "bloodPoint": 825000,
             "bloodPointNormal": 1012500,
             "bloodPointHard": 3800000,
+            "bloodPointAbyss": 0,
             "isHidingBoss": true
           }
         },
@@ -313584,7 +316297,6 @@
             "visiShip"
           ],
           "milestoneTrackId": "act1autochess_milestone_expand",
-          "bandNextUpdateTs": -1,
           "escapedBattleTemplateMapSinglePlayer": "Activities/ACT1AUTOCHESS/level_act1autochess_escaped_single",
           "escapedBattleTemplateMapMultiPlayer": "Activities/ACT1AUTOCHESS/level_act1autochess_escaped_multi",
           "webBusType": "ak_act1autochess"
@@ -313611,6 +316323,12 @@
     }
   },
   "activityItems": {
+    "act20mini": [
+      "act20mini_token_cork"
+    ],
+    "act2break": [
+      "act2break_milestone_point"
+    ],
     "act49side": [
       "act49side_token_draft"
     ],
@@ -314375,6 +317093,10 @@
       1587441600,
       1588316400,
       1589486399
+    ],
+    "act20mini": [
+      1773097200,
+      1773691199
     ],
     "act19mini": [
       1751947200,
@@ -322275,6 +324997,66 @@
       ],
       "picGroups": [],
       "startTs": 1770678000
+    },
+    {
+      "id": "dis_break_2",
+      "type": "ACTIVITY",
+      "funcId": "act2break",
+      "endTs": 1773691199,
+      "sortId": 141,
+      "itemId": null,
+      "timeNodes": [
+        {
+          "title": "<矢量突破#2 巫术之夜>活动已开放",
+          "ts": 1771920000
+        },
+        {
+          "title": "开放\"特别战线\"新关卡",
+          "ts": 1772222400
+        },
+        {
+          "title": "开放\"全力以赴\"和\"特别战线\"新关卡",
+          "ts": 1772524800
+        },
+        {
+          "title": "开放\"特别战线\"新关卡",
+          "ts": 1772740800
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1771920000
+    },
+    {
+      "id": "dis_rogue_5_enroll_3",
+      "type": "ROGUELIKE",
+      "funcId": "rogue_5_entry_display_4",
+      "endTs": 1773691199,
+      "sortId": 142,
+      "itemId": null,
+      "timeNodes": [
+        {
+          "title": "集成战略<岁的界园志异>深入探索模式已开启",
+          "ts": 1773097200
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1773097200
+    },
+    {
+      "id": "dis_mini_20",
+      "type": "ACTIVITY",
+      "funcId": "act20mini",
+      "endTs": 1773691199,
+      "sortId": 143,
+      "itemId": "act20mini_token_cork",
+      "timeNodes": [
+        {
+          "title": "<十字路口>活动已开放",
+          "ts": 1773097200
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1773097200
     }
   ],
   "actFunData": {
@@ -329882,6 +332664,17 @@
           "营地搬迁中",
           "仓库盘点中"
         ]
+      }
+    },
+    "act7FunData": {
+      "stageAdditionMap": {},
+      "easterEggData": {},
+      "spineGroupData": {},
+      "charAnimData": {},
+      "stageRewardList": [],
+      "constData": {
+        "defaultStage": null,
+        "homepageSwitchStageId": null
       }
     }
   },
@@ -350158,16 +352951,26 @@
       "V1_1": {
         "versionId": null,
         "activityId": "act1autochess",
-        "updateTime": 0,
-        "appearTimeOnMainScreen": 1763107200,
-        "disappearTimeOnMainScreen": 1763668799
+        "seasonName": "盟约",
+        "startTime": 1763107200
       },
       "V1_2": {
         "versionId": null,
         "activityId": "act1autochess",
-        "updateTime": 0,
-        "appearTimeOnMainScreen": 1764057600,
-        "disappearTimeOnMainScreen": 1764619199
+        "seasonName": "盟约",
+        "startTime": 1764057600
+      },
+      "V2_1": {
+        "versionId": null,
+        "activityId": "act2autochess",
+        "seasonName": "盟约",
+        "startTime": 1773475200
+      },
+      "V2_2": {
+        "versionId": null,
+        "activityId": "act2autochess",
+        "seasonName": "盟约",
+        "startTime": 1774598400
       }
     },
     "bandDataDict": {
@@ -350283,7 +353086,7 @@
         "bandId": "band_zumama",
         "bandName": "森蚺",
         "bandIconId": "icon_zumama",
-        "unlockDesc": "通关【同盟模拟】3次解锁"
+        "unlockDesc": "通关【联合模拟】3次解锁"
       },
       "band_yu": {
         "bandId": "band_yu",
@@ -350442,7 +353245,8 @@
         "name": "炎",
         "icon": "icon_yanShip",
         "isPower": true,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "sargonShip": {
         "bondId": "sargonShip",
@@ -350453,7 +353257,8 @@
         "name": "萨尔贡",
         "icon": "icon_sargonShip",
         "isPower": true,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "victoriaShip": {
         "bondId": "victoriaShip",
@@ -350465,7 +353270,8 @@
         "name": "维多利亚",
         "icon": "icon_victoriaShip",
         "isPower": true,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "kjeragShip": {
         "bondId": "kjeragShip",
@@ -350476,7 +353282,8 @@
         "name": "谢拉格",
         "icon": "icon_kjeragShip",
         "isPower": true,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "lateranoShip": {
         "bondId": "lateranoShip",
@@ -350487,16 +353294,8 @@
         "name": "拉特兰",
         "icon": "icon_lateranoShip",
         "isPower": true,
-        "bondOrder": 2
-      },
-      "investShip": {
-        "bondId": "investShip",
-        "bondType": "REGULAR",
-        "powerIdList": [],
-        "name": "投资人",
-        "icon": "icon_investShip",
-        "isPower": false,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "egirShip": {
         "bondId": "egirShip",
@@ -350508,7 +353307,44 @@
         "name": "阿戈尔",
         "icon": "icon_egirShip",
         "isPower": true,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
+      },
+      "siracusaShip": {
+        "bondId": "siracusaShip",
+        "bondType": "SEASON",
+        "powerIdList": [
+          "siracusa",
+          "chiave"
+        ],
+        "name": "叙拉古",
+        "icon": "icon_siracusaShip",
+        "isPower": true,
+        "bondOrder": 2,
+        "isHiddenCharList": false
+      },
+      "kazimierzShip": {
+        "bondId": "kazimierzShip",
+        "bondType": "SEASON",
+        "powerIdList": [
+          "kazimierz",
+          "pinus"
+        ],
+        "name": "卡西米尔",
+        "icon": "icon_kazimierzShip",
+        "isPower": true,
+        "bondOrder": 2,
+        "isHiddenCharList": false
+      },
+      "investShip": {
+        "bondId": "investShip",
+        "bondType": "REGULAR",
+        "powerIdList": [],
+        "name": "投资人",
+        "icon": "icon_investShip",
+        "isPower": false,
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "visiShip": {
         "bondId": "visiShip",
@@ -350517,7 +353353,8 @@
         "name": "远见",
         "icon": "icon_visiShip",
         "isPower": false,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "maniShip": {
         "bondId": "maniShip",
@@ -350526,7 +353363,8 @@
         "name": "调和",
         "icon": "icon_maniShip",
         "isPower": false,
-        "bondOrder": 1
+        "bondOrder": 1,
+        "isHiddenCharList": false
       },
       "preciShip": {
         "bondId": "preciShip",
@@ -350535,7 +353373,8 @@
         "name": "精准",
         "icon": "icon_preciShip",
         "isPower": false,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "steadShip": {
         "bondId": "steadShip",
@@ -350544,7 +353383,8 @@
         "name": "坚守",
         "icon": "icon_steadShip",
         "isPower": false,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "raidShip": {
         "bondId": "raidShip",
@@ -350553,7 +353393,8 @@
         "name": "突袭",
         "icon": "icon_raidShip",
         "isPower": false,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "miraShip": {
         "bondId": "miraShip",
@@ -350562,7 +353403,8 @@
         "name": "奇迹",
         "icon": "icon_miraShip",
         "isPower": false,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "indomShip": {
         "bondId": "indomShip",
@@ -350571,7 +353413,8 @@
         "name": "不屈",
         "icon": "icon_indomShip",
         "isPower": false,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "swiftShip": {
         "bondId": "swiftShip",
@@ -350580,7 +353423,8 @@
         "name": "迅捷",
         "icon": "icon_swiftShip",
         "isPower": false,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "deputShip": {
         "bondId": "deputShip",
@@ -350589,7 +353433,8 @@
         "name": "助力",
         "icon": "icon_deputShip",
         "isPower": false,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "skillfulShip": {
         "bondId": "skillfulShip",
@@ -350598,7 +353443,8 @@
         "name": "灵巧",
         "icon": "icon_skillfulShip",
         "isPower": false,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
       },
       "emptyShip": {
         "bondId": "emptyShip",
@@ -350607,7 +353453,38 @@
         "name": "协防干员",
         "icon": "icon_emptyShip",
         "isPower": false,
-        "bondOrder": 2
+        "bondOrder": 2,
+        "isHiddenCharList": false
+      },
+      "soloShip": {
+        "bondId": "soloShip",
+        "bondType": "REGULAR",
+        "powerIdList": [],
+        "name": "独行",
+        "icon": "icon_soloShip",
+        "isPower": false,
+        "bondOrder": 2,
+        "isHiddenCharList": false
+      },
+      "suntShip": {
+        "bondId": "suntShip",
+        "bondType": "REGULAR",
+        "powerIdList": [],
+        "name": "绝技",
+        "icon": "icon_suntShip",
+        "isPower": false,
+        "bondOrder": 2,
+        "isHiddenCharList": true
+      },
+      "arcaneShip": {
+        "bondId": "arcaneShip",
+        "bondType": "REGULAR",
+        "powerIdList": [],
+        "name": "奥术",
+        "icon": "icon_arcaneShip",
+        "isPower": false,
+        "bondOrder": 2,
+        "isHiddenCharList": false
       }
     },
     "bossInfoDict": {
@@ -350630,6 +353507,11 @@
         "bossId": "boss_4",
         "enemyId": "enemy_1521_dslily",
         "handbookEnemyId": "enemy_1521_dslily"
+      },
+      "boss_5": {
+        "bossId": "boss_5",
+        "enemyId": "enemy_2016_csphtm",
+        "handbookEnemyId": "enemy_2016_csphtm"
       },
       "boss_6": {
         "bossId": "boss_6",
@@ -350964,12 +353846,30 @@
       "token_10057_svash2_eagle3": {
         "tokenId": "token_10057_svash2_eagle3",
         "tokenDisplayType": "HIDDEN"
+      },
+      "token_10065_demetr_dmtpos": {
+        "tokenId": "token_10065_demetr_dmtpos",
+        "tokenDisplayType": "HIDDEN"
       }
     },
     "skillTriggerDataList": [
       {
-        "profession": 512,
+        "profession": 4,
         "subProfessionId": null,
+        "charId": null,
+        "skillIndex": 0,
+        "skillTriggerType": "TAKE_DAMAGE"
+      },
+      {
+        "profession": 0,
+        "subProfessionId": "bearer",
+        "charId": null,
+        "skillIndex": 0,
+        "skillTriggerType": "ALWAYS"
+      },
+      {
+        "profession": 0,
+        "subProfessionId": "tactician",
         "charId": null,
         "skillIndex": 0,
         "skillTriggerType": "ALWAYS"
@@ -351054,13 +353954,6 @@
       {
         "profession": 0,
         "subProfessionId": null,
-        "charId": "char_1044_hsgma2",
-        "skillIndex": 2,
-        "skillTriggerType": "AUTO_STOP"
-      },
-      {
-        "profession": 0,
-        "subProfessionId": null,
         "charId": "char_4145_ulpia",
         "skillIndex": 2,
         "skillTriggerType": "CUSTOM_RANGE_SEARCH_ENEMY"
@@ -351071,11 +353964,74 @@
         "charId": "char_1019_siege2",
         "skillIndex": 2,
         "skillTriggerType": "CUSTOM_RANGE_SEARCH_ENEMY"
+      },
+      {
+        "profession": 0,
+        "subProfessionId": null,
+        "charId": "char_2026_yu",
+        "skillIndex": 2,
+        "skillTriggerType": "CUSTOM_RANGE_SEARCH_ENEMY"
+      },
+      {
+        "profession": 0,
+        "subProfessionId": null,
+        "charId": "char_430_fartth",
+        "skillIndex": 2,
+        "skillTriggerType": "CUSTOM_RANGE_SEARCH_ENEMY"
+      },
+      {
+        "profession": 0,
+        "subProfessionId": null,
+        "charId": "char_4037_demetr",
+        "skillIndex": 2,
+        "skillTriggerType": "CUSTOM_RANGE_SEARCH_ENEMY"
+      },
+      {
+        "profession": 0,
+        "subProfessionId": null,
+        "charId": "char_4064_mlynar",
+        "skillIndex": 2,
+        "skillTriggerType": "CUSTOM_RANGE_SEARCH_ENEMY"
+      },
+      {
+        "profession": 0,
+        "subProfessionId": null,
+        "charId": "char_1043_leizi2",
+        "skillIndex": 2,
+        "skillTriggerType": "CUSTOM_RANGE_SEARCH_ENEMY"
+      },
+      {
+        "profession": 0,
+        "subProfessionId": null,
+        "charId": "char_1046_sbell2",
+        "skillIndex": 2,
+        "skillTriggerType": "CUSTOM_RANGE_SEARCH_ENEMY"
+      },
+      {
+        "profession": 0,
+        "subProfessionId": null,
+        "charId": "char_4080_lin",
+        "skillIndex": 2,
+        "skillTriggerType": "CUSTOM_RANGE_SEARCH_ENEMY"
+      },
+      {
+        "profession": 0,
+        "subProfessionId": null,
+        "charId": "char_2025_shu",
+        "skillIndex": 2,
+        "skillTriggerType": "TRY_SEARCH_ALLY_SKILL"
       }
     ],
     "skillRangeDict": {
       "skchr_ulpia_3": "6-1",
-      "skchr_siege2_3": "x-4"
+      "skchr_siege2_3": "x-4",
+      "skchr_yu_3": "3-15",
+      "skchr_fartth_3": "6-1",
+      "skchr_demetr_3": "x-2",
+      "skchr_mlynar_3": "3-18",
+      "skchr_leizi2_3": "2-1",
+      "skchr_sbell2_3": "x-2",
+      "skchr_lin_3": "x-2"
     },
     "prepareStateDict": {
       "aceffect_char_1": {
@@ -352203,6 +355159,18 @@
         "isFlyEnemy": true,
         "enemyBattleEffectivenessFactor": 0.4
       },
+      "enemy_1401_pogpro": {
+        "enemyKey": "enemy_1401_pogpro",
+        "level": 0,
+        "isFlyEnemy": true,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_1401_pogpro_2": {
+        "enemyKey": "enemy_1401_pogpro_2",
+        "level": 0,
+        "isFlyEnemy": true,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
       "enemy_1402_tgshd": {
         "enemyKey": "enemy_1402_tgshd",
         "level": 0,
@@ -352331,6 +355299,12 @@
       },
       "enemy_2002_bearmi_2": {
         "enemyKey": "enemy_2002_bearmi_2",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_2021_syfish": {
+        "enemyKey": "enemy_2021_syfish",
         "level": 0,
         "isFlyEnemy": false,
         "enemyBattleEffectivenessFactor": 1.0
@@ -352650,6 +355624,42 @@
         "isFlyEnemy": false,
         "enemyBattleEffectivenessFactor": 1.0
       },
+      "enemy_10118_ymgprc": {
+        "enemyKey": "enemy_10118_ymgprc",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_1512_mcmstr": {
+        "enemyKey": "enemy_1512_mcmstr",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_1539_reid": {
+        "enemyKey": "enemy_1539_reid",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_2048_smgrd": {
+        "enemyKey": "enemy_2048_smgrd",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_2050_smsha": {
+        "enemyKey": "enemy_2050_smsha",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_2052_smgia": {
+        "enemyKey": "enemy_2052_smgia",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
       "enemy_1302_ymtro_2": {
         "enemyKey": "enemy_1302_ymtro_2",
         "level": 0,
@@ -352685,12 +355695,6 @@
       },
       "enemy_1283_sgkill_2": {
         "enemyKey": "enemy_1283_sgkill_2",
-        "level": 0,
-        "isFlyEnemy": false,
-        "enemyBattleEffectivenessFactor": 0.3
-      },
-      "enemy_1172_dugago_2": {
-        "enemyKey": "enemy_1172_dugago_2",
         "level": 0,
         "isFlyEnemy": false,
         "enemyBattleEffectivenessFactor": 0.3
@@ -352791,6 +355795,372 @@
         "extraEnemyIdentifier": 27,
         "isFlyEnemy": false,
         "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10078_mprein": {
+        "enemyKey": "enemy_10078_mprein",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_10078_mprein_2": {
+        "enemyKey": "enemy_10078_mprein_2",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_10094_crstf": {
+        "enemyKey": "enemy_10094_crstf",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10094_crstf_2": {
+        "enemyKey": "enemy_10094_crstf_2",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10099_crvln": {
+        "enemyKey": "enemy_10099_crvln",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_10099_crvln_2": {
+        "enemyKey": "enemy_10099_crvln_2",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_10122_uacann": {
+        "enemyKey": "enemy_10122_uacann",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_10122_uacann_2": {
+        "enemyKey": "enemy_10122_uacann_2",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_10124_uashld": {
+        "enemyKey": "enemy_10124_uashld",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_10124_uashld_2": {
+        "enemyKey": "enemy_10124_uashld_2",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_1328_cbjedi": {
+        "enemyKey": "enemy_1328_cbjedi",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_1328_cbjedi_2": {
+        "enemyKey": "enemy_1328_cbjedi_2",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_1320_wdrrl": {
+        "enemyKey": "enemy_1320_wdrrl",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_1320_wdrrl_2": {
+        "enemyKey": "enemy_1320_wdrrl_2",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_1172_dugago": {
+        "enemyKey": "enemy_1172_dugago",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.3
+      },
+      "enemy_1172_dugago_2": {
+        "enemyKey": "enemy_1172_dugago_2",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.3
+      },
+      "enemy_1406_chghmr": {
+        "enemyKey": "enemy_1406_chghmr",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.4
+      },
+      "enemy_1406_chghmr_2": {
+        "enemyKey": "enemy_1406_chghmr_2",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.4
+      },
+      "enemy_1407_hummbd": {
+        "enemyKey": "enemy_1407_hummbd",
+        "level": 0,
+        "isFlyEnemy": true,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_1407_hummbd_2": {
+        "enemyKey": "enemy_1407_hummbd_2",
+        "level": 0,
+        "isFlyEnemy": true,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_1288_duskls": {
+        "enemyKey": "enemy_1288_duskls",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_1288_duskls_2": {
+        "enemyKey": "enemy_1288_duskls_2",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_1292_duskld": {
+        "enemyKey": "enemy_1292_duskld",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_1292_duskld_2": {
+        "enemyKey": "enemy_1292_duskld_2",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_1389_winbab": {
+        "enemyKey": "enemy_1389_winbab",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_1389_winbab_2": {
+        "enemyKey": "enemy_1389_winbab_2",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.5
+      },
+      "enemy_1381_winman": {
+        "enemyKey": "enemy_1381_winman",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_1381_winman_2": {
+        "enemyKey": "enemy_1381_winman_2",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_1387_winshd": {
+        "enemyKey": "enemy_1387_winshd",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_1387_winshd_2": {
+        "enemyKey": "enemy_1387_winshd_2",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_1325_cbgpro": {
+        "enemyKey": "enemy_1325_cbgpro",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_1325_cbgpro_2": {
+        "enemyKey": "enemy_1325_cbgpro_2",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 0.7
+      },
+      "enemy_10138_xdsnow": {
+        "enemyKey": "enemy_10138_xdsnow",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10156_mncrer": {
+        "enemyKey": "enemy_10156_mncrer",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10112_ymgds": {
+        "enemyKey": "enemy_10112_ymgds",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10159_mntrjn": {
+        "enemyKey": "enemy_10159_mntrjn",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10162_mnctpt": {
+        "enemyKey": "enemy_10162_mnctpt",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10116_ymgtop": {
+        "enemyKey": "enemy_10116_ymgtop",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10073_mpcar": {
+        "enemyKey": "enemy_10073_mpcar",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10087_hlchgr": {
+        "enemyKey": "enemy_10087_hlchgr",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10070_ftkbtt": {
+        "enemyKey": "enemy_10070_ftkbtt",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10098_crhro": {
+        "enemyKey": "enemy_10098_crhro",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10040_cnvbln": {
+        "enemyKey": "enemy_10040_cnvbln",
+        "level": 0,
+        "isFlyEnemy": true,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10001_trslim": {
+        "enemyKey": "enemy_10001_trslim",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_1165_duhond_2": {
+        "enemyKey": "enemy_1165_duhond_2",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10045_parrot": {
+        "enemyKey": "enemy_10045_parrot",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10044_wintun": {
+        "enemyKey": "enemy_10044_wintun",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10018_sgrobh": {
+        "enemyKey": "enemy_10018_sgrobh",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_1183_mlasrt": {
+        "enemyKey": "enemy_1183_mlasrt",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10054_cjhot": {
+        "enemyKey": "enemy_10054_cjhot",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_1021_bslime": {
+        "enemyKey": "enemy_1021_bslime",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_2009_csaudc": {
+        "enemyKey": "enemy_2009_csaudc",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_2010_csdcr": {
+        "enemyKey": "enemy_2010_csdcr",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_2011_csppt": {
+        "enemyKey": "enemy_2011_csppt",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_1072_dlancer": {
+        "enemyKey": "enemy_1072_dlancer",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10144_xdelk_2": {
+        "enemyKey": "enemy_10144_xdelk_2",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10151_nspace_2": {
+        "enemyKey": "enemy_10151_nspace_2",
+        "level": 0,
+        "isFlyEnemy": true,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10141_xdpeng_2": {
+        "enemyKey": "enemy_10141_xdpeng_2",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10127_rkmbst_2": {
+        "enemyKey": "enemy_10127_rkmbst_2",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10097_crshd": {
+        "enemyKey": "enemy_10097_crshd",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
+      },
+      "enemy_10081_mpplai": {
+        "enemyKey": "enemy_10081_mpplai",
+        "level": 0,
+        "isFlyEnemy": false,
+        "enemyBattleEffectivenessFactor": 1.0
       }
     },
     "enabledEmoticonThemeIdList": [
@@ -352824,10 +356194,6 @@
       },
       {
         "tip": "一些特殊的盟约不需要部署干员也能激活生效",
-        "weight": 50
-      },
-      {
-        "tip": "调度中心会在升至5级后开始售卖装备",
         "weight": 50
       },
       {
@@ -352880,10 +356246,6 @@
       },
       {
         "tip": "最终攻势中，所有人将一起对敌方领袖造成伤害",
-        "weight": 50
-      },
-      {
-        "tip": "最终攻势中，敌方领袖不会受到侵蚀损伤",
         "weight": 50
       },
       {
@@ -352991,36 +356353,6 @@
         },
         "9": {
           "round": 9,
-          "normalPhaseTime": 300,
-          "isBossTurn": false,
-          "bossTurnHpReduceTime": 0
-        },
-        "10": {
-          "round": 10,
-          "normalPhaseTime": 300,
-          "isBossTurn": false,
-          "bossTurnHpReduceTime": 0
-        },
-        "11": {
-          "round": 11,
-          "normalPhaseTime": 300,
-          "isBossTurn": false,
-          "bossTurnHpReduceTime": 0
-        },
-        "12": {
-          "round": 12,
-          "normalPhaseTime": 300,
-          "isBossTurn": false,
-          "bossTurnHpReduceTime": 0
-        },
-        "13": {
-          "round": 13,
-          "normalPhaseTime": 300,
-          "isBossTurn": false,
-          "bossTurnHpReduceTime": 0
-        },
-        "14": {
-          "round": 14,
           "normalPhaseTime": 300,
           "isBossTurn": true,
           "bossTurnHpReduceTime": 150
@@ -353210,34 +356542,126 @@
           "bossTurnHpReduceTime": 150
         }
       },
-      "mode_multi_funny": {
+      "mode_single_abyss": {
         "1": {
           "round": 1,
-          "normalPhaseTime": 70,
+          "normalPhaseTime": 300,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "2": {
           "round": 2,
-          "normalPhaseTime": 70,
+          "normalPhaseTime": 300,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "3": {
           "round": 3,
-          "normalPhaseTime": 70,
+          "normalPhaseTime": 300,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "4": {
           "round": 4,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 300,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "5": {
           "round": 5,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 300,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "6": {
+          "round": 6,
+          "normalPhaseTime": 300,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "7": {
+          "round": 7,
+          "normalPhaseTime": 300,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "8": {
+          "round": 8,
+          "normalPhaseTime": 300,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "9": {
+          "round": 9,
+          "normalPhaseTime": 300,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "10": {
+          "round": 10,
+          "normalPhaseTime": 300,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "11": {
+          "round": 11,
+          "normalPhaseTime": 300,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "12": {
+          "round": 12,
+          "normalPhaseTime": 300,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "13": {
+          "round": 13,
+          "normalPhaseTime": 300,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "14": {
+          "round": 14,
+          "normalPhaseTime": 300,
+          "isBossTurn": true,
+          "bossTurnHpReduceTime": 150
+        },
+        "15": {
+          "round": 15,
+          "normalPhaseTime": 300,
+          "isBossTurn": true,
+          "bossTurnHpReduceTime": 150
+        }
+      },
+      "mode_multi_funny": {
+        "1": {
+          "round": 1,
+          "normalPhaseTime": 65,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "2": {
+          "round": 2,
+          "normalPhaseTime": 65,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "3": {
+          "round": 3,
+          "normalPhaseTime": 65,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "4": {
+          "round": 4,
+          "normalPhaseTime": 95,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "5": {
+          "round": 5,
+          "normalPhaseTime": 95,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
@@ -353249,49 +356673,49 @@
         },
         "7": {
           "round": 7,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 105,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "8": {
           "round": 8,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 105,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "9": {
           "round": 9,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "10": {
           "round": 10,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "11": {
           "round": 11,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "12": {
           "round": 12,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "13": {
           "round": 13,
-          "normalPhaseTime": 140,
+          "normalPhaseTime": 150,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "14": {
           "round": 14,
-          "normalPhaseTime": 210,
+          "normalPhaseTime": 195,
           "isBossTurn": true,
           "bossTurnHpReduceTime": 150
         }
@@ -353299,31 +356723,31 @@
       "mode_multi_normal": {
         "1": {
           "round": 1,
-          "normalPhaseTime": 70,
+          "normalPhaseTime": 65,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "2": {
           "round": 2,
-          "normalPhaseTime": 70,
+          "normalPhaseTime": 65,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "3": {
           "round": 3,
-          "normalPhaseTime": 70,
+          "normalPhaseTime": 65,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "4": {
           "round": 4,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 95,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "5": {
           "round": 5,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 95,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
@@ -353335,55 +356759,55 @@
         },
         "7": {
           "round": 7,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 105,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "8": {
           "round": 8,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 105,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "9": {
           "round": 9,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "10": {
           "round": 10,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "11": {
           "round": 11,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "12": {
           "round": 12,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "13": {
           "round": 13,
-          "normalPhaseTime": 140,
+          "normalPhaseTime": 150,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "14": {
           "round": 14,
-          "normalPhaseTime": 190,
+          "normalPhaseTime": 195,
           "isBossTurn": true,
           "bossTurnHpReduceTime": 150
         },
         "15": {
           "round": 15,
-          "normalPhaseTime": 210,
+          "normalPhaseTime": 195,
           "isBossTurn": true,
           "bossTurnHpReduceTime": 150
         }
@@ -353391,31 +356815,31 @@
       "mode_multi_hard": {
         "1": {
           "round": 1,
-          "normalPhaseTime": 70,
+          "normalPhaseTime": 65,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "2": {
           "round": 2,
-          "normalPhaseTime": 70,
+          "normalPhaseTime": 65,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "3": {
           "round": 3,
-          "normalPhaseTime": 70,
+          "normalPhaseTime": 65,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "4": {
           "round": 4,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 95,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "5": {
           "round": 5,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 95,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
@@ -353427,55 +356851,147 @@
         },
         "7": {
           "round": 7,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 105,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "8": {
           "round": 8,
-          "normalPhaseTime": 100,
+          "normalPhaseTime": 105,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "9": {
           "round": 9,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "10": {
           "round": 10,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "11": {
           "round": 11,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "12": {
           "round": 12,
-          "normalPhaseTime": 120,
+          "normalPhaseTime": 125,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "13": {
           "round": 13,
-          "normalPhaseTime": 140,
+          "normalPhaseTime": 150,
           "isBossTurn": false,
           "bossTurnHpReduceTime": 0
         },
         "14": {
           "round": 14,
-          "normalPhaseTime": 190,
+          "normalPhaseTime": 195,
           "isBossTurn": true,
           "bossTurnHpReduceTime": 150
         },
         "15": {
           "round": 15,
-          "normalPhaseTime": 210,
+          "normalPhaseTime": 215,
+          "isBossTurn": true,
+          "bossTurnHpReduceTime": 150
+        }
+      },
+      "mode_multi_abyss": {
+        "1": {
+          "round": 1,
+          "normalPhaseTime": 65,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "2": {
+          "round": 2,
+          "normalPhaseTime": 65,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "3": {
+          "round": 3,
+          "normalPhaseTime": 65,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "4": {
+          "round": 4,
+          "normalPhaseTime": 95,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "5": {
+          "round": 5,
+          "normalPhaseTime": 95,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "6": {
+          "round": 6,
+          "normalPhaseTime": 100,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "7": {
+          "round": 7,
+          "normalPhaseTime": 105,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "8": {
+          "round": 8,
+          "normalPhaseTime": 105,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "9": {
+          "round": 9,
+          "normalPhaseTime": 125,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "10": {
+          "round": 10,
+          "normalPhaseTime": 125,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "11": {
+          "round": 11,
+          "normalPhaseTime": 125,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "12": {
+          "round": 12,
+          "normalPhaseTime": 125,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "13": {
+          "round": 13,
+          "normalPhaseTime": 150,
+          "isBossTurn": false,
+          "bossTurnHpReduceTime": 0
+        },
+        "14": {
+          "round": 14,
+          "normalPhaseTime": 195,
+          "isBossTurn": true,
+          "bossTurnHpReduceTime": 150
+        },
+        "15": {
+          "round": 15,
+          "normalPhaseTime": 215,
           "isBossTurn": true,
           "bossTurnHpReduceTime": 150
         }
@@ -353650,7 +357166,7 @@
       },
       {
         "id": "comment_shop_level_1",
-        "desc": "<@ba.vup>{0}博士</>将商店等级提升为{1}级",
+        "desc": "<@ba.vup>{0}博士</>将调度中心等级提升为{1}级",
         "priority": 11,
         "type": "SHOP_LEVEL",
         "paramList": [
@@ -353659,7 +357175,7 @@
       },
       {
         "id": "comment_shop_level_2",
-        "desc": "<@ba.vup>{0}博士</>将商店等级提升为{1}级",
+        "desc": "<@ba.vup>{0}博士</>将调度中心等级提升为{1}级",
         "priority": 11,
         "type": "SHOP_LEVEL",
         "paramList": [
@@ -353668,7 +357184,7 @@
       },
       {
         "id": "comment_shop_level_3",
-        "desc": "<@ba.vup>{0}博士</>将商店等级提升为{1}级",
+        "desc": "<@ba.vup>{0}博士</>将调度中心等级提升为{1}级",
         "priority": 11,
         "type": "SHOP_LEVEL",
         "paramList": [
@@ -353677,7 +357193,7 @@
       },
       {
         "id": "comment_shop_level_4",
-        "desc": "<@ba.vup>{0}博士</>将商店等级提升为{1}级",
+        "desc": "<@ba.vup>{0}博士</>将调度中心等级提升为{1}级",
         "priority": 11,
         "type": "SHOP_LEVEL",
         "paramList": [
@@ -353686,7 +357202,7 @@
       },
       {
         "id": "comment_shop_level_5",
-        "desc": "<@ba.vup>{0}博士</>将商店等级提升为{1}级",
+        "desc": "<@ba.vup>{0}博士</>将调度中心等级提升为{1}级",
         "priority": 11,
         "type": "SHOP_LEVEL",
         "paramList": [
@@ -353748,6 +357264,7 @@
       "enemyAtkFactor": 5.0,
       "enemyDefFactor": 3.0,
       "enemyMagicResistanceFactor": 3.0,
+      "singleReconnectTime": 86400,
       "specialPhaseStayTime": 1,
       "hintTimeSpecialPhase": 10,
       "hintTimeNormalPhase": 10,
@@ -353766,7 +357283,8 @@
       ],
       "bossTrailerStartRound": 3,
       "singleClosureStayTime": 15.0,
-      "matchTimeMax": 120.0
+      "matchTimeMax": 120.0,
+      "enemyDataLevelId": "Activities/ACT1AUTOCHESS/level_autochess_enemy_data"
     }
   },
   "stringRes": {
@@ -354926,6 +358444,17 @@
     }
   },
   "activityCrossDayTrackTypeDataDict": {
+    "act2break_milestone_expand": {
+      "type": "act2break_milestone_expand",
+      "startTs": 1772524799,
+      "expireTs": 1773950399,
+      "dataDict": {
+        "milestone_expand": {
+          "updateEndTs": 1772567999,
+          "id": "milestone_expand"
+        }
+      }
+    },
     "act1autochess_milestone_expand": {
       "type": "act1autochess_milestone_expand",
       "startTs": 1764057600,
@@ -355368,6 +358897,9 @@
     }
   },
   "activityCrossDayTrackTypeMap": {
+    "act2break": [
+      "act2break_milestone_expand"
+    ],
     "act1autochess": [
       "act1autochess_milestone_expand"
     ],

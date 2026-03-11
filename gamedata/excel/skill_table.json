@@ -86876,6 +86876,600 @@
       }
     ]
   },
+  "skchr_liesel_1": {
+    "skillId": "skchr_liesel_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "合奏起拍",
+        "rangeId": null,
+        "description": "下一次攻击溅射范围<@ba.vup>扩大</>，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n<@ba.rem>可充能1次</>",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 9,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_liesel_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.2
+          }
+        ]
+      },
+      {
+        "name": "合奏起拍",
+        "rangeId": null,
+        "description": "下一次攻击溅射范围<@ba.vup>扩大</>，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n<@ba.rem>可充能1次</>",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 9,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_liesel_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.3
+          }
+        ]
+      },
+      {
+        "name": "合奏起拍",
+        "rangeId": null,
+        "description": "下一次攻击溅射范围<@ba.vup>扩大</>，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n<@ba.rem>可充能1次</>",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 9,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_liesel_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.4
+          }
+        ]
+      },
+      {
+        "name": "合奏起拍",
+        "rangeId": null,
+        "description": "下一次攻击溅射范围<@ba.vup>扩大</>，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n<@ba.rem>可充能1次</>",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 9,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_liesel_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.5
+          }
+        ]
+      },
+      {
+        "name": "合奏起拍",
+        "rangeId": null,
+        "description": "下一次攻击溅射范围<@ba.vup>扩大</>，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n<@ba.rem>可充能1次</>",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 9,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_liesel_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.6
+          }
+        ]
+      },
+      {
+        "name": "合奏起拍",
+        "rangeId": null,
+        "description": "下一次攻击溅射范围<@ba.vup>扩大</>，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n<@ba.rem>可充能1次</>",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 9,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_liesel_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.7
+          }
+        ]
+      },
+      {
+        "name": "合奏起拍",
+        "rangeId": null,
+        "description": "下一次攻击溅射范围<@ba.vup>扩大</>，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n<@ba.rem>可充能2次</>",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 2,
+          "spCost": 8,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_liesel_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.8
+          }
+        ]
+      },
+      {
+        "name": "合奏起拍",
+        "rangeId": null,
+        "description": "下一次攻击溅射范围<@ba.vup>扩大</>，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n<@ba.rem>可充能2次</>",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 2,
+          "spCost": 8,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_liesel_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.9
+          }
+        ]
+      },
+      {
+        "name": "合奏起拍",
+        "rangeId": null,
+        "description": "下一次攻击溅射范围<@ba.vup>扩大</>，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n<@ba.rem>可充能2次</>",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 2,
+          "spCost": 8,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_liesel_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 2.0
+          }
+        ]
+      },
+      {
+        "name": "合奏起拍",
+        "rangeId": null,
+        "description": "下一次攻击溅射范围<@ba.vup>扩大</>，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n<@ba.rem>可充能2次</>",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 2,
+          "spCost": 7,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_liesel_1",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 2.1
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_liesel_2": {
+    "skillId": "skchr_liesel_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "直到终曲",
+        "rangeId": null,
+        "description": "溅射范围<@ba.vup>扩大</>且立即对攻击范围内<@ba.vup>3</>个目标造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害，并使攻击到的所有敌人在6秒内每秒受到相当于复奏攻击力<@ba.vup>{liesel_s_2[dot].atk_scale:0%}</>的法术伤害",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 17,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_liesel_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.05
+          },
+          {
+            "key": "max_target_cnt",
+            "value": 3.0
+          },
+          {
+            "key": "liesel_s_2[dot].duration",
+            "value": 6.0
+          },
+          {
+            "key": "liesel_s_2[dot].atk_scale",
+            "value": 0.1
+          }
+        ]
+      },
+      {
+        "name": "直到终曲",
+        "rangeId": null,
+        "description": "溅射范围<@ba.vup>扩大</>且立即对攻击范围内<@ba.vup>3</>个目标造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害，并使攻击到的所有敌人在6秒内每秒受到相当于复奏攻击力<@ba.vup>{liesel_s_2[dot].atk_scale:0%}</>的法术伤害",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 16,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_liesel_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.1
+          },
+          {
+            "key": "max_target_cnt",
+            "value": 3.0
+          },
+          {
+            "key": "liesel_s_2[dot].duration",
+            "value": 6.0
+          },
+          {
+            "key": "liesel_s_2[dot].atk_scale",
+            "value": 0.1
+          }
+        ]
+      },
+      {
+        "name": "直到终曲",
+        "rangeId": null,
+        "description": "溅射范围<@ba.vup>扩大</>且立即对攻击范围内<@ba.vup>3</>个目标造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害，并使攻击到的所有敌人在6秒内每秒受到相当于复奏攻击力<@ba.vup>{liesel_s_2[dot].atk_scale:0%}</>的法术伤害",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 16,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_liesel_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.2
+          },
+          {
+            "key": "max_target_cnt",
+            "value": 3.0
+          },
+          {
+            "key": "liesel_s_2[dot].duration",
+            "value": 6.0
+          },
+          {
+            "key": "liesel_s_2[dot].atk_scale",
+            "value": 0.1
+          }
+        ]
+      },
+      {
+        "name": "直到终曲",
+        "rangeId": null,
+        "description": "溅射范围<@ba.vup>扩大</>且立即对攻击范围内<@ba.vup>3</>个目标造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害，并使攻击到的所有敌人在6秒内每秒受到相当于复奏攻击力<@ba.vup>{liesel_s_2[dot].atk_scale:0%}</>的法术伤害",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_liesel_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.3
+          },
+          {
+            "key": "max_target_cnt",
+            "value": 3.0
+          },
+          {
+            "key": "liesel_s_2[dot].duration",
+            "value": 6.0
+          },
+          {
+            "key": "liesel_s_2[dot].atk_scale",
+            "value": 0.15
+          }
+        ]
+      },
+      {
+        "name": "直到终曲",
+        "rangeId": null,
+        "description": "溅射范围<@ba.vup>扩大</>且立即对攻击范围内<@ba.vup>3</>个目标造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害，并使攻击到的所有敌人在6秒内每秒受到相当于复奏攻击力<@ba.vup>{liesel_s_2[dot].atk_scale:0%}</>的法术伤害",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 15,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_liesel_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.4
+          },
+          {
+            "key": "max_target_cnt",
+            "value": 3.0
+          },
+          {
+            "key": "liesel_s_2[dot].duration",
+            "value": 6.0
+          },
+          {
+            "key": "liesel_s_2[dot].atk_scale",
+            "value": 0.2
+          }
+        ]
+      },
+      {
+        "name": "直到终曲",
+        "rangeId": null,
+        "description": "溅射范围<@ba.vup>扩大</>且立即对攻击范围内<@ba.vup>3</>个目标造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害，并使攻击到的所有敌人在6秒内每秒受到相当于复奏攻击力<@ba.vup>{liesel_s_2[dot].atk_scale:0%}</>的法术伤害",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 14,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_liesel_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.5
+          },
+          {
+            "key": "max_target_cnt",
+            "value": 3.0
+          },
+          {
+            "key": "liesel_s_2[dot].duration",
+            "value": 6.0
+          },
+          {
+            "key": "liesel_s_2[dot].atk_scale",
+            "value": 0.25
+          }
+        ]
+      },
+      {
+        "name": "直到终曲",
+        "rangeId": null,
+        "description": "溅射范围<@ba.vup>扩大</>且立即对攻击范围内<@ba.vup>3</>个目标造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害，并使攻击到的所有敌人在6秒内每秒受到相当于复奏攻击力<@ba.vup>{liesel_s_2[dot].atk_scale:0%}</>的法术伤害",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 13,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_liesel_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.6
+          },
+          {
+            "key": "max_target_cnt",
+            "value": 3.0
+          },
+          {
+            "key": "liesel_s_2[dot].duration",
+            "value": 6.0
+          },
+          {
+            "key": "liesel_s_2[dot].atk_scale",
+            "value": 0.3
+          }
+        ]
+      },
+      {
+        "name": "直到终曲",
+        "rangeId": null,
+        "description": "溅射范围<@ba.vup>扩大</>且立即对攻击范围内<@ba.vup>3</>个目标造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害，并使攻击到的所有敌人在6秒内每秒受到相当于复奏攻击力<@ba.vup>{liesel_s_2[dot].atk_scale:0%}</>的法术伤害",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 13,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_liesel_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.7
+          },
+          {
+            "key": "max_target_cnt",
+            "value": 3.0
+          },
+          {
+            "key": "liesel_s_2[dot].duration",
+            "value": 6.0
+          },
+          {
+            "key": "liesel_s_2[dot].atk_scale",
+            "value": 0.3
+          }
+        ]
+      },
+      {
+        "name": "直到终曲",
+        "rangeId": null,
+        "description": "溅射范围<@ba.vup>扩大</>且立即对攻击范围内<@ba.vup>3</>个目标造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害，并使攻击到的所有敌人在6秒内每秒受到相当于复奏攻击力<@ba.vup>{liesel_s_2[dot].atk_scale:0%}</>的法术伤害",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 13,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_liesel_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.75
+          },
+          {
+            "key": "max_target_cnt",
+            "value": 3.0
+          },
+          {
+            "key": "liesel_s_2[dot].duration",
+            "value": 6.0
+          },
+          {
+            "key": "liesel_s_2[dot].atk_scale",
+            "value": 0.35
+          }
+        ]
+      },
+      {
+        "name": "直到终曲",
+        "rangeId": null,
+        "description": "溅射范围<@ba.vup>扩大</>且立即对攻击范围内<@ba.vup>3</>个目标造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害，并使攻击到的所有敌人在6秒内每秒受到相当于复奏攻击力<@ba.vup>{liesel_s_2[dot].atk_scale:0%}</>的法术伤害",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 12,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_liesel_2",
+        "duration": -1.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.8
+          },
+          {
+            "key": "max_target_cnt",
+            "value": 3.0
+          },
+          {
+            "key": "liesel_s_2[dot].duration",
+            "value": 6.0
+          },
+          {
+            "key": "liesel_s_2[dot].atk_scale",
+            "value": 0.35
+          }
+        ]
+      }
+    ]
+  },
   "skchr_tecno_1": {
     "skillId": "skchr_tecno_1",
     "iconId": null,
@@ -247989,7 +248583,7 @@
         "rangeId": "4-12",
         "description": "被动效果：棋子的触发和伤害范围扩大，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n主动效果：<@ba.vdown>停止攻击</>但<@ba.vup>攻击范围扩大</>；立即获得<@ba.vup>{cnt}</>枚棋子，然后将超出上限的棋子<@ba.vup>优先部署在范围内敌人所在位置</>；在攻击范围内手动部署棋子时可<@ba.vup>部署至敌人所在位置</>，且第一天赋<@ba.vup>额外至多部署3枚棋子</>并消耗等量弹药\\n<@ba.rem>装有{trigger_time}发弹药，手动停止或棋子耗尽后技能结束，剩余的弹药返还为棋子</>",
         "skillType": 1,
-        "durationType": 0,
+        "durationType": 1,
         "spData": {
           "spType": 1,
           "levelUpCost": null,
@@ -248024,7 +248618,7 @@
         "rangeId": "4-12",
         "description": "被动效果：棋子的触发和伤害范围扩大，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n主动效果：<@ba.vdown>停止攻击</>但<@ba.vup>攻击范围扩大</>；立即获得<@ba.vup>{cnt}</>枚棋子，然后将超出上限的棋子<@ba.vup>优先部署在范围内敌人所在位置</>；在攻击范围内手动部署棋子时可<@ba.vup>部署至敌人所在位置</>，且第一天赋<@ba.vup>额外至多部署3枚棋子</>并消耗等量弹药\\n<@ba.rem>装有{trigger_time}发弹药，手动停止或棋子耗尽后技能结束，剩余的弹药返还为棋子</>",
         "skillType": 1,
-        "durationType": 0,
+        "durationType": 1,
         "spData": {
           "spType": 1,
           "levelUpCost": null,
@@ -248059,7 +248653,7 @@
         "rangeId": "4-12",
         "description": "被动效果：棋子的触发和伤害范围扩大，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n主动效果：<@ba.vdown>停止攻击</>但<@ba.vup>攻击范围扩大</>；立即获得<@ba.vup>{cnt}</>枚棋子，然后将超出上限的棋子<@ba.vup>优先部署在范围内敌人所在位置</>；在攻击范围内手动部署棋子时可<@ba.vup>部署至敌人所在位置</>，且第一天赋<@ba.vup>额外至多部署3枚棋子</>并消耗等量弹药\\n<@ba.rem>装有{trigger_time}发弹药，手动停止或棋子耗尽后技能结束，剩余的弹药返还为棋子</>",
         "skillType": 1,
-        "durationType": 0,
+        "durationType": 1,
         "spData": {
           "spType": 1,
           "levelUpCost": null,
@@ -248094,7 +248688,7 @@
         "rangeId": "4-12",
         "description": "被动效果：棋子的触发和伤害范围扩大，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n主动效果：<@ba.vdown>停止攻击</>但<@ba.vup>攻击范围扩大</>；立即获得<@ba.vup>{cnt}</>枚棋子，然后将超出上限的棋子<@ba.vup>优先部署在范围内敌人所在位置</>；在攻击范围内手动部署棋子时可<@ba.vup>部署至敌人所在位置</>，且第一天赋<@ba.vup>额外至多部署3枚棋子</>并消耗等量弹药\\n<@ba.rem>装有{trigger_time}发弹药，手动停止或棋子耗尽后技能结束，剩余的弹药返还为棋子</>",
         "skillType": 1,
-        "durationType": 0,
+        "durationType": 1,
         "spData": {
           "spType": 1,
           "levelUpCost": null,
@@ -248129,7 +248723,7 @@
         "rangeId": "4-12",
         "description": "被动效果：棋子的触发和伤害范围扩大，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n主动效果：<@ba.vdown>停止攻击</>但<@ba.vup>攻击范围扩大</>；立即获得<@ba.vup>{cnt}</>枚棋子，然后将超出上限的棋子<@ba.vup>优先部署在范围内敌人所在位置</>；在攻击范围内手动部署棋子时可<@ba.vup>部署至敌人所在位置</>，且第一天赋<@ba.vup>额外至多部署3枚棋子</>并消耗等量弹药\\n<@ba.rem>装有{trigger_time}发弹药，手动停止或棋子耗尽后技能结束，剩余的弹药返还为棋子</>",
         "skillType": 1,
-        "durationType": 0,
+        "durationType": 1,
         "spData": {
           "spType": 1,
           "levelUpCost": null,
@@ -248164,7 +248758,7 @@
         "rangeId": "4-12",
         "description": "被动效果：棋子的触发和伤害范围扩大，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n主动效果：<@ba.vdown>停止攻击</>但<@ba.vup>攻击范围扩大</>；立即获得<@ba.vup>{cnt}</>枚棋子，然后将超出上限的棋子<@ba.vup>优先部署在范围内敌人所在位置</>；在攻击范围内手动部署棋子时可<@ba.vup>部署至敌人所在位置</>，且第一天赋<@ba.vup>额外至多部署3枚棋子</>并消耗等量弹药\\n<@ba.rem>装有{trigger_time}发弹药，手动停止或棋子耗尽后技能结束，剩余的弹药返还为棋子</>",
         "skillType": 1,
-        "durationType": 0,
+        "durationType": 1,
         "spData": {
           "spType": 1,
           "levelUpCost": null,
@@ -248199,7 +248793,7 @@
         "rangeId": "4-12",
         "description": "被动效果：棋子的触发和伤害范围扩大，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n主动效果：<@ba.vdown>停止攻击</>但<@ba.vup>攻击范围扩大</>；立即获得<@ba.vup>{cnt}</>枚棋子，然后将超出上限的棋子<@ba.vup>优先部署在范围内敌人所在位置</>；在攻击范围内手动部署棋子时可<@ba.vup>部署至敌人所在位置</>，且第一天赋<@ba.vup>额外至多部署3枚棋子</>并消耗等量弹药\\n<@ba.rem>装有{trigger_time}发弹药，手动停止或棋子耗尽后技能结束，剩余的弹药返还为棋子</>",
         "skillType": 1,
-        "durationType": 0,
+        "durationType": 1,
         "spData": {
           "spType": 1,
           "levelUpCost": null,
@@ -248234,7 +248828,7 @@
         "rangeId": "4-12",
         "description": "被动效果：棋子的触发和伤害范围扩大，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n主动效果：<@ba.vdown>停止攻击</>但<@ba.vup>攻击范围扩大</>；立即获得<@ba.vup>{cnt}</>枚棋子，然后将超出上限的棋子<@ba.vup>优先部署在范围内敌人所在位置</>；在攻击范围内手动部署棋子时可<@ba.vup>部署至敌人所在位置</>，且第一天赋<@ba.vup>额外至多部署3枚棋子</>并消耗等量弹药\\n<@ba.rem>装有{trigger_time}发弹药，手动停止或棋子耗尽后技能结束，剩余的弹药返还为棋子</>",
         "skillType": 1,
-        "durationType": 0,
+        "durationType": 1,
         "spData": {
           "spType": 1,
           "levelUpCost": null,
@@ -248269,7 +248863,7 @@
         "rangeId": "4-12",
         "description": "被动效果：棋子的触发和伤害范围扩大，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n主动效果：<@ba.vdown>停止攻击</>但<@ba.vup>攻击范围扩大</>；立即获得<@ba.vup>{cnt}</>枚棋子，然后将超出上限的棋子<@ba.vup>优先部署在范围内敌人所在位置</>；在攻击范围内手动部署棋子时可<@ba.vup>部署至敌人所在位置</>，且第一天赋<@ba.vup>额外至多部署3枚棋子</>并消耗等量弹药\\n<@ba.rem>装有{trigger_time}发弹药，手动停止或棋子耗尽后技能结束，剩余的弹药返还为棋子</>",
         "skillType": 1,
-        "durationType": 0,
+        "durationType": 1,
         "spData": {
           "spType": 1,
           "levelUpCost": null,
@@ -248304,7 +248898,7 @@
         "rangeId": "4-12",
         "description": "被动效果：棋子的触发和伤害范围扩大，造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害\\n主动效果：<@ba.vdown>停止攻击</>但<@ba.vup>攻击范围扩大</>；立即获得<@ba.vup>{cnt}</>枚棋子，然后将超出上限的棋子<@ba.vup>优先部署在范围内敌人所在位置</>；在攻击范围内手动部署棋子时可<@ba.vup>部署至敌人所在位置</>，且第一天赋<@ba.vup>额外至多部署3枚棋子</>并消耗等量弹药\\n<@ba.rem>装有{trigger_time}发弹药，手动停止或棋子耗尽后技能结束，剩余的弹药返还为棋子</>",
         "skillType": 1,
-        "durationType": 0,
+        "durationType": 1,
         "spData": {
           "spType": 1,
           "levelUpCost": null,
@@ -279864,6 +280458,1037 @@
       }
     ]
   },
+  "skchr_demetr_1": {
+    "skillId": "skchr_demetr_1",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "家主的余裕",
+        "rangeId": null,
+        "description": "下次攻击对目标造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 2,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_1",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.5
+          }
+        ]
+      },
+      {
+        "name": "家主的余裕",
+        "rangeId": null,
+        "description": "下次攻击对目标造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 2,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_1",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.6
+          }
+        ]
+      },
+      {
+        "name": "家主的余裕",
+        "rangeId": null,
+        "description": "下次攻击对目标造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 2,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 5,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_1",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.7
+          }
+        ]
+      },
+      {
+        "name": "家主的余裕",
+        "rangeId": null,
+        "description": "下次攻击对目标造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 2,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 4,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_1",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.8
+          }
+        ]
+      },
+      {
+        "name": "家主的余裕",
+        "rangeId": null,
+        "description": "下次攻击对目标造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 2,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 4,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_1",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 1.9
+          }
+        ]
+      },
+      {
+        "name": "家主的余裕",
+        "rangeId": null,
+        "description": "下次攻击对目标造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 2,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 4,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_1",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 2.0
+          }
+        ]
+      },
+      {
+        "name": "家主的余裕",
+        "rangeId": null,
+        "description": "下次攻击对目标造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 2,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 4,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_1",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 2.1
+          }
+        ]
+      },
+      {
+        "name": "家主的余裕",
+        "rangeId": null,
+        "description": "下次攻击对目标造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 2,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 4,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_1",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 2.2
+          }
+        ]
+      },
+      {
+        "name": "家主的余裕",
+        "rangeId": null,
+        "description": "下次攻击对目标造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 2,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 4,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_1",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 2.3
+          }
+        ]
+      },
+      {
+        "name": "家主的余裕",
+        "rangeId": null,
+        "description": "下次攻击对目标造成两次相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害",
+        "skillType": 2,
+        "durationType": 0,
+        "spData": {
+          "spType": 2,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 3,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_1",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "atk_scale",
+            "value": 2.5
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_demetr_2": {
+    "skillId": "skchr_demetr_2",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "军师的手段",
+        "rangeId": "3-13",
+        "description": "攻击范围扩大，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击对<@ba.vup>{attack@max_target}</>名目标造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害；技能期间第一天赋使目标防御力降低的效果改为最多叠加<@ba.vup>8</>次，并且叠满后对目标造成持续的<$ba.sluggish>停顿</>效果",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 32,
+          "initSp": 14,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_2",
+        "duration": 12.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.4
+          },
+          {
+            "key": "attack@max_target",
+            "value": 2.0
+          },
+          {
+            "key": "attack_speed",
+            "value": 30.0
+          }
+        ]
+      },
+      {
+        "name": "军师的手段",
+        "rangeId": "3-13",
+        "description": "攻击范围扩大，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击对<@ba.vup>{attack@max_target}</>名目标造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害；技能期间第一天赋使目标防御力降低的效果改为最多叠加<@ba.vup>8</>次，并且叠满后对目标造成持续的<$ba.sluggish>停顿</>效果",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 31,
+          "initSp": 14,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_2",
+        "duration": 12.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.45
+          },
+          {
+            "key": "attack@max_target",
+            "value": 2.0
+          },
+          {
+            "key": "attack_speed",
+            "value": 30.0
+          }
+        ]
+      },
+      {
+        "name": "军师的手段",
+        "rangeId": "3-13",
+        "description": "攻击范围扩大，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击对<@ba.vup>{attack@max_target}</>名目标造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害；技能期间第一天赋使目标防御力降低的效果改为最多叠加<@ba.vup>8</>次，并且叠满后对目标造成持续的<$ba.sluggish>停顿</>效果",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 30,
+          "initSp": 14,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_2",
+        "duration": 12.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.5
+          },
+          {
+            "key": "attack@max_target",
+            "value": 2.0
+          },
+          {
+            "key": "attack_speed",
+            "value": 40.0
+          }
+        ]
+      },
+      {
+        "name": "军师的手段",
+        "rangeId": "3-13",
+        "description": "攻击范围扩大，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击对<@ba.vup>{attack@max_target}</>名目标造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害；技能期间第一天赋使目标防御力降低的效果改为最多叠加<@ba.vup>8</>次，并且叠满后对目标造成持续的<$ba.sluggish>停顿</>效果",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 29,
+          "initSp": 14,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.55
+          },
+          {
+            "key": "attack@max_target",
+            "value": 3.0
+          },
+          {
+            "key": "attack_speed",
+            "value": 40.0
+          }
+        ]
+      },
+      {
+        "name": "军师的手段",
+        "rangeId": "3-13",
+        "description": "攻击范围扩大，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击对<@ba.vup>{attack@max_target}</>名目标造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害；技能期间第一天赋使目标防御力降低的效果改为最多叠加<@ba.vup>8</>次，并且叠满后对目标造成持续的<$ba.sluggish>停顿</>效果",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 28,
+          "initSp": 14,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.6
+          },
+          {
+            "key": "attack@max_target",
+            "value": 3.0
+          },
+          {
+            "key": "attack_speed",
+            "value": 50.0
+          }
+        ]
+      },
+      {
+        "name": "军师的手段",
+        "rangeId": "3-13",
+        "description": "攻击范围扩大，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击对<@ba.vup>{attack@max_target}</>名目标造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害；技能期间第一天赋使目标防御力降低的效果改为最多叠加<@ba.vup>8</>次，并且叠满后对目标造成持续的<$ba.sluggish>停顿</>效果",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 27,
+          "initSp": 14,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_2",
+        "duration": 15.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.65
+          },
+          {
+            "key": "attack@max_target",
+            "value": 3.0
+          },
+          {
+            "key": "attack_speed",
+            "value": 50.0
+          }
+        ]
+      },
+      {
+        "name": "军师的手段",
+        "rangeId": "3-13",
+        "description": "攻击范围扩大，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击对<@ba.vup>{attack@max_target}</>名目标造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害；技能期间第一天赋使目标防御力降低的效果改为最多叠加<@ba.vup>8</>次，并且叠满后对目标造成持续的<$ba.sluggish>停顿</>效果",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 26,
+          "initSp": 14,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_2",
+        "duration": 18.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.7
+          },
+          {
+            "key": "attack@max_target",
+            "value": 3.0
+          },
+          {
+            "key": "attack_speed",
+            "value": 60.0
+          }
+        ]
+      },
+      {
+        "name": "军师的手段",
+        "rangeId": "3-13",
+        "description": "攻击范围扩大，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击对<@ba.vup>{attack@max_target}</>名目标造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害；技能期间第一天赋使目标防御力降低的效果改为最多叠加<@ba.vup>8</>次，并且叠满后对目标造成持续的<$ba.sluggish>停顿</>效果",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 25,
+          "initSp": 14,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_2",
+        "duration": 19.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.8
+          },
+          {
+            "key": "attack@max_target",
+            "value": 3.0
+          },
+          {
+            "key": "attack_speed",
+            "value": 70.0
+          }
+        ]
+      },
+      {
+        "name": "军师的手段",
+        "rangeId": "3-13",
+        "description": "攻击范围扩大，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击对<@ba.vup>{attack@max_target}</>名目标造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害；技能期间第一天赋使目标防御力降低的效果改为最多叠加<@ba.vup>8</>次，并且叠满后对目标造成持续的<$ba.sluggish>停顿</>效果",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 24,
+          "initSp": 14,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_2",
+        "duration": 20.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 1.9
+          },
+          {
+            "key": "attack@max_target",
+            "value": 3.0
+          },
+          {
+            "key": "attack_speed",
+            "value": 70.0
+          }
+        ]
+      },
+      {
+        "name": "军师的手段",
+        "rangeId": "3-13",
+        "description": "攻击范围扩大，攻击速度<@ba.vup>+{attack_speed}</>，每次攻击对<@ba.vup>{attack@max_target}</>名目标造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害；技能期间第一天赋使目标防御力降低的效果改为最多叠加<@ba.vup>8</>次，并且叠满后对目标造成持续的<$ba.sluggish>停顿</>效果",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 22,
+          "initSp": 14,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_2",
+        "duration": 22.0,
+        "blackboard": [
+          {
+            "key": "attack@atk_scale",
+            "value": 2.0
+          },
+          {
+            "key": "attack@max_target",
+            "value": 3.0
+          },
+          {
+            "key": "attack_speed",
+            "value": 80.0
+          }
+        ]
+      }
+    ]
+  },
+  "skchr_demetr_3": {
+    "skillId": "skchr_demetr_3",
+    "iconId": null,
+    "hidden": false,
+    "levels": [
+      {
+        "name": "清算",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{attack@demetr_s3[bonus].atk:0%}</>，攻击速度<@ba.vup>+{attack@demetr_s3[bonus].attack_speed}</>，攻击时有<@ba.vup>{attack@demetr_s3[bonus].prob:0%}</>的几率造成相当于攻击力<@ba.vup>{attack@demetr_s3[bonus].prob_atk_scale:0%}</>的物理伤害；技能开启后立即选取自身周围一定范围内的一名地面目标，若其所在位置可部署，自身会<$ba.addash>移动</>至目标所在位置进行攻击；自身攻击的精英、领袖敌人被击倒，或自身持续<@ba.vup>1</>秒未进行攻击时，会立即重新选取目标\\n<@ba.rem>受到致命伤害时不撤退但会结束技能，技能结束后返回初始位置</>",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 45,
+          "initSp": 17,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "attack@demetr_s3[bonus].attack_speed",
+            "value": 20.0
+          },
+          {
+            "key": "attack@demetr_s3[bonus].atk",
+            "value": 0.8
+          },
+          {
+            "key": "attack@demetr_s3[bonus].prob_atk_scale",
+            "value": 1.3
+          },
+          {
+            "key": "attack@demetr_s3[bonus].prob",
+            "value": 0.3
+          },
+          {
+            "key": "attack@demetr_s3[target_timer].time_stack",
+            "value": 2.0
+          },
+          {
+            "key": "attack@finish_listener_duration",
+            "value": 3.0
+          },
+          {
+            "key": "attack@demetr_s3[target_timer].interval",
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "name": "清算",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{attack@demetr_s3[bonus].atk:0%}</>，攻击速度<@ba.vup>+{attack@demetr_s3[bonus].attack_speed}</>，攻击时有<@ba.vup>{attack@demetr_s3[bonus].prob:0%}</>的几率造成相当于攻击力<@ba.vup>{attack@demetr_s3[bonus].prob_atk_scale:0%}</>的物理伤害；技能开启后立即选取自身周围一定范围内的一名地面目标，若其所在位置可部署，自身会<$ba.addash>移动</>至目标所在位置进行攻击；自身攻击的精英、领袖敌人被击倒，或自身持续<@ba.vup>1</>秒未进行攻击时，会立即重新选取目标\\n<@ba.rem>受到致命伤害时不撤退但会结束技能，技能结束后返回初始位置</>",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 44,
+          "initSp": 18,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "attack@demetr_s3[bonus].attack_speed",
+            "value": 20.0
+          },
+          {
+            "key": "attack@demetr_s3[bonus].atk",
+            "value": 0.9
+          },
+          {
+            "key": "attack@demetr_s3[bonus].prob_atk_scale",
+            "value": 1.3
+          },
+          {
+            "key": "attack@demetr_s3[bonus].prob",
+            "value": 0.3
+          },
+          {
+            "key": "attack@demetr_s3[target_timer].time_stack",
+            "value": 2.0
+          },
+          {
+            "key": "attack@finish_listener_duration",
+            "value": 3.0
+          },
+          {
+            "key": "attack@demetr_s3[target_timer].interval",
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "name": "清算",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{attack@demetr_s3[bonus].atk:0%}</>，攻击速度<@ba.vup>+{attack@demetr_s3[bonus].attack_speed}</>，攻击时有<@ba.vup>{attack@demetr_s3[bonus].prob:0%}</>的几率造成相当于攻击力<@ba.vup>{attack@demetr_s3[bonus].prob_atk_scale:0%}</>的物理伤害；技能开启后立即选取自身周围一定范围内的一名地面目标，若其所在位置可部署，自身会<$ba.addash>移动</>至目标所在位置进行攻击；自身攻击的精英、领袖敌人被击倒，或自身持续<@ba.vup>1</>秒未进行攻击时，会立即重新选取目标\\n<@ba.rem>受到致命伤害时不撤退但会结束技能，技能结束后返回初始位置</>",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 43,
+          "initSp": 19,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "attack@demetr_s3[bonus].attack_speed",
+            "value": 20.0
+          },
+          {
+            "key": "attack@demetr_s3[bonus].atk",
+            "value": 1.0
+          },
+          {
+            "key": "attack@demetr_s3[bonus].prob_atk_scale",
+            "value": 1.3
+          },
+          {
+            "key": "attack@demetr_s3[bonus].prob",
+            "value": 0.3
+          },
+          {
+            "key": "attack@demetr_s3[target_timer].time_stack",
+            "value": 2.0
+          },
+          {
+            "key": "attack@finish_listener_duration",
+            "value": 3.0
+          },
+          {
+            "key": "attack@demetr_s3[target_timer].interval",
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "name": "清算",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{attack@demetr_s3[bonus].atk:0%}</>，攻击速度<@ba.vup>+{attack@demetr_s3[bonus].attack_speed}</>，攻击时有<@ba.vup>{attack@demetr_s3[bonus].prob:0%}</>的几率造成相当于攻击力<@ba.vup>{attack@demetr_s3[bonus].prob_atk_scale:0%}</>的物理伤害；技能开启后立即选取自身周围一定范围内的一名地面目标，若其所在位置可部署，自身会<$ba.addash>移动</>至目标所在位置进行攻击；自身攻击的精英、领袖敌人被击倒，或自身持续<@ba.vup>1</>秒未进行攻击时，会立即重新选取目标\\n<@ba.rem>受到致命伤害时不撤退但会结束技能，技能结束后返回初始位置</>",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 42,
+          "initSp": 20,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "attack@demetr_s3[bonus].attack_speed",
+            "value": 30.0
+          },
+          {
+            "key": "attack@demetr_s3[bonus].atk",
+            "value": 1.1
+          },
+          {
+            "key": "attack@demetr_s3[bonus].prob_atk_scale",
+            "value": 1.4
+          },
+          {
+            "key": "attack@demetr_s3[bonus].prob",
+            "value": 0.35
+          },
+          {
+            "key": "attack@demetr_s3[target_timer].time_stack",
+            "value": 2.0
+          },
+          {
+            "key": "attack@finish_listener_duration",
+            "value": 3.0
+          },
+          {
+            "key": "attack@demetr_s3[target_timer].interval",
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "name": "清算",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{attack@demetr_s3[bonus].atk:0%}</>，攻击速度<@ba.vup>+{attack@demetr_s3[bonus].attack_speed}</>，攻击时有<@ba.vup>{attack@demetr_s3[bonus].prob:0%}</>的几率造成相当于攻击力<@ba.vup>{attack@demetr_s3[bonus].prob_atk_scale:0%}</>的物理伤害；技能开启后立即选取自身周围一定范围内的一名地面目标，若其所在位置可部署，自身会<$ba.addash>移动</>至目标所在位置进行攻击；自身攻击的精英、领袖敌人被击倒，或自身持续<@ba.vup>1</>秒未进行攻击时，会立即重新选取目标\\n<@ba.rem>受到致命伤害时不撤退但会结束技能，技能结束后返回初始位置</>",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 41,
+          "initSp": 21,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "attack@demetr_s3[bonus].attack_speed",
+            "value": 30.0
+          },
+          {
+            "key": "attack@demetr_s3[bonus].atk",
+            "value": 1.2
+          },
+          {
+            "key": "attack@demetr_s3[bonus].prob_atk_scale",
+            "value": 1.4
+          },
+          {
+            "key": "attack@demetr_s3[bonus].prob",
+            "value": 0.35
+          },
+          {
+            "key": "attack@demetr_s3[target_timer].time_stack",
+            "value": 2.0
+          },
+          {
+            "key": "attack@finish_listener_duration",
+            "value": 3.0
+          },
+          {
+            "key": "attack@demetr_s3[target_timer].interval",
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "name": "清算",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{attack@demetr_s3[bonus].atk:0%}</>，攻击速度<@ba.vup>+{attack@demetr_s3[bonus].attack_speed}</>，攻击时有<@ba.vup>{attack@demetr_s3[bonus].prob:0%}</>的几率造成相当于攻击力<@ba.vup>{attack@demetr_s3[bonus].prob_atk_scale:0%}</>的物理伤害；技能开启后立即选取自身周围一定范围内的一名地面目标，若其所在位置可部署，自身会<$ba.addash>移动</>至目标所在位置进行攻击；自身攻击的精英、领袖敌人被击倒，或自身持续<@ba.vup>1</>秒未进行攻击时，会立即重新选取目标\\n<@ba.rem>受到致命伤害时不撤退但会结束技能，技能结束后返回初始位置</>",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 40,
+          "initSp": 22,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "attack@demetr_s3[bonus].attack_speed",
+            "value": 30.0
+          },
+          {
+            "key": "attack@demetr_s3[bonus].atk",
+            "value": 1.3
+          },
+          {
+            "key": "attack@demetr_s3[bonus].prob_atk_scale",
+            "value": 1.4
+          },
+          {
+            "key": "attack@demetr_s3[bonus].prob",
+            "value": 0.35
+          },
+          {
+            "key": "attack@demetr_s3[target_timer].time_stack",
+            "value": 2.0
+          },
+          {
+            "key": "attack@finish_listener_duration",
+            "value": 3.0
+          },
+          {
+            "key": "attack@demetr_s3[target_timer].interval",
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "name": "清算",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{attack@demetr_s3[bonus].atk:0%}</>，攻击速度<@ba.vup>+{attack@demetr_s3[bonus].attack_speed}</>，攻击时有<@ba.vup>{attack@demetr_s3[bonus].prob:0%}</>的几率造成相当于攻击力<@ba.vup>{attack@demetr_s3[bonus].prob_atk_scale:0%}</>的物理伤害；技能开启后立即选取自身周围一定范围内的一名地面目标，若其所在位置可部署，自身会<$ba.addash>移动</>至目标所在位置进行攻击；自身攻击的精英、领袖敌人被击倒，或自身持续<@ba.vup>1</>秒未进行攻击时，会立即重新选取目标\\n<@ba.rem>受到致命伤害时不撤退但会结束技能，技能结束后返回初始位置</>",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 39,
+          "initSp": 23,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "attack@demetr_s3[bonus].attack_speed",
+            "value": 40.0
+          },
+          {
+            "key": "attack@demetr_s3[bonus].atk",
+            "value": 1.4
+          },
+          {
+            "key": "attack@demetr_s3[bonus].prob_atk_scale",
+            "value": 1.5
+          },
+          {
+            "key": "attack@demetr_s3[bonus].prob",
+            "value": 0.4
+          },
+          {
+            "key": "attack@demetr_s3[target_timer].time_stack",
+            "value": 2.0
+          },
+          {
+            "key": "attack@finish_listener_duration",
+            "value": 3.0
+          },
+          {
+            "key": "attack@demetr_s3[target_timer].interval",
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "name": "清算",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{attack@demetr_s3[bonus].atk:0%}</>，攻击速度<@ba.vup>+{attack@demetr_s3[bonus].attack_speed}</>，攻击时有<@ba.vup>{attack@demetr_s3[bonus].prob:0%}</>的几率造成相当于攻击力<@ba.vup>{attack@demetr_s3[bonus].prob_atk_scale:0%}</>的物理伤害；技能开启后立即选取自身周围一定范围内的一名地面目标，若其所在位置可部署，自身会<$ba.addash>移动</>至目标所在位置进行攻击；自身攻击的精英、领袖敌人被击倒，或自身持续<@ba.vup>1</>秒未进行攻击时，会立即重新选取目标\\n<@ba.rem>受到致命伤害时不撤退但会结束技能，技能结束后返回初始位置</>",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 38,
+          "initSp": 24,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "attack@demetr_s3[bonus].attack_speed",
+            "value": 40.0
+          },
+          {
+            "key": "attack@demetr_s3[bonus].atk",
+            "value": 1.5
+          },
+          {
+            "key": "attack@demetr_s3[bonus].prob_atk_scale",
+            "value": 1.6
+          },
+          {
+            "key": "attack@demetr_s3[bonus].prob",
+            "value": 0.45
+          },
+          {
+            "key": "attack@demetr_s3[target_timer].time_stack",
+            "value": 2.0
+          },
+          {
+            "key": "attack@finish_listener_duration",
+            "value": 3.0
+          },
+          {
+            "key": "attack@demetr_s3[target_timer].interval",
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "name": "清算",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{attack@demetr_s3[bonus].atk:0%}</>，攻击速度<@ba.vup>+{attack@demetr_s3[bonus].attack_speed}</>，攻击时有<@ba.vup>{attack@demetr_s3[bonus].prob:0%}</>的几率造成相当于攻击力<@ba.vup>{attack@demetr_s3[bonus].prob_atk_scale:0%}</>的物理伤害；技能开启后立即选取自身周围一定范围内的一名地面目标，若其所在位置可部署，自身会<$ba.addash>移动</>至目标所在位置进行攻击；自身攻击的精英、领袖敌人被击倒，或自身持续<@ba.vup>1</>秒未进行攻击时，会立即重新选取目标\\n<@ba.rem>受到致命伤害时不撤退但会结束技能，技能结束后返回初始位置</>",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 37,
+          "initSp": 25,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "attack@demetr_s3[bonus].attack_speed",
+            "value": 40.0
+          },
+          {
+            "key": "attack@demetr_s3[bonus].atk",
+            "value": 1.6
+          },
+          {
+            "key": "attack@demetr_s3[bonus].prob_atk_scale",
+            "value": 1.7
+          },
+          {
+            "key": "attack@demetr_s3[bonus].prob",
+            "value": 0.45
+          },
+          {
+            "key": "attack@demetr_s3[target_timer].time_stack",
+            "value": 2.0
+          },
+          {
+            "key": "attack@finish_listener_duration",
+            "value": 3.0
+          },
+          {
+            "key": "attack@demetr_s3[target_timer].interval",
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "name": "清算",
+        "rangeId": null,
+        "description": "攻击力<@ba.vup>+{attack@demetr_s3[bonus].atk:0%}</>，攻击速度<@ba.vup>+{attack@demetr_s3[bonus].attack_speed}</>，攻击时有<@ba.vup>{attack@demetr_s3[bonus].prob:0%}</>的几率造成相当于攻击力<@ba.vup>{attack@demetr_s3[bonus].prob_atk_scale:0%}</>的物理伤害；技能开启后立即选取自身周围一定范围内的一名地面目标，若其所在位置可部署，自身会<$ba.addash>移动</>至目标所在位置进行攻击；自身攻击的精英、领袖敌人被击倒，或自身持续<@ba.vup>1</>秒未进行攻击时，会立即重新选取目标\\n<@ba.rem>受到致命伤害时不撤退但会结束技能，技能结束后返回初始位置</>",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 35,
+          "initSp": 27,
+          "increment": 1.0
+        },
+        "prefabId": "skchr_demetr_3",
+        "duration": 30.0,
+        "blackboard": [
+          {
+            "key": "attack@demetr_s3[bonus].attack_speed",
+            "value": 50.0
+          },
+          {
+            "key": "attack@demetr_s3[bonus].atk",
+            "value": 1.7
+          },
+          {
+            "key": "attack@demetr_s3[bonus].prob_atk_scale",
+            "value": 1.85
+          },
+          {
+            "key": "attack@demetr_s3[bonus].prob",
+            "value": 0.5
+          },
+          {
+            "key": "attack@demetr_s3[target_timer].time_stack",
+            "value": 2.0
+          },
+          {
+            "key": "attack@finish_listener_duration",
+            "value": 3.0
+          },
+          {
+            "key": "attack@demetr_s3[target_timer].interval",
+            "value": 0.5
+          }
+        ]
+      }
+    ]
+  },
   "skchr_svrash_1": {
     "skillId": "skchr_svrash_1",
     "iconId": "skcom_powerstrike[3]",
@@ -304042,6 +305667,45 @@
             "value": -0.5
           }
         ]
+      },
+      {
+        "name": "气流",
+        "rangeId": null,
+        "description": "向前方3格吹出气流；与气流<@ba.vup>同向</>/<@ba.vdown>逆向</>部署的干员攻击<@ba.vup>提升</>/<@ba.vdown>降低</>；<@ba.vdown>同向</>/<@ba.vup>逆向</>移动的敌人移速<@ba.vdown>提升</>/<@ba.vup>降低</>",
+        "skillType": 0,
+        "durationType": 0,
+        "spData": {
+          "spType": 8,
+          "levelUpCost": null,
+          "maxChargeTime": 0,
+          "spCost": 0,
+          "initSp": 0,
+          "increment": 0.0
+        },
+        "prefabId": "sktok_blower",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "blower_s_character[equal].atk",
+            "value": 0.3
+          },
+          {
+            "key": "blower_s_character[vertical].atk",
+            "value": 0.0
+          },
+          {
+            "key": "blower_s_character[opposite].atk",
+            "value": -0.3
+          },
+          {
+            "key": "blower_s_enemy[equal].move_speed",
+            "value": 0.5
+          },
+          {
+            "key": "blower_s_enemy[opposite].move_speed",
+            "value": -0.5
+          }
+        ]
       }
     ]
   },
@@ -323169,7 +324833,7 @@
       {
         "name": "炎国短刀",
         "rangeId": null,
-        "description": "每开启一次技能，获得5%的攻击力加成（最多叠加10次）",
+        "description": "每开启一次技能，获得<@ba.vup>5%</>的攻击力加成（最多叠加10次）",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323194,7 +324858,7 @@
       {
         "name": "炎国短刀",
         "rangeId": null,
-        "description": "每开启一次技能，获得8%的攻击力加成（最多叠加10次）",
+        "description": "每开启一次技能，获得<@ba.vup>8%</>的攻击力加成（最多叠加10次）",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323219,7 +324883,7 @@
       {
         "name": "维式重锤",
         "rangeId": null,
-        "description": "攻击力+10%",
+        "description": "攻击力<@ba.vup>+15%</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323244,7 +324908,7 @@
       {
         "name": "维式重锤",
         "rangeId": null,
-        "description": "攻击力+20%",
+        "description": "攻击力<@ba.vup>+25%</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323269,7 +324933,7 @@
       {
         "name": "灼燃维式重锤",
         "rangeId": null,
-        "description": "攻击力+25%；造成法术伤害附带相当于10%伤害的<$ba.dt.burning2>灼燃损伤</>",
+        "description": "攻击力<@ba.vup>+30%</>；造成法术伤害附带相当于<@ba.vup>10%</>伤害的<$ba.dt.burning2>灼燃损伤</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323294,7 +324958,7 @@
       {
         "name": "灼燃维式重锤",
         "rangeId": null,
-        "description": "攻击力+40%；造成法术伤害附带相当于10%伤害的<$ba.dt.burning2>灼燃损伤</>",
+        "description": "攻击力<@ba.vup>+50%</>；造成法术伤害附带相当于<@ba.vup>10%</>伤害的<$ba.dt.burning2>灼燃损伤</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323319,7 +324983,7 @@
       {
         "name": "坚固维式重锤",
         "rangeId": null,
-        "description": "攻击力+25%；首次受到致命伤害时生命值不低于1，持续15秒",
+        "description": "攻击力<@ba.vup>+25%</>；首次受到致命伤害时生命值不低于<@ba.vup>1</>，持续8秒",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323344,7 +325008,7 @@
       {
         "name": "坚固维式重锤",
         "rangeId": null,
-        "description": "攻击力+40%；首次受到致命伤害时生命值不低于1，持续15秒",
+        "description": "攻击力<@ba.vup>+45%</>；首次受到致命伤害时生命值不低于<@ba.vup>1</>，持续8秒",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323369,7 +325033,7 @@
       {
         "name": "加速维式重锤",
         "rangeId": null,
-        "description": "攻击力+25%；攻击速度+30",
+        "description": "攻击力<@ba.vup>+25%</>；攻击速度<@ba.vup>+30</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323394,7 +325058,7 @@
       {
         "name": "加速维式重锤",
         "rangeId": null,
-        "description": "攻击力+40%；攻击速度+30",
+        "description": "攻击力<@ba.vup>+45%</>；攻击速度<@ba.vup>+30</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323419,7 +325083,7 @@
       {
         "name": "战栗维式重锤",
         "rangeId": null,
-        "description": "攻击力+25%；若携带者是地面干员则攻击时有8%概率使目标<$ba.tremble>战栗</>2秒",
+        "description": "攻击力<@ba.vup>+20%</>；若携带者是地面干员则攻击时有10%概率使目标<$ba.tremble>战栗</>2秒",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323444,7 +325108,7 @@
       {
         "name": "战栗维式重锤",
         "rangeId": null,
-        "description": "攻击力+40%；若携带者是地面干员则攻击时有8%概率使目标<$ba.tremble>战栗</>2秒",
+        "description": "攻击力<@ba.vup>+35%</>；若携带者是地面干员则攻击时有10%概率使目标<$ba.tremble>战栗</>2秒",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323469,7 +325133,7 @@
       {
         "name": "阿戈尔重刃",
         "rangeId": null,
-        "description": "攻击力+35%，攻击速度-10",
+        "description": "攻击力<@ba.vup>+40%</>，攻击速度<@ba.vdown>-10</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323494,7 +325158,7 @@
       {
         "name": "阿戈尔重刃",
         "rangeId": null,
-        "description": "攻击力+60%，攻击速度-10",
+        "description": "攻击力<@ba.vup>+60%</>，攻击速度<@ba.vdown>-10</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323519,7 +325183,7 @@
       {
         "name": "坚守盾牌",
         "rangeId": null,
-        "description": "防御力+35%",
+        "description": "防御力<@ba.vup>+20%</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323544,7 +325208,7 @@
       {
         "name": "坚守盾牌",
         "rangeId": null,
-        "description": "防御力+60%",
+        "description": "防御力<@ba.vup>+35%</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323567,9 +325231,9 @@
     "hidden": false,
     "levels": [
       {
-        "name": "口袋法阵",
+        "name": "奥术法阵",
         "rangeId": null,
-        "description": "法术抗性+20",
+        "description": "法术抗性<@ba.vup>+20</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323592,9 +325256,9 @@
     "hidden": false,
     "levels": [
       {
-        "name": "口袋法阵",
+        "name": "奥术法阵",
         "rangeId": null,
-        "description": "法术抗性+35",
+        "description": "法术抗性<@ba.vup>+30</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323619,7 +325283,7 @@
       {
         "name": "歌利亚头盔",
         "rangeId": null,
-        "description": "生命值+35%；部署时若身前一格没有其他干员，生命值额外+25%",
+        "description": "生命值<@ba.vup>+25%</>；部署时若身前一格没有其他干员，生命值额外<@ba.vup>+15%</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323644,7 +325308,7 @@
       {
         "name": "歌利亚头盔",
         "rangeId": null,
-        "description": "生命值+60%；部署时若身前一格没有其他干员，生命值额外+40%",
+        "description": "生命值<@ba.vup>+45%</>；部署时若身前一格没有其他干员，生命值额外<@ba.vup>+25%</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323669,7 +325333,7 @@
       {
         "name": "萨尔贡浓茶",
         "rangeId": null,
-        "description": "技力自然回复速度+0.15/秒",
+        "description": "技力自然回复速度<@ba.vup>+0.15</>/秒",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323694,7 +325358,7 @@
       {
         "name": "萨尔贡浓茶",
         "rangeId": null,
-        "description": "技力自然回复速度+0.25/秒",
+        "description": "技力自然回复速度<@ba.vup>+0.25</>/秒",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323719,7 +325383,7 @@
       {
         "name": "迅捷作战粮",
         "rangeId": null,
-        "description": "部署时，获得3点技力；每有一个同盟约的其他干员，额外获得3点技力",
+        "description": "部署时，获得<@ba.vup>3</>点技力；每有一个同盟约的其他干员，额外获得<@ba.vup>3</>点技力",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323744,7 +325408,7 @@
       {
         "name": "迅捷作战粮",
         "rangeId": null,
-        "description": "部署时，获得6点技力；每有一个同盟约的其他干员，额外获得6点技力",
+        "description": "部署时，获得<@ba.vup>6</>点技力；每有一个同盟约的其他干员，额外获得<@ba.vup>6</>点技力",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323769,7 +325433,7 @@
       {
         "name": "有限加速器",
         "rangeId": null,
-        "description": "每次攻击或治疗后，本场战斗中攻击速度+1，最高60层",
+        "description": "每次攻击或治疗后，本场战斗中攻击速度<@ba.vup>+1</>，最高60层",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323794,7 +325458,7 @@
       {
         "name": "有限加速器",
         "rangeId": null,
-        "description": "每次攻击或治疗后，本场战斗中攻击速度+2，最高60层",
+        "description": "每次攻击或治疗后，本场战斗中攻击速度<@ba.vup>+2</>，最高60层",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323819,7 +325483,7 @@
       {
         "name": "激光发射器",
         "rangeId": null,
-        "description": "攻击无视目标25%法术抗性",
+        "description": "攻击无视目标<@ba.vup>25%</>法术抗性",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323844,7 +325508,7 @@
       {
         "name": "激光发射器",
         "rangeId": null,
-        "description": "攻击无视目标40%法术抗性",
+        "description": "攻击无视目标<@ba.vup>45%</>法术抗性",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323869,7 +325533,7 @@
       {
         "name": "蜂鸣器",
         "rangeId": null,
-        "description": "更容易受到攻击",
+        "description": "更容易受到攻击，生命值<@ba.vup>+40%</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323894,7 +325558,7 @@
       {
         "name": "蜂鸣器",
         "rangeId": null,
-        "description": "更容易受到攻击，生命值+30%",
+        "description": "更容易受到攻击，生命值<@ba.vup>+60%</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323919,7 +325583,7 @@
       {
         "name": "伪装服",
         "rangeId": null,
-        "description": "部署后25秒内获得<$ba.camou>迷彩</>",
+        "description": "首次受到伤害后获得<$ba.invisible>隐匿</>，持续15秒",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323944,7 +325608,7 @@
       {
         "name": "伪装服",
         "rangeId": null,
-        "description": "部署后50秒内获得<$ba.camou>迷彩</>",
+        "description": "首次受到伤害后获得<$ba.invisible>隐匿</>，持续25秒",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323969,7 +325633,7 @@
       {
         "name": "不屈弹射器",
         "rangeId": null,
-        "description": "再部署时间-30%，生命值-30%",
+        "description": "再部署时间<@ba.vup>-30%</>，生命值<@ba.vdown>-30%</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -323994,7 +325658,7 @@
       {
         "name": "不屈弹射器",
         "rangeId": null,
-        "description": "再部署时间-50%，生命值-30%",
+        "description": "再部署时间<@ba.vup>-50%</>，生命值<@ba.vdown>-30%</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324019,7 +325683,7 @@
       {
         "name": "拉特兰桥夹",
         "rangeId": null,
-        "description": "子弹类技能首次剩余一发子弹时有40%概率恢复40%的子弹",
+        "description": "子弹类技能剩余一发子弹时有50%概率恢复40%的子弹（每次部署最多触发3次）",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324044,7 +325708,7 @@
       {
         "name": "拉特兰桥夹",
         "rangeId": null,
-        "description": "子弹类技能首次剩余一发子弹时有70%概率恢复40%的子弹",
+        "description": "子弹类技能剩余一发子弹时有60%概率恢复60%的子弹（每次部署最多触发3次）",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324119,7 +325783,7 @@
       {
         "name": "浓缩嗅盐",
         "rangeId": null,
-        "description": "生命值大于80%时，免疫<$ba.stun>晕眩</>、<$ba.frozen>冻结</>等特殊状态",
+        "description": "生命值大于70%时，免疫<$ba.stun>晕眩</>、<$ba.frozen>冻结</>等特殊状态",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324144,7 +325808,7 @@
       {
         "name": "浓缩嗅盐",
         "rangeId": null,
-        "description": "生命值大于50%时，免疫<$ba.stun>晕眩</>、<$ba.frozen>冻结</>等特殊状态",
+        "description": "生命值大于40%时，免疫<$ba.stun>晕眩</>、<$ba.frozen>冻结</>等特殊状态",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324169,7 +325833,7 @@
       {
         "name": "防暴盾",
         "rangeId": null,
-        "description": "阻挡敌人时，受到来自非自身阻挡单位的伤害降低40%",
+        "description": "阻挡敌人时，受到来自非自身阻挡单位的伤害降低<@ba.vup>40%</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324194,7 +325858,7 @@
       {
         "name": "防暴盾",
         "rangeId": null,
-        "description": "阻挡敌人时，受到来自非自身阻挡单位的伤害降低70%",
+        "description": "阻挡敌人时，受到来自非自身阻挡单位的伤害降低<@ba.vup>70%</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324269,7 +325933,7 @@
       {
         "name": "谢拉格不融冰",
         "rangeId": null,
-        "description": "攻击时有18%概率对目标施加1秒的<$ba.cold>寒冷</>",
+        "description": "攻击时有12%概率对目标施加1.5秒的<$ba.cold>寒冷</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324294,7 +325958,7 @@
       {
         "name": "谢拉格不融冰",
         "rangeId": null,
-        "description": "攻击时有30%概率对目标施加1秒的<$ba.cold>寒冷</>",
+        "description": "攻击时有20%概率对目标施加1.5秒的<$ba.cold>寒冷</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324319,7 +325983,7 @@
       {
         "name": "精准狙击镜",
         "rangeId": null,
-        "description": "攻击距离自身3格及以上的目标时，伤害提高25%",
+        "description": "攻击距离自身3格及以上的目标时，伤害提高<@ba.vup>30%</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324344,7 +326008,7 @@
       {
         "name": "精准狙击镜",
         "rangeId": null,
-        "description": "攻击距离自身3格及以上的目标时，伤害提高40%",
+        "description": "攻击距离自身3格及以上的目标时，伤害提高<@ba.vup>50%</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324369,7 +326033,7 @@
       {
         "name": "突袭手雷",
         "rangeId": null,
-        "description": "每次部署后的8秒内，攻击时使目标<$ba.stun>晕眩</>2秒",
+        "description": "每次部署后的10秒内，攻击时使目标<$ba.stun>晕眩</>2秒",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324394,7 +326058,7 @@
       {
         "name": "突袭手雷",
         "rangeId": null,
-        "description": "每次部署后的12秒内，攻击时使目标<$ba.stun>晕眩</>2秒",
+        "description": "每次部署后的15秒内，攻击时使目标<$ba.stun>晕眩</>2秒",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324419,7 +326083,7 @@
       {
         "name": "休眠子裔",
         "rangeId": null,
-        "description": "每攻击1个目标，回复自身2%最大生命值",
+        "description": "每攻击1个目标，回复自身<@ba.vup>2%</>最大生命值",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324444,7 +326108,7 @@
       {
         "name": "休眠子裔",
         "rangeId": null,
-        "description": "每攻击1个目标，回复自身4%最大生命值",
+        "description": "每攻击1个目标，回复自身<@ba.vup>4%</>最大生命值",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324467,9 +326131,9 @@
     "hidden": false,
     "levels": [
       {
-        "name": "幸运硬币",
+        "name": "盟约之币",
         "rangeId": null,
-        "description": "装备时销毁，并随机获得1~6资金",
+        "description": "装备时销毁，并获得<@ba.vup>1</>资金",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324492,9 +326156,9 @@
     "hidden": false,
     "levels": [
       {
-        "name": "幸运硬币",
+        "name": "盟约之币",
         "rangeId": null,
-        "description": "装备时销毁，并随机获得2~12资金",
+        "description": "装备时销毁，并获得<@ba.vup>2</>资金",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324519,7 +326183,7 @@
       {
         "name": "双模机械臂",
         "rangeId": null,
-        "description": "攻击力+10%，自身造成物理和法术伤害时，伤害类型转化为<$ba.weaknessatk>弱点伤害</>",
+        "description": "攻击力<@ba.vup>+30%</>，自身造成物理和法术伤害时，伤害类型转化为<$ba.weaknessatk>弱点伤害</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324544,7 +326208,7 @@
       {
         "name": "双模机械臂",
         "rangeId": null,
-        "description": "攻击力+20%，自身造成物理和法术伤害时，伤害类型转化为<$ba.weaknessatk>弱点伤害</>",
+        "description": "攻击力<@ba.vup>+50%</>，自身造成物理和法术伤害时，伤害类型转化为<$ba.weaknessatk>弱点伤害</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324569,7 +326233,7 @@
       {
         "name": "M3茧甲",
         "rangeId": null,
-        "description": "战斗阶段被击倒时立刻复活（一场战斗仅1次）",
+        "description": "战斗阶段被击倒时立刻复活（一场战斗仅<@ba.vup>1</>次）",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324594,7 +326258,7 @@
       {
         "name": "M3茧甲",
         "rangeId": null,
-        "description": "战斗阶段被击倒时立刻复活（一场战斗仅2次）",
+        "description": "战斗阶段被击倒时立刻复活（一场战斗仅<@ba.vup>2</>次）",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324869,7 +326533,7 @@
       {
         "name": "商业包装方案",
         "rangeId": null,
-        "description": "每出售8名干员，额外获得一个此装备携带者的初始同名干员",
+        "description": "每出售7名干员，额外获得一个与此装备携带者的同盟约初始干员（不高于当前调度中心等级）",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324894,7 +326558,7 @@
       {
         "name": "商业包装方案",
         "rangeId": null,
-        "description": "每出售6名干员，额外获得一个此装备携带者的初始同名干员",
+        "description": "每出售6名干员，额外获得一个与此装备携带者的同盟约初始干员（不高于当前调度中心等级）",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324919,7 +326583,7 @@
       {
         "name": "寻呼模块",
         "rangeId": null,
-        "description": "装备时销毁，立即特殊刷新一次商店，仅出现与该干员有相同盟约的干员",
+        "description": "装备时销毁，立即特殊刷新一次调度中心，出现三名与该干员有相同盟约的干员，免费获取其中一名！（不高于当前调度中心等级）",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324944,7 +326608,7 @@
       {
         "name": "寻呼模块",
         "rangeId": null,
-        "description": "装备时销毁，立即特殊刷新一次商店，仅出现与该干员有相同盟约的干员",
+        "description": "装备时销毁，立即特殊刷新一次调度中心，出现三名与该干员有相同盟约的干员，免费获取其中一名！（不高于当前调度中心等级）",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324969,7 +326633,7 @@
       {
         "name": "铳骑之威",
         "rangeId": null,
-        "description": "攻击力+35%；若携带者为【拉特兰】盟约干员，该干员每次攻击时，有35%概率额外对攻击范围内一名敌人发射子弹造成150%攻击力的物理伤害\\n<@ba.acrem>若该【拉特兰】盟约干员同时携带“拉特兰桥夹”，子弹伤害改为300%攻击力</>",
+        "description": "攻击力<@ba.vup>+40%</>；若携带者为【拉特兰】盟约干员，该干员每次攻击时，有35%概率额外对攻击范围内一名敌人发射子弹造成<@ba.vup>150%</>攻击力的物理伤害\\n<@ba.acrem>若该【拉特兰】盟约干员同时装备“拉特兰桥夹”，子弹伤害改为<@ba.vup>300%</>攻击力</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -324994,7 +326658,7 @@
       {
         "name": "铳骑之威",
         "rangeId": null,
-        "description": "攻击力+60%；若携带者为【拉特兰】盟约干员，该干员每次攻击时，有35%概率额外对攻击范围内一名敌人发射子弹造成150%攻击力的物理伤害\\n<@ba.acrem>若该【拉特兰】盟约干员同时携带“拉特兰桥夹”，子弹伤害改为300%攻击力</>",
+        "description": "攻击力<@ba.vup>+60%</>；若携带者为【拉特兰】盟约干员，该干员每次攻击时，有35%概率额外对攻击范围内一名敌人发射子弹造成<@ba.vup>150%</>攻击力的物理伤害\\n<@ba.acrem>若该【拉特兰】盟约干员同时装备“拉特兰桥夹”，子弹伤害改为<@ba.vup>300%</>攻击力</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -325019,7 +326683,7 @@
       {
         "name": "天师古鼎",
         "rangeId": null,
-        "description": "生命值+45%；若携带者为【炎】盟约干员，本回合每获得过1名干员战斗开始后攻击速度+25（最多3层）\\n<@ba.acrem>若该【炎】盟约干员同时携带“炎国短刀”，每次获得干员时获得2资金（每回合最多3次）</>",
+        "description": "生命值<@ba.vup>+45%</>；若携带者为【炎】盟约干员，本回合每获得过1名干员战斗开始后攻击速度<@ba.vup>+25</>（最多3层）\\n<@ba.acrem>若该【炎】盟约干员同时装备“炎国短刀”，每次获得干员时获得<@ba.vup>2</>资金（每回合最多3次）</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -325044,7 +326708,7 @@
       {
         "name": "天师古鼎",
         "rangeId": null,
-        "description": "生命值+70%；若携带者为【炎】盟约干员，本回合每获得过1名干员战斗开始后攻击速度+25（最多3层）\\n<@ba.acrem>若该【炎】盟约干员同时携带“炎国短刀”，每次获得干员时获得2资金（每回合最多3次）</>",
+        "description": "生命值<@ba.vup>+70%</>；若携带者为【炎】盟约干员，本回合每获得过1名干员战斗开始后攻击速度<@ba.vup>+25</>（最多3层）\\n<@ba.acrem>若该【炎】盟约干员同时装备“炎国短刀”，每次获得干员时获得<@ba.vup>2</>资金（每回合最多3次）</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -325069,7 +326733,7 @@
       {
         "name": "海沟实验体",
         "rangeId": null,
-        "description": "受到的伤害-180点；若携带者为【阿戈尔】盟约干员，该干员触发【阿戈尔】盟约<@ba.vup>吞噬</>效果的范围改为周围四格，并让【阿戈尔】盟约获得对应层数\\n<@ba.acrem>若该【阿戈尔】盟约干员同时携带“阿戈尔重刃”，<@ba.vup>吞噬</>周围四格干员时额外获得其等量生命值</>",
+        "description": "获得<@ba.vup>180</>点<$ba.dmgresistance>伤害减免</>；若携带者为【阿戈尔】盟约干员，自身受到伤害时对伤害来源造成自身攻击力<@ba.vup>50%</>的法术伤害（每0.5秒最多触发一次）\\n<@ba.acrem>若该【阿戈尔】盟约干员同时装备“阿戈尔重刃”，则自身受到伤害时额外造成一次<@ba.vup>50%</>攻击力的法术伤害（每0.5秒最多触发一次）</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -325094,7 +326758,7 @@
       {
         "name": "海沟实验体",
         "rangeId": null,
-        "description": "受到的伤害-300点；若携带者为【阿戈尔】盟约干员，该干员触发【阿戈尔】盟约<@ba.vup>吞噬</>效果的范围改为周围四格，并让【阿戈尔】盟约获得对应层数\\n<@ba.acrem>若该【阿戈尔】盟约干员同时携带“阿戈尔重刃”，<@ba.vup>吞噬</>周围四格干员时额外获得其等量生命值</>",
+        "description": "获得<@ba.vup>300</>点<$ba.dmgresistance>伤害减免</>；若携带者为【阿戈尔】盟约干员，自身受到伤害时对伤害来源造成自身攻击力<@ba.vup>50%</>的法术伤害（每0.5秒最多触发一次）\\n<@ba.acrem>若该【阿戈尔】盟约干员同时装备“阿戈尔重刃”，则自身受到伤害时额外造成一次<@ba.vup>50%</>的攻击力的法术伤害（每0.5秒最多触发一次）</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -325119,7 +326783,7 @@
       {
         "name": "蒸汽之心",
         "rangeId": null,
-        "description": "攻击速度+35；若携带者为【维多利亚】盟约干员，该干员获得当前场上所有维式重锤特殊效果\\n<@ba.acrem>若该【维多利亚】盟约干员同时携带“维式重锤”系列装备，该“维式重锤”装备特殊效果获得强化（效果变为2倍）</>",
+        "description": "攻击速度<@ba.vup>+35</>；若携带者为【维多利亚】盟约干员，该干员获得当前场上所有维式重锤特殊效果\\n<@ba.acrem>若该【维多利亚】盟约干员同时装备“维式重锤”系列装备，该“维式重锤”装备特殊效果获得强化（效果变为2倍）</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -325144,7 +326808,7 @@
       {
         "name": "蒸汽之心",
         "rangeId": null,
-        "description": "攻击速度+60；若携带者为【维多利亚】盟约干员，该干员获得当前场上所有维式重锤特殊效果\\n<@ba.acrem>若该【维多利亚】盟约干员同时携带“维式重锤”系列装备，该“维式重锤”装备特殊效果获得强化（效果变为2倍）</>",
+        "description": "攻击速度<@ba.vup>+55</>；若携带者为【维多利亚】盟约干员，该干员获得当前场上所有维式重锤特殊效果\\n<@ba.acrem>若该【维多利亚】盟约干员同时装备“维式重锤”系列装备，该“维式重锤”装备特殊效果获得强化（效果变为2倍）</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -325169,7 +326833,7 @@
       {
         "name": "耶拉冈德之泪",
         "rangeId": null,
-        "description": "法术抗性+30；若携带者为【谢拉格】盟约干员，该干员击倒敌人时使周围一定范围内的其它敌人受到2秒<$ba.cold>寒冷</>\\n<@ba.acrem>若该【谢拉格】盟约干员同时携带“谢拉格不融冰”，击倒敌人时使周围一定范围内的其它敌人额外受到一次2秒<$ba.cold>寒冷</></>",
+        "description": "法术抗性<@ba.vup>+30</>；若携带者为【谢拉格】盟约干员，该干员攻击范围内被<$ba.cold>寒冷</>或<$ba.frozen>冻结</>的敌人每秒受到一次自身攻击力<@ba.vup>30%</>的法术伤害\\n<@ba.acrem>若该【谢拉格】盟约干员同时装备“谢拉格不融冰”，则使自身攻击范围内<$ba.cold>寒冷</>或<$ba.frozen>冻结</>的敌人每秒受到的法术伤害提升至<@ba.vup>100%</>攻击力</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -325194,7 +326858,7 @@
       {
         "name": "耶拉冈德之泪",
         "rangeId": null,
-        "description": "法术抗性+50；若携带者为【谢拉格】盟约干员，该干员击倒敌人时使周围一定范围内的其它敌人受到2秒<$ba.cold>寒冷</>\\n<@ba.acrem>若该【谢拉格】盟约干员同时携带“谢拉格不融冰”，击倒敌人时使周围一定范围内的其它敌人额外受到一次2秒<$ba.cold>寒冷</></>",
+        "description": "法术抗性<@ba.vup>+50</>；若携带者为【谢拉格】盟约干员，该干员攻击范围内被<$ba.cold>寒冷</>或<$ba.frozen>冻结</>的敌人每秒受到一次自身攻击力<@ba.vup>30%</>的法术伤害\\n<@ba.acrem>若该【谢拉格】盟约干员同时装备“谢拉格不融冰”，则使自身攻击范围内<$ba.cold>寒冷</>或<$ba.frozen>冻结</>的敌人每秒受到的法术伤害提升至<@ba.vup>100%</>攻击力</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -325219,7 +326883,7 @@
       {
         "name": "黄沙罗盘",
         "rangeId": null,
-        "description": "初始技力+25；若携带者为【萨尔贡】盟约干员，该干员首次技能结束时立刻回复30点技力\\n<@ba.acrem>若该【萨尔贡】盟约干员同时携带“萨尔贡浓茶”， 每次开启技能时为全部【萨尔贡】干员回复3点技力</>",
+        "description": "初始技力<@ba.vup>+30</>；若携带者为【萨尔贡】盟约干员，该干员首次技能结束时立刻回复<@ba.vup>30</>点技力\\n<@ba.acrem>若该【萨尔贡】盟约干员同时装备“萨尔贡浓茶”，每次开启技能时为全部【萨尔贡】干员回复<@ba.vup>3</>点技力</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -325244,7 +326908,7 @@
       {
         "name": "黄沙罗盘",
         "rangeId": null,
-        "description": "初始技力+40；若携带者为【萨尔贡】盟约干员，该干员首次技能结束时立刻回复30点技力\\n<@ba.acrem>若该【萨尔贡】盟约干员同时携带“萨尔贡浓茶”， 每次开启技能时为全部【萨尔贡】干员回复5点技力</>",
+        "description": "初始技力<@ba.vup>+50</>；若携带者为【萨尔贡】盟约干员，该干员首次技能结束时立刻回复<@ba.vup>30</>点技力\\n<@ba.acrem>若该【萨尔贡】盟约干员同时装备“萨尔贡浓茶”，每次开启技能时为全部【萨尔贡】干员回复<@ba.vup>3</>点技力</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -325269,7 +326933,7 @@
       {
         "name": "信标",
         "rangeId": null,
-        "description": "装备时，目标干员和本装备销毁并自动选取1位在场相应盟约人数最多的队友，下个休整期向其<@ba.vup>发送</>1个同品质的同名干员\\n<@ba.acrem>若无符合条件者则返还该干员</>\\n<@ba.acrem>无法装备给自选干员</>",
+        "description": "装备时，目标干员和本装备销毁并进行一次特殊刷新，出现两名与携带者同等阶的干员，免费获取其中一名\\n<@ba.rem>若在同盟模拟中且存在其他队友，下个休整期向相应盟约人数最多的队友发送1个原干员</>\\n<@ba.acrem>相应盟约人数相同则随机发送</>\\n<@ba.acrem>无法装备给自编干员</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -325294,7 +326958,7 @@
       {
         "name": "信标",
         "rangeId": null,
-        "description": "装备时，目标干员和本装备销毁并自动选取1位在场相应盟约人数最多的队友，下个休整期向其<@ba.vup>发送</>1个同品质的同名干员\\n<@ba.acrem>若无符合条件者则返还该干员</>\\n<@ba.acrem>无法装备给自选干员</>",
+        "description": "装备时，目标干员和本装备销毁并进行一次特殊刷新，出现两名与携带者同等阶的干员，免费获取其中一名\\n<@ba.rem>若在同盟模拟中且存在其他队友，下个休整期向相应盟约人数最多的队友发送1个原干员</>\\n<@ba.acrem>相应盟约人数相同则随机发送</>\\n<@ba.acrem>无法装备给自编干员</>",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -325319,7 +326983,7 @@
       {
         "name": "“双眼皮”",
         "rangeId": null,
-        "description": "根据当前层数最高的盟约获得强化：每层盟约层数使自身攻击速度+1，攻击额外附带造成0.1%<$ba.fragile>脆弱</>，持续2秒（至多300层）",
+        "description": "根据当前层数最高的盟约获得强化：每层盟约层数使自身攻击速度<@ba.vup>+1</>，攻击额外附带造成<@ba.vup>0.1%</><$ba.fragile>脆弱</>，持续2秒（至多300层）",
         "skillType": 0,
         "durationType": 0,
         "spData": {
@@ -325807,6 +327471,44 @@
           {
             "key": "hp_ratio",
             "value": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  "sktok_newlamp": {
+    "skillId": "sktok_newlamp",
+    "iconId": "sktok_neonlamp",
+    "hidden": false,
+    "levels": [
+      {
+        "name": "文明的光芒",
+        "rangeId": "x-7",
+        "description": "视野范围扩大，持续时间永久",
+        "skillType": 1,
+        "durationType": 0,
+        "spData": {
+          "spType": 1,
+          "levelUpCost": null,
+          "maxChargeTime": 1,
+          "spCost": 50,
+          "initSp": 0,
+          "increment": 1.0
+        },
+        "prefabId": "sktok_newlamp",
+        "duration": 0.0,
+        "blackboard": [
+          {
+            "key": "cost",
+            "value": 20.0
+          },
+          {
+            "key": "range_id1",
+            "valueStr": "x-5"
+          },
+          {
+            "key": "range_id2",
+            "valueStr": "x-7"
           }
         ]
       }
