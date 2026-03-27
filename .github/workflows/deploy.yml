@@ -85,15 +85,28 @@ jobs:
 
       - name: Convert images to WebP
         run: |
+          CONVERT_JOBS=4
+          export CONVERT_JOBS
+          export -f true
+
           find "deploy" -type f \( -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" \) -print0 | \
-          while IFS= read -r -d '' file; do
+          xargs -0 -n 1 -P "${CONVERT_JOBS}" bash -c '
+            file="$1"
             output="${file%.*}.webp"
             before_size=$(stat -c%s "$file")
-            cwebp -quiet -q 80 "$file" -o "$output"
-            after_size=$(stat -c%s "$output")
-            echo "Converted: $file -> $output | before=${before_size}B after=${after_size}B"
-            rm -f "$file"
-          done
+
+            if cwebp -quiet -q 80 "$file" -o "$output"; then
+              after_size=$(stat -c%s "$output")
+              echo "Converted: $file -> $output | before=${before_size}B after=${after_size}B"
+              rm -f "$file"
+            else
+              echo "Failed: $file" >&2
+              rm -f "$output"
+              exit 1
+            fi
+          ' _
+
+          echo "WebP conversion concurrency: ${CONVERT_JOBS}"
 
           echo "Remaining image files in deploy:"
           find "deploy" -type f \( -iname "*.webp" -o -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" \) | sort
