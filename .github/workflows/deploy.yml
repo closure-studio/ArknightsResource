@@ -85,9 +85,15 @@ jobs:
 
       - name: Convert images to WebP
         run: |
-          CONVERT_JOBS=4
-          export CONVERT_JOBS
-          export -f true
+          CONVERT_JOBS="$(nproc)"
+          if [ "$CONVERT_JOBS" -gt 4 ]; then
+            CONVERT_JOBS=4
+          fi
+          if [ "$CONVERT_JOBS" -lt 1 ]; then
+            CONVERT_JOBS=1
+          fi
+
+          echo "WebP conversion concurrency: ${CONVERT_JOBS}"
 
           find "deploy" -type f \( -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" \) -print0 | \
           xargs -0 -n 1 -P "${CONVERT_JOBS}" bash -c '
@@ -105,8 +111,6 @@ jobs:
               exit 1
             fi
           ' _
-
-          echo "WebP conversion concurrency: ${CONVERT_JOBS}"
 
           echo "Remaining image files in deploy:"
           find "deploy" -type f \( -iname "*.webp" -o -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" \) | sort
