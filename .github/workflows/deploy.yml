@@ -1,4 +1,4 @@
-name: Deploy to Cloudflare Pages
+name: Deploy to Cloudflare R2
 on:
   push:
     branches:
@@ -53,16 +53,28 @@ jobs:
           cp -r rogueitem deploy/
           echo "Deploy directory content:"
           ls -al deploy
-      
-      # Cloudflare Pages deploy
-      - name: Deploy to Cloudflare Pages
-        id: deploy
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: arkresource
-          directory: deploy
+
+      - name: Install AWS CLI
+        run: |
+          if command -v aws >/dev/null 2>&1; then
+            aws --version
+            exit 0
+          fi
+
+          sudo apt-get update
+          sudo apt-get install -y awscli
+          aws --version
+
+      # Cloudflare R2 deploy
+      - name: Deploy to Cloudflare R2
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.CLOUDFLARE_R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+        run: |
+          aws s3 sync "deploy" "s3://${{ secrets.CLOUDFLARE_R2_BUCKET }}" \
+            --endpoint-url "https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com" \
+            --delete
       
       # 发送部署成功通知
       - name: Send Deployment Success Notification
