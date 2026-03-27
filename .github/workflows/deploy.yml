@@ -53,17 +53,52 @@ jobs:
           cp -r rogueitem deploy/
           echo "Deploy directory content:"
           ls -al deploy
+          echo "Deploy directory size before WebP conversion:"
+          du -sh "deploy"
 
-      - name: Install AWS CLI
+      - name: Install deploy tools
         run: |
-          if command -v aws >/dev/null 2>&1; then
-            aws --version
-            exit 0
+          NEED_UPDATE=0
+
+          if ! command -v aws >/dev/null 2>&1; then
+            NEED_UPDATE=1
           fi
 
-          sudo apt-get update
-          sudo apt-get install -y awscli
+          if ! command -v cwebp >/dev/null 2>&1; then
+            NEED_UPDATE=1
+          fi
+
+          if [ "$NEED_UPDATE" -eq 1 ]; then
+            sudo apt-get update
+          fi
+
+          if ! command -v aws >/dev/null 2>&1; then
+            sudo apt-get install -y awscli
+          fi
+
+          if ! command -v cwebp >/dev/null 2>&1; then
+            sudo apt-get install -y webp
+          fi
+
           aws --version
+          cwebp -version
+
+      - name: Convert images to WebP
+        run: |
+          find "deploy" -type f \( -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" \) -print0 | \
+          while IFS= read -r -d '' file; do
+            output="${file%.*}.webp"
+            before_size=$(stat -c%s "$file")
+            cwebp -quiet -q 80 "$file" -o "$output"
+            after_size=$(stat -c%s "$output")
+            echo "Converted: $file -> $output | before=${before_size}B after=${after_size}B"
+            rm -f "$file"
+          done
+
+          echo "Remaining image files in deploy:"
+          find "deploy" -type f \( -iname "*.webp" -o -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" \) | sort
+          echo "Deploy directory size after WebP conversion:"
+          du -sh "deploy"
 
       # Cloudflare R2 deploy
       - name: Deploy to Cloudflare R2
