@@ -149693,5 +149693,19 @@
       "defaultGroupSortId": 0,
       "efficiencyTargetDict": {}
     }
+  },
+  "tradingRoomInfoData": {
+    "tradingRoomSpecialOrderData": {
+      "char_4058_pepe": {
+        "charId": "char_4058_pepe",
+        "iconId": "orderIcon_trade_ord_pepe",
+        "title": "特别独占订单"
+      },
+      "char_4228_closur": {
+        "charId": "char_4228_closur",
+        "iconId": "orderIcon_trade_ord_closure",
+        "title": "特别订单"
+      }
+    }
   }
 }
