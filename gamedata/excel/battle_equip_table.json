@@ -155125,15 +155125,15 @@
                   "blackboard": [
                     {
                       "key": "skadi2_e_003_t_2[atk][1].atk",
-                      "value": 0.08
+                      "value": 0.09
                     },
                     {
                       "key": "skadi2_e_003_t_2[atk][2].atk",
-                      "value": 0.15
+                      "value": 0.2
                     },
                     {
                       "key": "skadi2_e_003_t_2[def].def",
-                      "value": 0.06
+                      "value": 0.08
                     },
                     {
                       "key": "sp",
@@ -155159,15 +155159,15 @@
                   "blackboard": [
                     {
                       "key": "skadi2_e_003_t_2[atk][1].atk",
-                      "value": 0.11
+                      "value": 0.12
                     },
                     {
                       "key": "skadi2_e_003_t_2[atk][2].atk",
-                      "value": 0.18
+                      "value": 0.23
                     },
                     {
                       "key": "skadi2_e_003_t_2[def].def",
-                      "value": 0.06
+                      "value": 0.08
                     },
                     {
                       "key": "sp",
