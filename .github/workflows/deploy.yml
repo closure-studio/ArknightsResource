@@ -124,7 +124,7 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_R2_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: auto
         run: |
-          aws s3 sync "deploy" "s3://${{ secrets.CLOUDFLARE_R2_BUCKET }}" \
+          aws s3 sync "deploy" "s3://${{ secrets.CLOUDFLARE_R2_BUCKET }}/assets/" \
             --endpoint-url "https://${{ secrets.CLOUDFLARE_ACCOUNT_ID }}.r2.cloudflarestorage.com" \
             --delete
       
