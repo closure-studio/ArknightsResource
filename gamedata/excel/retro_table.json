@@ -98,7 +98,10 @@
     "permanent_sidestory_30_zone2": "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion",
     "permanent_sidestory_30_zone3": "permanent_sidestory_30_Such_is_the_Joy_of_Our_Reunion",
     "permanent_sidestory_31_zone1": "permanent_sidestory_31_When_Elegies_are_Ashes",
-    "permanent_sidestory_31_zone2": "permanent_sidestory_31_When_Elegies_are_Ashes"
+    "permanent_sidestory_31_zone2": "permanent_sidestory_31_When_Elegies_are_Ashes",
+    "permanent_sidestory_32_zone1": "permanent_sidestory_32_The_Masses_Travels",
+    "permanent_sidestory_32_zone2": "permanent_sidestory_32_The_Masses_Travels",
+    "permanent_sidestory_32_zone3": "permanent_sidestory_32_The_Masses_Travels"
   },
   "stageValidInfo": {
     "act9d0_01": {
@@ -5528,6 +5531,170 @@
     "act41side_ex08#f#": {
       "startTs": 1775764800,
       "endTs": -1
+    },
+    "act42side_st01": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_01": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_tr01": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_02": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_03": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_04": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_st02": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_05": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_06": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_07": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_08": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_09": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_10": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_st03": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_st04": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_ex01": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_ex01#f#": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_ex02": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_ex02#f#": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_ex03": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_ex03#f#": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_ex04": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_ex04#f#": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_ex05": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_ex05#f#": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_ex06": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_ex06#f#": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_ex07": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_ex07#f#": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_ex08": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_ex08#f#": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_s01": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_s01#f#": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_s02": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_s02#f#": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_s03": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_s03#f#": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_s04": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_s04#f#": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_s05": {
+      "startTs": 1780603200,
+      "endTs": -1
+    },
+    "act42side_s05#f#": {
+      "startTs": 1780603200,
+      "endTs": -1
     }
   },
   "stages": null,
@@ -6180,6 +6347,22 @@
       "trailStartTime": -1,
       "index": 31,
       "name": "挽歌燃烧殆尽",
+      "haveTrail": false,
+      "customActId": null,
+      "customActType": "DEFAULT",
+      "trapDomainId": null
+    },
+    "permanent_sidestory_32_The_Masses_Travels": {
+      "retroId": "permanent_sidestory_32_The_Masses_Travels",
+      "type": 0,
+      "linkedActId": [
+        "act42side",
+        "act42sre"
+      ],
+      "startTime": 1780603200,
+      "trailStartTime": -1,
+      "index": 32,
+      "name": "众生行记",
       "haveTrail": false,
       "customActId": null,
       "customActType": "DEFAULT",
@@ -139494,7 +139677,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
@@ -139695,7 +139878,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
@@ -139822,7 +140005,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
@@ -139949,7 +140132,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
@@ -140150,7 +140333,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
@@ -140283,7 +140466,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
@@ -140410,7 +140593,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
@@ -140543,7 +140726,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
@@ -140699,7 +140882,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
@@ -140867,7 +141050,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
@@ -141171,7 +141354,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
@@ -141323,7 +141506,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
@@ -141475,7 +141658,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
@@ -141627,7 +141810,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
@@ -141779,7 +141962,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
@@ -141931,7 +142114,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
@@ -142083,7 +142266,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
@@ -142235,7 +142418,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
@@ -142387,7 +142570,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
@@ -142539,7 +142722,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
@@ -142691,7 +142874,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
@@ -142843,7 +143026,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
@@ -142995,7 +143178,7 @@
       "etCost": 0,
       "etFailReturn": 0,
       "etButtonStyle": null,
-      "apProtectTimes": 1,
+      "apProtectTimes": 0,
       "diamondOnceDrop": 1,
       "practiceTicketCost": 1,
       "dailyStageDifficulty": 0,
