@@ -2814,6 +2814,24 @@
         "canBeFree": true,
         "uniEquipId": null,
         "recruitType": "FREE"
+      },
+      "char_4215_buddy": {
+        "charId": "char_4215_buddy",
+        "canBeFree": false,
+        "uniEquipId": null,
+        "recruitType": "FREE"
+      },
+      "char_1049_catap2": {
+        "charId": "char_1049_catap2",
+        "canBeFree": false,
+        "uniEquipId": "uniequip_002_catap2",
+        "recruitType": "FREE"
+      },
+      "char_1048_orchd2": {
+        "charId": "char_1048_orchd2",
+        "canBeFree": false,
+        "uniEquipId": "uniequip_002_orchd2",
+        "recruitType": "FREE"
       }
     }
   },
@@ -334647,7 +334665,7 @@
           },
           "rogue_2_diceEve_18": {
             "dicePointMax": 12,
-            "diceResultClass": "BEST",
+            "diceResultClass": "GREAT",
             "diceGroupId": "rogue_2_dicegroup_8",
             "diceEventId": "rogue_2_diceEve_18",
             "resultDesc": "虔诚让命运愿意多给一份馈赠",
@@ -334923,7 +334941,7 @@
           },
           "rogue_2_diceEve_41": {
             "dicePointMax": 12,
-            "diceResultClass": "GREAT",
+            "diceResultClass": "BEST",
             "diceGroupId": "rogue_2_dicegroup_20",
             "diceEventId": "rogue_2_diceEve_41",
             "resultDesc": "获得了<@ro2.virtue>启示<{0}></>",
@@ -334959,7 +334977,7 @@
           },
           "rogue_2_diceEve_44": {
             "dicePointMax": 12,
-            "diceResultClass": "BEST",
+            "diceResultClass": "GREAT",
             "diceGroupId": "rogue_2_dicegroup_21",
             "diceEventId": "rogue_2_diceEve_44",
             "resultDesc": "获得了<@ro2.virtue>启示<{0}></>",
