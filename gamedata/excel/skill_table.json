@@ -162430,7 +162430,7 @@
       {
         "name": "龙之箭",
         "rangeId": null,
-        "description": "蓄力<@ba.vup>{wait_duration}</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害和攻击力<@ba.vup>{atk_scale_magic:0%}</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能1次</>",
+        "description": "蓄力<@ba.vup>3</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害和攻击力<@ba.vup>{atk_scale_magic:0%}</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能1次</>",
         "skillType": 1,
         "durationType": 0,
         "spData": {
@@ -162454,7 +162454,7 @@
           },
           {
             "key": "wait_duration",
-            "value": 3.0
+            "value": 1.5
           },
           {
             "key": "dist_interval",
@@ -162477,7 +162477,7 @@
       {
         "name": "龙之箭",
         "rangeId": null,
-        "description": "蓄力<@ba.vup>{wait_duration}</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害和攻击力<@ba.vup>{atk_scale_magic:0%}</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能1次</>",
+        "description": "蓄力<@ba.vup>3</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害和攻击力<@ba.vup>{atk_scale_magic:0%}</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能1次</>",
         "skillType": 1,
         "durationType": 0,
         "spData": {
@@ -162501,7 +162501,7 @@
           },
           {
             "key": "wait_duration",
-            "value": 3.0
+            "value": 1.5
           },
           {
             "key": "dist_interval",
@@ -162524,7 +162524,7 @@
       {
         "name": "龙之箭",
         "rangeId": null,
-        "description": "蓄力<@ba.vup>{wait_duration}</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害和攻击力<@ba.vup>{atk_scale_magic:0%}</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能1次</>",
+        "description": "蓄力<@ba.vup>3</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害和攻击力<@ba.vup>{atk_scale_magic:0%}</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能1次</>",
         "skillType": 1,
         "durationType": 0,
         "spData": {
@@ -162548,7 +162548,7 @@
           },
           {
             "key": "wait_duration",
-            "value": 3.0
+            "value": 1.5
           },
           {
             "key": "dist_interval",
@@ -162571,7 +162571,7 @@
       {
         "name": "龙之箭",
         "rangeId": null,
-        "description": "蓄力<@ba.vup>{wait_duration}</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害和攻击力<@ba.vup>{atk_scale_magic:0%}</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能1次</>",
+        "description": "蓄力<@ba.vup>3</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害和攻击力<@ba.vup>{atk_scale_magic:0%}</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能1次</>",
         "skillType": 1,
         "durationType": 0,
         "spData": {
@@ -162595,7 +162595,7 @@
           },
           {
             "key": "wait_duration",
-            "value": 3.0
+            "value": 1.5
           },
           {
             "key": "dist_interval",
@@ -162618,7 +162618,7 @@
       {
         "name": "龙之箭",
         "rangeId": null,
-        "description": "蓄力<@ba.vup>{wait_duration}</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害和攻击力<@ba.vup>{atk_scale_magic:0%}</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能1次</>",
+        "description": "蓄力<@ba.vup>3</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害和攻击力<@ba.vup>{atk_scale_magic:0%}</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能1次</>",
         "skillType": 1,
         "durationType": 0,
         "spData": {
@@ -162642,7 +162642,7 @@
           },
           {
             "key": "wait_duration",
-            "value": 3.0
+            "value": 1.5
           },
           {
             "key": "dist_interval",
@@ -162665,7 +162665,7 @@
       {
         "name": "龙之箭",
         "rangeId": null,
-        "description": "蓄力<@ba.vup>{wait_duration}</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害和攻击力<@ba.vup>{atk_scale_magic:0%}</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能1次</>",
+        "description": "蓄力<@ba.vup>3</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害和攻击力<@ba.vup>{atk_scale_magic:0%}</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能1次</>",
         "skillType": 1,
         "durationType": 0,
         "spData": {
@@ -162689,7 +162689,7 @@
           },
           {
             "key": "wait_duration",
-            "value": 3.0
+            "value": 1.5
           },
           {
             "key": "dist_interval",
@@ -162712,7 +162712,7 @@
       {
         "name": "龙之箭",
         "rangeId": null,
-        "description": "蓄力<@ba.vup>{wait_duration}</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害和攻击力<@ba.vup>{atk_scale_magic:0%}</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能2次</>",
+        "description": "蓄力<@ba.vup>3</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害和攻击力<@ba.vup>{atk_scale_magic:0%}</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能2次</>",
         "skillType": 1,
         "durationType": 0,
         "spData": {
@@ -162736,7 +162736,7 @@
           },
           {
             "key": "wait_duration",
-            "value": 3.0
+            "value": 1.5
           },
           {
             "key": "dist_interval",
@@ -162759,7 +162759,7 @@
       {
         "name": "龙之箭",
         "rangeId": null,
-        "description": "蓄力<@ba.vup>{wait_duration}</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害和攻击力<@ba.vup>{atk_scale_magic:0%}</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能2次</>",
+        "description": "蓄力<@ba.vup>3</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害和攻击力<@ba.vup>{atk_scale_magic:0%}</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能2次</>",
         "skillType": 1,
         "durationType": 0,
         "spData": {
@@ -162783,7 +162783,7 @@
           },
           {
             "key": "wait_duration",
-            "value": 3.0
+            "value": 1.5
           },
           {
             "key": "dist_interval",
@@ -162806,7 +162806,7 @@
       {
         "name": "龙之箭",
         "rangeId": null,
-        "description": "蓄力<@ba.vup>{wait_duration}</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害和攻击力<@ba.vup>{atk_scale_magic:0%}</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能2次</>",
+        "description": "蓄力<@ba.vup>3</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>中等力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害和攻击力<@ba.vup>{atk_scale_magic:0%}</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能2次</>",
         "skillType": 1,
         "durationType": 0,
         "spData": {
@@ -162830,7 +162830,7 @@
           },
           {
             "key": "wait_duration",
-            "value": 3.0
+            "value": 1.5
           },
           {
             "key": "dist_interval",
@@ -162853,7 +162853,7 @@
       {
         "name": "龙之箭",
         "rangeId": null,
-        "description": "蓄力<@ba.vup>{wait_duration}</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>较大力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害和攻击力<@ba.vup>{atk_scale_magic:0%}</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能2次</>",
+        "description": "蓄力<@ba.vup>3</>秒后射出直线飞行的贯穿箭矢，箭矢以<@ba.vup>较大力度</>推动每个经过的敌人，每飞行一段距离都会对周围所有敌人造成攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害和攻击力<@ba.vup>{atk_scale_magic:0%}</>的法术伤害，箭矢射程无限\\n<@ba.rem>可充能2次</>",
         "skillType": 1,
         "durationType": 0,
         "spData": {
@@ -162877,7 +162877,7 @@
           },
           {
             "key": "wait_duration",
-            "value": 3.0
+            "value": 1.5
           },
           {
             "key": "dist_interval",
