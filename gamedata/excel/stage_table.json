@@ -83717,6 +83717,346 @@
       "isStagePatch": false,
       "mainStageId": "act1football_tr01"
     },
+    "act1football_ex01": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act1football_07",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act1football_ex01",
+      "levelId": "Activities/ACT1FOOTBALL/level_act1football_ex01",
+      "zoneId": "act1football_zone2",
+      "code": "PF-EX-1",
+      "name": "球风对撞",
+      "description": "不同战术理念的碰撞一直是大家喜闻乐见的话题，今天口头上的对战先放到一边，赛果将证明一切。\\n<color=#3436fb><点球决胜></color>倒计时结束后，如果双方比分战平，会进入到点球决胜。\\n<color=#3436fb><速决规则></color>本场比赛中净胜球达到5个的队伍将直接获胜。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_PF_field",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": -1,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act1football_milestone_point",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act1football_milestone_point",
+            "dropType": 2
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act1football_milestone_point",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act1football_milestone_point",
+            "dropType": 2
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1football_ex01"
+    },
+    "act1football_ex02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act1football_ex01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act1football_ex02",
+      "levelId": "Activities/ACT1FOOTBALL/level_act1football_ex02",
+      "zoneId": "act1football_zone2",
+      "code": "PF-EX-2",
+      "name": "先声夺人",
+      "description": "助威团冒着大雨赶到现场，只为见证队伍拿下一场酣畅淋漓的胜利，不要让他们失望！\\n<color=#3436fb><超强对流球场></color>场上出现落雷落在足球上，对附近的单位造成伤害和晕眩。\\n<color=#3436fb><点球决胜></color>倒计时结束后，如果双方比分战平，会进入到点球决胜。\\n<color=#3436fb><速决规则></color>本场比赛中净胜球达到5个的队伍将直接获胜。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_PF_field",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": -1,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act1football_milestone_point",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act1football_milestone_point",
+            "dropType": 2
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act1football_milestone_point",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act1football_milestone_point",
+            "dropType": 2
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1football_ex01"
+    },
+    "act1football_ex03": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act1football_ex02",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act1football_ex03",
+      "levelId": "Activities/ACT1FOOTBALL/level_act1football_ex03",
+      "zoneId": "act1football_zone2",
+      "code": "PF-EX-3",
+      "name": "小心脚下",
+      "description": "进入到淘汰赛最为紧张的阶段，为了胜利不择手段的队伍并不少见，千万不能掉以轻心。\\n<color=#3436fb><旋旋风暴球场></color>场上出现移动的龙卷风，使附近的敌人浮空。\\n<color=#3436fb><点球决胜></color>倒计时结束后，如果双方比分战平，会进入到点球决胜。\\n<color=#3436fb><速决规则></color>本场比赛中净胜球达到5个的队伍将直接获胜。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_PF_field",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": -1,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act1football_milestone_point",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act1football_milestone_point",
+            "dropType": 2
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act1football_milestone_point",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act1football_milestone_point",
+            "dropType": 2
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1football_ex01"
+    },
+    "act1football_ex04": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act1football_ex03",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act1football_ex04",
+      "levelId": "Activities/ACT1FOOTBALL/level_act1football_ex04",
+      "zoneId": "act1football_zone2",
+      "code": "PF-EX-4",
+      "name": "冠军之路",
+      "description": "所有人都能看到已经摆放在球场边的冠军奖杯，在这场最终决战后，冠军将在万众瞩目中加冕。\\n<color=#3436fb><点球决胜></color>倒计时结束后，如果双方比分战平，会进入到点球决胜。\\n<color=#3436fb><速决规则></color>本场比赛中净胜球达到5个的队伍将直接获胜。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_PF_field",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": -1,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act1football_milestone_point",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act1football_milestone_point",
+            "dropType": 2
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act1football_milestone_point",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act1football_milestone_point",
+            "dropType": 2
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1football_ex01"
+    },
     "act1football_s01": {
       "stageType": "ACTIVITY",
       "difficulty": "NORMAL",
@@ -83734,6 +84074,91 @@
       "code": "PF-S-1",
       "name": "耐力拉练",
       "description": "阵地足球比赛会考验每一位参赛队员的体能，而充沛的体能往往可以带来战术上的优势，因此耐力训练不可或缺。\\n<color=#3436fb><随机球队></color>每场比赛会随机遇到阵地队、战术队或直球队的对手。\\n<color=#3436fb><随机球场></color>每场比赛会随机出现冻人冬日球场、智能时代球场、超强对流球场、旋旋风暴球场或常规球场。",
+      "hardStagedId": null,
+      "dangerLevel": "-",
+      "dangerPoint": -1.0,
+      "loadingPicId": "loading_PF_field",
+      "canPractice": false,
+      "canBattleReplay": false,
+      "apCost": 0,
+      "apFailReturn": 0,
+      "maxSlot": -1,
+      "etItemId": null,
+      "etCost": -1,
+      "etFailReturn": -1,
+      "etButtonStyle": null,
+      "apProtectTimes": 0,
+      "diamondOnceDrop": 0,
+      "practiceTicketCost": -1,
+      "dailyStageDifficulty": 0,
+      "expGain": 0,
+      "goldGain": 0,
+      "loseExpGain": 0,
+      "loseGoldGain": 0,
+      "passFavor": 0,
+      "completeFavor": 0,
+      "slProgress": 0,
+      "displayMainItem": null,
+      "hilightMark": false,
+      "bossMark": false,
+      "isPredefined": false,
+      "isHardPredefined": false,
+      "isSkillSelectablePredefined": false,
+      "isStoryOnly": false,
+      "appearanceStyle": 0,
+      "stageDropInfo": {
+        "firstPassRewards": null,
+        "firstCompleteRewards": null,
+        "passRewards": null,
+        "completeRewards": null,
+        "displayRewards": [
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act1football_milestone_point",
+            "dropType": 8
+          },
+          {
+            "type": "ACTIVITY_ITEM",
+            "id": "act1football_milestone_point",
+            "dropType": 2
+          }
+        ],
+        "displayDetailRewards": [
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act1football_milestone_point",
+            "dropType": 8
+          },
+          {
+            "occPercent": 0,
+            "type": "ACTIVITY_ITEM",
+            "id": "act1football_milestone_point",
+            "dropType": 2
+          }
+        ]
+      },
+      "startButtonOverrideId": null,
+      "isStagePatch": false,
+      "mainStageId": "act1football_s01"
+    },
+    "act1football_s02": {
+      "stageType": "ACTIVITY",
+      "difficulty": "NORMAL",
+      "performanceStageFlag": "NORMAL_STAGE",
+      "diffGroup": "NONE",
+      "unlockCondition": [
+        {
+          "stageId": "act1football_tr01",
+          "completeState": 2
+        }
+      ],
+      "stageId": "act1football_s02",
+      "levelId": "Activities/ACT1FOOTBALL/level_act1football_sub-1-2",
+      "zoneId": "act1football_zone3",
+      "code": "PF-S-2",
+      "name": "盘带练习",
+      "description": "历年来球场上曾涌现出多种不同的战术，但无论如何带球技巧都是这些战术中无可撼动的关键，这次训练正是为提高盘带能力而设。\\n<color=#3436fb><随机球队></color>每场比赛会随机遇到门神会、爱球会、球德联或魔球帮的对手。\\n<color=#3436fb><随机球场></color>每场比赛会随机出现冻人冬日球场、智能时代球场、超强对流球场、旋旋风暴球场或常规球场。",
       "hardStagedId": null,
       "dangerLevel": "-",
       "dangerPoint": -1.0,
@@ -218423,7 +218848,7 @@
       ],
       "stageId": "act24side_st01",
       "levelId": null,
-      "zoneId": "act24side_zone1",
+      "zoneId": "act24sre_zone1",
       "code": "CF-ST-1",
       "name": "噩梦",
       "description": "疯狂指引着残躯，指向命运的相遇。",
@@ -218498,7 +218923,7 @@
       ],
       "stageId": "act24side_01",
       "levelId": "Activities/act24side/level_act24side_01",
-      "zoneId": "act24side_zone1",
+      "zoneId": "act24sre_zone1",
       "code": "CF-1",
       "name": "森林里的麻烦家伙",
       "description": "森林里的任何一点小麻烦，都有可能藏着夺命的利齿。",
@@ -218509,7 +218934,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 9,
-      "apFailReturn": 8,
+      "apFailReturn": 9,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -218523,7 +218948,7 @@
       "goldGain": 90,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 8,
+      "passFavor": 9,
       "completeFavor": 9,
       "slProgress": 0,
       "displayMainItem": null,
@@ -218574,7 +218999,7 @@
       ],
       "stageId": "act24side_tr01",
       "levelId": "Activities/act24side/level_act24side_tr01",
-      "zoneId": "act24side_zone1",
+      "zoneId": "act24sre_zone1",
       "code": "CF-TR-1",
       "name": "来袭！天空王者！",
       "description": "天火灼大地，率天王者怒。\\n<@lv.mhfs>本次行动中我方干员能力大幅提升</>",
@@ -218648,7 +219073,7 @@
       ],
       "stageId": "act24side_02",
       "levelId": "Activities/act24side/level_act24side_02",
-      "zoneId": "act24side_zone1",
+      "zoneId": "act24sre_zone1",
       "code": "CF-2",
       "name": "坚硬磐石",
       "description": "再坚硬的顽石，也有其弱点。",
@@ -218659,7 +219084,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 9,
-      "apFailReturn": 8,
+      "apFailReturn": 9,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -218673,7 +219098,7 @@
       "goldGain": 90,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 8,
+      "passFavor": 9,
       "completeFavor": 9,
       "slProgress": 0,
       "displayMainItem": null,
@@ -218724,7 +219149,7 @@
       ],
       "stageId": "act24side_03",
       "levelId": "Activities/act24side/level_act24side_03",
-      "zoneId": "act24side_zone1",
+      "zoneId": "act24sre_zone1",
       "code": "CF-3",
       "name": "迎头痛击",
       "description": "折断命运的尖爪，凶猛地撕咬吧。",
@@ -218735,7 +219160,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 9,
-      "apFailReturn": 8,
+      "apFailReturn": 9,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -218749,7 +219174,7 @@
       "goldGain": 90,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 8,
+      "passFavor": 9,
       "completeFavor": 9,
       "slProgress": 0,
       "displayMainItem": null,
@@ -218800,7 +219225,7 @@
       ],
       "stageId": "act24side_04",
       "levelId": "Activities/act24side/level_act24side_04",
-      "zoneId": "act24side_zone1",
+      "zoneId": "act24sre_zone1",
       "code": "CF-4",
       "name": "破空的飞羽",
       "description": "切勿大意，即便只是一片飘落的羽毛。",
@@ -218811,7 +219236,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -218825,7 +219250,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -218876,7 +219301,7 @@
       ],
       "stageId": "act24side_st02",
       "levelId": null,
-      "zoneId": "act24side_zone1",
+      "zoneId": "act24sre_zone1",
       "code": "CF-ST-2",
       "name": "林昏焰明",
       "description": "旧的武器，新的武器。",
@@ -218951,7 +219376,7 @@
       ],
       "stageId": "act24side_05",
       "levelId": "Activities/act24side/level_act24side_05",
-      "zoneId": "act24side_zone1",
+      "zoneId": "act24sre_zone1",
       "code": "CF-5",
       "name": "野蛮肇事者",
       "description": "丛林之中，温顺向来只是假象。",
@@ -218962,7 +219387,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -218976,7 +219401,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -219027,7 +219452,7 @@
       ],
       "stageId": "act24side_06",
       "levelId": "Activities/act24side/level_act24side_06",
-      "zoneId": "act24side_zone1",
+      "zoneId": "act24sre_zone1",
       "code": "CF-6",
       "name": "禁飞区",
       "description": "能征服天空的不止翅膀，还有双手与智慧。",
@@ -219038,7 +219463,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 21,
-      "apFailReturn": 20,
+      "apFailReturn": 21,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -219052,7 +219477,7 @@
       "goldGain": 210,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 20,
+      "passFavor": 21,
       "completeFavor": 21,
       "slProgress": 0,
       "displayMainItem": null,
@@ -219103,7 +219528,7 @@
       ],
       "stageId": "act24side_07",
       "levelId": "Activities/act24side/level_act24side_07",
-      "zoneId": "act24side_zone1",
+      "zoneId": "act24sre_zone1",
       "code": "CF-7",
       "name": "锥心之刺",
       "description": "那根刺深深地刺入心脏，每一次心跳都伴随着剧痛，贸然拔出却会鲜血淋漓。",
@@ -219114,7 +219539,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 21,
-      "apFailReturn": 20,
+      "apFailReturn": 21,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -219128,7 +219553,7 @@
       "goldGain": 210,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 20,
+      "passFavor": 21,
       "completeFavor": 21,
       "slProgress": 0,
       "displayMainItem": null,
@@ -219179,7 +219604,7 @@
       ],
       "stageId": "act24side_08",
       "levelId": "Activities/act24side/level_act24side_08",
-      "zoneId": "act24side_zone1",
+      "zoneId": "act24sre_zone1",
       "code": "CF-8",
       "name": "奸诈者必自食恶果",
       "description": "卑劣的脏水无法熄灭斗争的火焰，燃烧之后，只剩尘埃。",
@@ -219190,7 +219615,7 @@
       "canPractice": true,
       "canBattleReplay": true,
       "apCost": 21,
-      "apFailReturn": 20,
+      "apFailReturn": 21,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -219204,7 +219629,7 @@
       "goldGain": 210,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 20,
+      "passFavor": 21,
       "completeFavor": 21,
       "slProgress": 0,
       "displayMainItem": null,
@@ -219255,7 +219680,7 @@
       ],
       "stageId": "act24side_09",
       "levelId": "Activities/act24side/level_act24side_09",
-      "zoneId": "act24side_zone1",
+      "zoneId": "act24sre_zone1",
       "code": "CF-9",
       "name": "决战！燃烧的狩魂！",
       "description": "这一场烈火我会亲手浇灭。做个了结吧。\\n<@lv.mhfs>本次行动中远程干员可部署于近战位</>",
@@ -219266,7 +219691,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 10,
-      "apFailReturn": 9,
+      "apFailReturn": 10,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -219280,7 +219705,7 @@
       "goldGain": 100,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 9,
+      "passFavor": 10,
       "completeFavor": 10,
       "slProgress": 0,
       "displayMainItem": null,
@@ -219330,7 +219755,7 @@
       ],
       "stageId": "act24side_st03",
       "levelId": null,
-      "zoneId": "act24side_zone1",
+      "zoneId": "act24sre_zone1",
       "code": "CF-ST-3",
       "name": "晨曦",
       "description": "新的故事将从这里开始。",
@@ -219405,7 +219830,7 @@
       ],
       "stageId": "act24side_ex01",
       "levelId": "Activities/act24side/level_act24side_ex01",
-      "zoneId": "act24side_zone2",
+      "zoneId": "act24sre_zone2",
       "code": "CF-EX-1",
       "name": "山地的震颤",
       "description": "<@lv.mhtx>野兽活动有威胁村庄的可能，情况危急。</>",
@@ -219414,9 +219839,9 @@
       "dangerPoint": -1.0,
       "loadingPicId": "loading_CF_Village",
       "canPractice": true,
-      "canBattleReplay": false,
+      "canBattleReplay": true,
       "apCost": 10,
-      "apFailReturn": 9,
+      "apFailReturn": 10,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -219430,7 +219855,7 @@
       "goldGain": 100,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 9,
+      "passFavor": 10,
       "completeFavor": 10,
       "slProgress": 0,
       "displayMainItem": null,
@@ -219463,6 +219888,7 @@
         ]
       },
       "canUseTrapTool": true,
+      "canMultipleBattle": true,
       "startButtonOverrideId": null,
       "isStagePatch": false,
       "mainStageId": "act24side_ex01"
@@ -219484,7 +219910,7 @@
       ],
       "stageId": "act24side_ex01#f#",
       "levelId": "Activities/act24side/level_act24side_ex01",
-      "zoneId": "act24side_zone2",
+      "zoneId": "act24sre_zone2",
       "code": "CF-EX-1",
       "name": "山地的震颤",
       "description": "<@lv.mhtx>野兽活动有威胁村庄的可能，情况危急。</>\\n<@lv.mhfs>附加条件：</>\\n<@lv.mhtx>出现额外敌人</>",
@@ -219495,7 +219921,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 10,
-      "apFailReturn": 5,
+      "apFailReturn": 10,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -219509,7 +219935,7 @@
       "goldGain": 100,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 5,
+      "passFavor": 10,
       "completeFavor": 10,
       "slProgress": 0,
       "displayMainItem": null,
@@ -219559,7 +219985,7 @@
       ],
       "stageId": "act24side_ex02",
       "levelId": "Activities/act24side/level_act24side_ex02",
-      "zoneId": "act24side_zone2",
+      "zoneId": "act24sre_zone2",
       "code": "CF-EX-2",
       "name": "深林大大大暴乱",
       "description": "<@lv.mhtx>从山林深处突然涌出大量暴躁的野兽，亟待处置。</>",
@@ -219568,9 +219994,9 @@
       "dangerPoint": -1.0,
       "loadingPicId": "loading_CF_Village",
       "canPractice": true,
-      "canBattleReplay": false,
+      "canBattleReplay": true,
       "apCost": 10,
-      "apFailReturn": 9,
+      "apFailReturn": 10,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -219584,7 +220010,7 @@
       "goldGain": 100,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 9,
+      "passFavor": 10,
       "completeFavor": 10,
       "slProgress": 0,
       "displayMainItem": null,
@@ -219617,6 +220043,7 @@
         ]
       },
       "canUseTrapTool": true,
+      "canMultipleBattle": true,
       "startButtonOverrideId": null,
       "isStagePatch": false,
       "mainStageId": "act24side_ex01"
@@ -219638,7 +220065,7 @@
       ],
       "stageId": "act24side_ex02#f#",
       "levelId": "Activities/act24side/level_act24side_ex02",
-      "zoneId": "act24side_zone2",
+      "zoneId": "act24sre_zone2",
       "code": "CF-EX-2",
       "name": "深林大大大暴乱",
       "description": "<@lv.mhtx>从山林深处突然涌出大量暴躁的野兽，亟待处置。</>\\n<@lv.mhfs>附加条件：</>\\n<@lv.mhtx>炽焰源石虫的生命值大幅提升，且出现额外敌人</>",
@@ -219649,7 +220076,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 10,
-      "apFailReturn": 5,
+      "apFailReturn": 10,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -219663,7 +220090,7 @@
       "goldGain": 100,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 5,
+      "passFavor": 10,
       "completeFavor": 10,
       "slProgress": 0,
       "displayMainItem": null,
@@ -219713,7 +220140,7 @@
       ],
       "stageId": "act24side_ex03",
       "levelId": "Activities/act24side/level_act24side_ex03",
-      "zoneId": "act24side_zone2",
+      "zoneId": "act24sre_zone2",
       "code": "CF-EX-3",
       "name": "对对碰，硬邦邦",
       "description": "<@lv.mhtx>监测到坚岩冠兽与刚甲爪兽的异常活动。</>",
@@ -219722,9 +220149,9 @@
       "dangerPoint": -1.0,
       "loadingPicId": "loading_CF_Village",
       "canPractice": true,
-      "canBattleReplay": false,
+      "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -219738,7 +220165,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -219771,6 +220198,7 @@
         ]
       },
       "canUseTrapTool": true,
+      "canMultipleBattle": true,
       "startButtonOverrideId": null,
       "isStagePatch": false,
       "mainStageId": "act24side_ex01"
@@ -219792,7 +220220,7 @@
       ],
       "stageId": "act24side_ex03#f#",
       "levelId": "Activities/act24side/level_act24side_ex03",
-      "zoneId": "act24side_zone2",
+      "zoneId": "act24sre_zone2",
       "code": "CF-EX-3",
       "name": "对对碰，硬邦邦",
       "description": "<@lv.mhtx>监测到坚岩冠兽与刚甲爪兽的异常活动。</>\\n<@lv.mhfs>附加条件：</>\\n<@lv.mhtx>刚甲爪兽和坚岩冠兽受到来自非弱点部位的伤害进一步降低</>",
@@ -219803,7 +220231,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 7,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -219817,7 +220245,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 7,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -219867,7 +220295,7 @@
       ],
       "stageId": "act24side_ex04",
       "levelId": "Activities/act24side/level_act24side_ex04",
-      "zoneId": "act24side_zone2",
+      "zoneId": "act24sre_zone2",
       "code": "CF-EX-4",
       "name": "当心坠落",
       "description": "<@lv.mhtx>大量迅猛锋羽兽出没，眩光手雷适合应对此类状况。</>\\n<@lv.mhitem><热泵通道></><@lv.mhtx>每隔一段时间便会对其上的我军和敌军造成大量伤害</>",
@@ -219876,9 +220304,9 @@
       "dangerPoint": -1.0,
       "loadingPicId": "loading_CF_Village",
       "canPractice": true,
-      "canBattleReplay": false,
+      "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -219892,7 +220320,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -219925,6 +220353,7 @@
         ]
       },
       "canUseTrapTool": true,
+      "canMultipleBattle": true,
       "startButtonOverrideId": null,
       "isStagePatch": false,
       "mainStageId": "act24side_ex01"
@@ -219946,7 +220375,7 @@
       ],
       "stageId": "act24side_ex04#f#",
       "levelId": "Activities/act24side/level_act24side_ex04",
-      "zoneId": "act24side_zone2",
+      "zoneId": "act24sre_zone2",
       "code": "CF-EX-4",
       "name": "当心坠落",
       "description": "<@lv.mhtx>大量迅猛锋羽兽出没，眩光手雷适合应对此类状况。</>\\n<@lv.mhfs>附加条件：</>\\n<@lv.mhtx>敌人攻击速度降低，但生命值与攻击力大幅提升</>\\n<@lv.mhitem><热泵通道></><@lv.mhtx>每隔一段时间便会对其上的我军和敌军造成大量伤害</>",
@@ -219957,7 +220386,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 7,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -219971,7 +220400,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 7,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -220021,7 +220450,7 @@
       ],
       "stageId": "act24side_ex05",
       "levelId": "Activities/act24side/level_act24side_ex05",
-      "zoneId": "act24side_zone2",
+      "zoneId": "act24sre_zone2",
       "code": "CF-EX-5",
       "name": "此路不通",
       "description": "<@lv.mhtx>狂暴凶豕兽的肆虐已构成极大威胁，必须及时处理。</>\\n<@lv.mhfs>本次行动中远程干员可部署于近战位</>",
@@ -220030,9 +220459,9 @@
       "dangerPoint": -1.0,
       "loadingPicId": "loading_CF_Village",
       "canPractice": true,
-      "canBattleReplay": false,
+      "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -220046,7 +220475,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -220079,6 +220508,7 @@
         ]
       },
       "canUseTrapTool": true,
+      "canMultipleBattle": true,
       "startButtonOverrideId": null,
       "isStagePatch": false,
       "mainStageId": "act24side_ex01"
@@ -220100,7 +220530,7 @@
       ],
       "stageId": "act24side_ex05#f#",
       "levelId": "Activities/act24side/level_act24side_ex05",
-      "zoneId": "act24side_zone2",
+      "zoneId": "act24sre_zone2",
       "code": "CF-EX-5",
       "name": "此路不通",
       "description": "<@lv.mhtx>狂暴凶豕兽的肆虐已构成极大威胁，必须及时处理。</>\\n<@lv.mhfs>附加条件：</>\\n<@lv.mhtx>我方单位阻挡数-1，且出现额外敌人</>",
@@ -220111,7 +220541,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 7,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -220125,7 +220555,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 7,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -220175,7 +220605,7 @@
       ],
       "stageId": "act24side_ex06",
       "levelId": "Activities/act24side/level_act24side_ex06",
-      "zoneId": "act24side_zone2",
+      "zoneId": "act24sre_zone2",
       "code": "CF-EX-6",
       "name": "登高必经险途",
       "description": "<@lv.mhtx>唯有接近顶点的强者才能通过此考验。</>",
@@ -220184,9 +220614,9 @@
       "dangerPoint": -1.0,
       "loadingPicId": "loading_CF_Village",
       "canPractice": true,
-      "canBattleReplay": false,
+      "canBattleReplay": true,
       "apCost": 15,
-      "apFailReturn": 14,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -220200,7 +220630,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 14,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -220233,6 +220663,7 @@
         ]
       },
       "canUseTrapTool": true,
+      "canMultipleBattle": true,
       "startButtonOverrideId": null,
       "isStagePatch": false,
       "mainStageId": "act24side_ex01"
@@ -220254,7 +220685,7 @@
       ],
       "stageId": "act24side_ex06#f#",
       "levelId": "Activities/act24side/level_act24side_ex06",
-      "zoneId": "act24side_zone2",
+      "zoneId": "act24sre_zone2",
       "code": "CF-EX-6",
       "name": "登高必经险途",
       "description": "<@lv.mhtx>唯有接近顶点的强者才能通过此考验。</>\\n<@lv.mhfs>附加条件：</>\\n<@lv.mhtx>迅猛锋羽兽生命值与攻击力提升，战场中的15个位置无法部署我方单位</>",
@@ -220265,7 +220696,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 15,
-      "apFailReturn": 7,
+      "apFailReturn": 15,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -220279,7 +220710,7 @@
       "goldGain": 150,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 7,
+      "passFavor": 15,
       "completeFavor": 15,
       "slProgress": 0,
       "displayMainItem": null,
@@ -220329,7 +220760,7 @@
       ],
       "stageId": "act24side_ex07",
       "levelId": "Activities/act24side/level_act24side_ex07",
-      "zoneId": "act24side_zone2",
+      "zoneId": "act24sre_zone2",
       "code": "CF-EX-7",
       "name": "英雄的诞生",
       "description": "<@lv.mhtx>唯有登临顶点，照耀前路的英雄才能通过此考验。</>",
@@ -220338,9 +220769,9 @@
       "dangerPoint": -1.0,
       "loadingPicId": "loading_CF_Village",
       "canPractice": true,
-      "canBattleReplay": false,
+      "canBattleReplay": true,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -220354,7 +220785,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -220387,6 +220818,7 @@
         ]
       },
       "canUseTrapTool": true,
+      "canMultipleBattle": true,
       "startButtonOverrideId": null,
       "isStagePatch": false,
       "mainStageId": "act24side_ex01"
@@ -220408,7 +220840,7 @@
       ],
       "stageId": "act24side_ex07#f#",
       "levelId": "Activities/act24side/level_act24side_ex07",
-      "zoneId": "act24side_zone2",
+      "zoneId": "act24sre_zone2",
       "code": "CF-EX-7",
       "name": "英雄的诞生",
       "description": "<@lv.mhtx>唯有登临顶点，照耀前路的英雄才能通过此考验。</>\\n<@lv.mhfs>附加条件：</><@lv.mhtx>战场中的8个位置无法部署我方单位，且出现额外敌人</>\\n",
@@ -220419,7 +220851,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 20,
-      "apFailReturn": 10,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -220433,7 +220865,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 10,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -220483,7 +220915,7 @@
       ],
       "stageId": "act24side_ex08",
       "levelId": "Activities/act24side/level_act24side_ex08",
-      "zoneId": "act24side_zone2",
+      "zoneId": "act24sre_zone2",
       "code": "CF-EX-8",
       "name": "炬火燎原",
       "description": "<@lv.mhtx>终有一日，大地的火光会令天空恐惧。</>\\n<@lv.mhitem>本次行动中远程干员可部署于近战位</>",
@@ -220492,9 +220924,9 @@
       "dangerPoint": -1.0,
       "loadingPicId": "loading_CF_Village",
       "canPractice": true,
-      "canBattleReplay": false,
+      "canBattleReplay": true,
       "apCost": 20,
-      "apFailReturn": 19,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -220508,7 +220940,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 19,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -220541,6 +220973,7 @@
         ]
       },
       "canUseTrapTool": true,
+      "canMultipleBattle": true,
       "startButtonOverrideId": null,
       "isStagePatch": false,
       "mainStageId": "act24side_ex01"
@@ -220562,7 +220995,7 @@
       ],
       "stageId": "act24side_ex08#f#",
       "levelId": "Activities/act24side/level_act24side_ex08",
-      "zoneId": "act24side_zone2",
+      "zoneId": "act24sre_zone2",
       "code": "CF-EX-8",
       "name": "炬火燎原",
       "description": "<@lv.mhtx>终有一日，大地的火光会令天空恐惧。</>\\n<@lv.mhfs>附加条件：</><@lv.mhtx>火龙的生命值与攻击力提升，作战道具的再部署时间大幅增加</>",
@@ -220573,7 +221006,7 @@
       "canPractice": true,
       "canBattleReplay": false,
       "apCost": 20,
-      "apFailReturn": 10,
+      "apFailReturn": 20,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -220587,7 +221020,7 @@
       "goldGain": 200,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 10,
+      "passFavor": 20,
       "completeFavor": 20,
       "slProgress": 0,
       "displayMainItem": null,
@@ -220637,7 +221070,7 @@
       ],
       "stageId": "act24side_s01",
       "levelId": "Activities/act24side/level_act24side_sub-01",
-      "zoneId": "act24side_zone2",
+      "zoneId": "act24sre_zone2",
       "code": "CF-S-1",
       "name": "终极斗技之战",
       "description": "<@lv.mhtx>这场试炼，正是我们为渴望挑战极限的“猎人”准备的喵！上吧，证明你的实力喵！</>\\n<@lv.mhitem>本次行动中远程干员可部署于近战位</>",
@@ -220646,9 +221079,9 @@
       "dangerPoint": -1.0,
       "loadingPicId": "loading_CF_Village",
       "canPractice": true,
-      "canBattleReplay": false,
+      "canBattleReplay": true,
       "apCost": 10,
-      "apFailReturn": 9,
+      "apFailReturn": 10,
       "maxSlot": -1,
       "etItemId": null,
       "etCost": -1,
@@ -220662,7 +221095,7 @@
       "goldGain": 100,
       "loseExpGain": 0,
       "loseGoldGain": 0,
-      "passFavor": 9,
+      "passFavor": 10,
       "completeFavor": 10,
       "slProgress": 0,
       "displayMainItem": null,
@@ -220695,6 +221128,7 @@
         ]
       },
       "canUseTrapTool": true,
+      "canMultipleBattle": true,
       "startButtonOverrideId": null,
       "isStagePatch": false,
       "mainStageId": "act24side_ex01"
@@ -559276,8 +559710,28 @@
       "startTs": 1780905600,
       "endTs": 1782071999
     },
+    "act1football_ex01": {
+      "startTs": 1781510400,
+      "endTs": 1782071999
+    },
+    "act1football_ex02": {
+      "startTs": 1781510400,
+      "endTs": 1782071999
+    },
+    "act1football_ex03": {
+      "startTs": 1781510400,
+      "endTs": 1782071999
+    },
+    "act1football_ex04": {
+      "startTs": 1781510400,
+      "endTs": 1782071999
+    },
     "act1football_s01": {
       "startTs": 1780905600,
+      "endTs": 1782071999
+    },
+    "act1football_s02": {
+      "startTs": 1781510400,
       "endTs": 1782071999
     },
     "act50side_st01": {
@@ -564953,124 +565407,124 @@
       "endTs": 1717358399
     },
     "act24side_st01": {
-      "startTs": 1678161600,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_01": {
-      "startTs": 1678161600,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_tr01": {
-      "startTs": 1678161600,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_02": {
-      "startTs": 1678161600,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_03": {
-      "startTs": 1678161600,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_04": {
-      "startTs": 1678161600,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_st02": {
-      "startTs": 1678161600,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_05": {
-      "startTs": 1678161600,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_06": {
-      "startTs": 1678161600,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_07": {
-      "startTs": 1678161600,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_08": {
-      "startTs": 1678161600,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_09": {
-      "startTs": 1678161600,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_st03": {
-      "startTs": 1678161600,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_ex01": {
-      "startTs": 1678780800,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_ex01#f#": {
-      "startTs": 1678780800,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_ex02": {
-      "startTs": 1678780800,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_ex02#f#": {
-      "startTs": 1678780800,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_ex03": {
-      "startTs": 1678780800,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_ex03#f#": {
-      "startTs": 1678780800,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_ex04": {
-      "startTs": 1678780800,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_ex04#f#": {
-      "startTs": 1678780800,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_ex05": {
-      "startTs": 1678780800,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_ex05#f#": {
-      "startTs": 1678780800,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_ex06": {
-      "startTs": 1678780800,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_ex06#f#": {
-      "startTs": 1678780800,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_ex07": {
-      "startTs": 1678780800,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_ex07#f#": {
-      "startTs": 1678780800,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_ex08": {
-      "startTs": 1678780800,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_ex08#f#": {
-      "startTs": 1678780800,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act24side_s01": {
-      "startTs": 1678780800,
-      "endTs": 1679342399
+      "startTs": 1781510400,
+      "endTs": 1782331199
     },
     "act14mini_01": {
       "startTs": 1676361600,
