@@ -1,5 +1,50 @@
 {
   "basicInfo": {
+    "act21mini": {
+      "id": "act21mini",
+      "type": "MINISTORY",
+      "displayType": "MINISTORY",
+      "name": "丛林症结",
+      "startTime": 1783638000,
+      "endTime": 1784231999,
+      "rewardEndTime": 1784491199,
+      "displayOnHome": true,
+      "hasStage": true,
+      "templateShopId": "shop_act21mini",
+      "medalGroupId": null,
+      "ungroupedMedalIds": [
+        "medal_activity_21mini_01",
+        "medal_activity_21mini_02"
+      ],
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": 0,
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
+    "act9switch": {
+      "id": "act9switch",
+      "type": "SWITCH_ONLY",
+      "name": "魔法与友谊合作活动",
+      "startTime": 1783065600,
+      "endTime": 1783886399,
+      "rewardEndTime": 1783886399,
+      "displayOnHome": false,
+      "hasStage": false,
+      "templateShopId": null,
+      "medalGroupId": null,
+      "isReplicate": false,
+      "needFixedSync": false,
+      "trapDomainId": null,
+      "recType": 1,
+      "isPageEntry": false,
+      "isMagnify": false,
+      "picGroup": [],
+      "usePicGroup": false
+    },
     "act4signvs": {
       "id": "act4signvs",
       "type": "CHECKIN_VS",
@@ -6472,6 +6517,13 @@
     }
   },
   "homeActConfig": {
+    "act9switch": {
+      "actId": "act9switch",
+      "isPopupAfterCheckin": false,
+      "showTopBarMenu": true,
+      "actTopBarColor": "472c6e",
+      "actTopBarText": "魔法与友谊"
+    },
     "act4signvs": {
       "actId": "act4signvs",
       "isPopupAfterCheckin": false,
@@ -7573,6 +7625,7 @@
     }
   },
   "zoneToActivity": {
+    "act21mini_zone1": "act21mini",
     "act24sre_zone1": "act24sre",
     "act24sre_zone2": "act24sre",
     "act1football_zone1": "act1football",
@@ -185188,6 +185241,137 @@
       }
     },
     "SWITCH_ONLY": {
+      "act9switch": {
+        "constData": {
+          "activityTime": "活动时间：2026年7月3日16:00-2026年7月13日03:59",
+          "activityRule": "全平台PV播放量达到特定值即可解锁对应奖励\r\n达到500,000次可解锁家具-友谊日记\r\n达到2,000,000次可解锁家具-友谊记事板"
+        },
+        "rewards": {
+          "act9switch_reward_50W": [
+            {
+              "id": "furni_littlePony_diary_01",
+              "count": 1,
+              "type": "FURN"
+            },
+            {
+              "id": "3401",
+              "count": 500,
+              "type": "MATERIAL"
+            },
+            {
+              "id": "2003",
+              "count": 20,
+              "type": "CARD_EXP"
+            }
+          ],
+          "act9switch_reward_200W": [
+            {
+              "id": "furni_littlePony_photoframe_01",
+              "count": 1,
+              "type": "FURN"
+            },
+            {
+              "id": "4001",
+              "count": 50000,
+              "type": "GOLD"
+            },
+            {
+              "id": "2004",
+              "count": 30,
+              "type": "CARD_EXP"
+            }
+          ]
+        },
+        "rewardShowDatas": {
+          "act9switch_reward_50W": {
+            "checkinId": "act9switch_reward_50W",
+            "rewardsTitle": "50",
+            "rewardShowItemDatas": [
+              {
+                "itemBundle": {
+                  "id": "furni_littlePony_diary_01",
+                  "count": 1,
+                  "type": "FURN"
+                },
+                "isMainReward": true
+              },
+              {
+                "itemBundle": {
+                  "id": "3401",
+                  "count": 500,
+                  "type": "MATERIAL"
+                },
+                "isMainReward": false
+              },
+              {
+                "itemBundle": {
+                  "id": "2003",
+                  "count": 20,
+                  "type": "CARD_EXP"
+                },
+                "isMainReward": false
+              }
+            ],
+            "mainRewardShowData": {
+              "mainRewardPicId": "act9switch_reward_50W",
+              "mainRewardName": "友谊日记",
+              "mainRewardCount": 1,
+              "hasTip": true,
+              "tipItemBundle": {
+                "id": "furni_littlePony_diary_01",
+                "count": 1,
+                "type": "FURN"
+              }
+            }
+          },
+          "act9switch_reward_200W": {
+            "checkinId": "act9switch_reward_200W",
+            "rewardsTitle": "200",
+            "rewardShowItemDatas": [
+              {
+                "itemBundle": {
+                  "id": "furni_littlePony_photoframe_01",
+                  "count": 1,
+                  "type": "FURN"
+                },
+                "isMainReward": true
+              },
+              {
+                "itemBundle": {
+                  "id": "4001",
+                  "count": 50000,
+                  "type": "GOLD"
+                },
+                "isMainReward": false
+              },
+              {
+                "itemBundle": {
+                  "id": "2004",
+                  "count": 30,
+                  "type": "CARD_EXP"
+                },
+                "isMainReward": false
+              }
+            ],
+            "mainRewardShowData": {
+              "mainRewardPicId": "act9switch_reward_200W",
+              "mainRewardName": "友谊记事板",
+              "mainRewardCount": 1,
+              "hasTip": true,
+              "tipItemBundle": {
+                "id": "furni_littlePony_photoframe_01",
+                "count": 1,
+                "type": "FURN"
+              }
+            }
+          }
+        },
+        "apSupplyOutOfDateDict": {},
+        "sortIdDict": {
+          "act9switch_reward_50W": 0,
+          "act9switch_reward_200W": 1
+        }
+      },
       "act8switch": {
         "constData": {
           "activityTime": "活动时间：2026年1月16日16:00-2026年2月6日03:59",
@@ -186112,6 +186296,47 @@
       }
     },
     "MINISTORY": {
+      "act21mini": {
+        "tokenItemId": "act21mini_token_shred",
+        "zoneDescList": {
+          "act21mini_zone1": {
+            "zoneId": "act21mini_zone1",
+            "unlockText": "完成主线关卡1-10解锁"
+          }
+        },
+        "favorUpList": {},
+        "extraDropZoneList": [
+          "main_0",
+          "main_1",
+          "main_2",
+          "main_3",
+          "main_4",
+          "main_5",
+          "main_6",
+          "main_7",
+          "main_8",
+          "main_9",
+          "main_10",
+          "main_11",
+          "main_12",
+          "main_13",
+          "main_14",
+          "act2mainss_zone1",
+          "act3mainss_zone1",
+          "act4mainss_zone1",
+          "weekly_1",
+          "weekly_2",
+          "weekly_3",
+          "weekly_4",
+          "weekly_5",
+          "weekly_6",
+          "weekly_7",
+          "weekly_8",
+          "weekly_9",
+          "weekly_10",
+          "act21mini_zone1"
+        ]
+      },
       "act20mini": {
         "tokenItemId": "act20mini_token_cork",
         "zoneDescList": {
@@ -373359,6 +373584,9 @@
     }
   },
   "activityItems": {
+    "act21mini": [
+      "act21mini_token_shred"
+    ],
     "act24sre": [
       "act24side_melding_1_rep_1",
       "act24side_melding_2_rep_1",
@@ -374185,6 +374413,10 @@
       1587441600,
       1588316400,
       1589486399
+    ],
+    "act21mini": [
+      1783638000,
+      1784231999
     ],
     "act20mini": [
       1773097200,
@@ -382660,6 +382892,22 @@
       ],
       "picGroups": [],
       "startTs": 1782460800
+    },
+    {
+      "id": "dis_mini_21",
+      "type": "ACTIVITY",
+      "funcId": "act21mini",
+      "endTs": 1784231999,
+      "sortId": 155,
+      "itemId": "act21mini_token_shred",
+      "timeNodes": [
+        {
+          "title": "<丛林症结>活动已开放",
+          "ts": 1783638000
+        }
+      ],
+      "picGroups": [],
+      "startTs": 1783638000
     }
   ],
   "actFunData": {
