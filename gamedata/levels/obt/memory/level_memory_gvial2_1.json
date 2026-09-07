@@ -7,6 +7,7 @@
     "costIncreaseTime": 1.0,
     "moveMultiplier": 0.5,
     "steeringEnabled": true,
+    "reachableCheckIgnoreStartTile": false,
     "isTrainingLevel": true,
     "isHardTrainingLevel": false,
     "isPredefinedCardsSelectable": false,
@@ -5002,7 +5003,7 @@
     "tokenCards": []
   },
   "excludeCharIdList": null,
-  "randomSeed": -1,
+  "randomSeed": 1874962970,
   "operaConfig": null,
   "cameraPlugin": null,
   "runtimeData": null

@@ -7,6 +7,7 @@
     "costIncreaseTime": 4.0,
     "moveMultiplier": 0.5,
     "steeringEnabled": true,
+    "reachableCheckIgnoreStartTile": false,
     "isTrainingLevel": true,
     "isHardTrainingLevel": false,
     "isPredefinedCardsSelectable": false,
